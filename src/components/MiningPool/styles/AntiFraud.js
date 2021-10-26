@@ -1,0 +1,96 @@
+import styled from '@emotion/styled';
+
+export const Container = styled.div`
+
+  background: #040d21;
+`;
+
+export const Wrapper = styled.div`
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px 8vw 20px 8vw;
+  max-width: 980px;
+  margin: 0 auto;
+  @media (max-width: 768px) {
+    padding: 0px 5vw;
+  }
+`;
+
+export const Card = styled.div`
+  position: relative;
+  background: #10273e;
+  border-radius: 5px;
+  padding: 55px 40px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  width: 100%;
+  @media (max-width: 768px) {
+    padding: 55px 20px;
+  }
+`;
+
+export const CardWrapper = styled.div``;
+
+export const CardHeading = styled.div`
+  font-style: normal;
+  color: #fff;
+  margin-bottom: 31px;
+  text-align: center;
+`;
+
+export const SecurityContainer = styled.div`
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+`;
+
+export const SecurityWrapperLeft = styled.div`
+  width: calc(50% - 45px / 2);
+  margin-bottom: 20px;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+`;
+
+export const SecurityWrapper = styled.div`
+  width: calc(50% - 45px / 2);
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  & > .exchange-lock-animation {
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+`;
+
+export const ListItem = styled.div`
+  display: block;
+  font-weight: 500;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: ${(props) => (props.active ? '#e5e5e5' : '#67707c')};
+  padding-top: 10px;
+  margin-top: 25px;
+  border-top: 1px solid ${(props) => (props.active ? '#e5e5e5' : '#67707c')};
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    color: #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+  }
+`;
+
+export const SliderDescription = styled.div`
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+`;

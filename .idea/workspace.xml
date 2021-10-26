@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e11de3e2-1659-468d-95fe-5ee4b2302d8c" name="Default Changelist" comment="Fix: chat-box ui issue">
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qy8d2GJ259nnH27ilLgLUmfsTY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\Documents\yarn\ment\src\components\Products\TurnkeySolution" />
+      <recent name="C:\Users\Lenovo\Documents\yarn\ment\src\components\Product page" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e11de3e2-1659-468d-95fe-5ee4b2302d8c" name="Default Changelist" comment="" />
+      <created>1618040553217</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618040553217</updated>
+      <workItem from="1618040580822" duration="8441000" />
+      <workItem from="1618205994935" duration="362000" />
+      <workItem from="1622609931517" duration="3274000" />
+      <workItem from="1622614238599" duration="644000" />
+      <workItem from="1623130124071" duration="3245000" />
+      <workItem from="1623135525810" duration="3528000" />
+      <workItem from="1624600889909" duration="1441000" />
+      <workItem from="1628592319320" duration="3090000" />
+      <workItem from="1628603426065" duration="1150000" />
+      <workItem from="1628834422971" duration="14358000" />
+      <workItem from="1629090099111" duration="537000" />
+      <workItem from="1629106745277" duration="9575000" />
+      <workItem from="1629289509785" duration="8419000" />
+      <workItem from="1629462090823" duration="11847000" />
+      <workItem from="1629522256595" duration="15509000" />
+    </task>
+    <task id="LOCAL-00001" summary="Fix: toast notification issue">
+      <created>1622612896858</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622612896859</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add: contact form api link">
+      <created>1622614863486</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1622614863486</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add: api and new message">
+      <created>1628604564149</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628604564149</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fix: form issue">
+      <created>1629115904960</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1629115904960</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix: product menu and schedule radio button">
+      <created>1629295719598</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1629295719598</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Fix: product menu fetch and dynamic country code">
+      <created>1629532171763</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1629532171763</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fix: chat-box functionality">
+      <created>1629543876531</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1629543876531</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fix: chat-box height">
+      <created>1629545434851</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1629545434851</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Fix: chat-box ui issue">
+      <created>1629547350466</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1629547350466</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="phase-1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Fix: toast notification issue" />
+    <MESSAGE value="Add: contact form api link" />
+    <MESSAGE value="Add: api and new message" />
+    <MESSAGE value="Fix: form issue" />
+    <MESSAGE value="Fix: product menu and schedule radio button" />
+    <MESSAGE value="Fix: product menu fetch and dynamic country code" />
+    <MESSAGE value="Fix: chat-box functionality" />
+    <MESSAGE value="Fix: chat-box height" />
+    <MESSAGE value="Fix: chat-box ui issue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: chat-box ui issue" />
+  </component>
+</project>
