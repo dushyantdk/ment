@@ -19,7 +19,7 @@ const Community = () => {
     <section class="community">
         <div class="container">
         <div class="text-center w-100">
-            <h1 className="mb-4">Applications of <span className="gradient-text-red">Community Project Community </span></h1>
+            <h1 className="mb-4">Applications of <span className="gradient-text-red">Community Project</span></h1>
             <p className="mb-5">International directory of use of open-source blockchain the technology provisioning for the products of distributed ledger.</p>
         </div>
 

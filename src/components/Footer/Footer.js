@@ -119,6 +119,7 @@ const Footer = () => {
                     <ul className="d-flex">
                         <li><a href="/privacy-policy">Privacy Policy</a></li>
                         <li><a href="/terms-of-use">Terms Of Use</a></li>
+                        
                         <li><a href="/cookie-policy">Cookie Policy</a></li>
                     </ul>
                     </div>
@@ -128,9 +129,9 @@ const Footer = () => {
         {/*<a href="#" className="chatlio">*/}
         {/*    <p>Contact Us</p>*/}
         {/*</a>*/}
-        <div className="footer-chat">
+        {/* <div className="footer-chat">
             <ChatBox open={(handleToggle) => (<button className="chatlio" onClick={handleToggle}>Contact Us</button>)} />
-        </div>
+        </div> */}
     </section>
    <Button onClick={scrollToTop}  type="submit" className="css-mbv478">
     <i class="fas fa-chevron-up"></i>

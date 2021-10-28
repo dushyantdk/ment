@@ -1704,6 +1704,7 @@ letter-spacing: 0.1px;
 .pie a {
     display: block;
     width: 100%;
+	text-decoration: underline;
 }
 
 .producttab-link li:focus img,
@@ -1867,7 +1868,9 @@ letter-spacing: 0.1px;
 	margin-bottom: 100px;
 }
 
-
+.securt-blocks-4 .box-shadow-card {
+    min-height: 195px;
+}
 
 .security-d-ul {
 	margin: 20px 0 0;
@@ -3163,6 +3166,10 @@ padding: 20px 20px 0px;
     top: -10px;
     left: -6px;
     font-size: 46px;
+}
+
+.pro-nav .dropdown-item{
+	text-decoration: underline;
 }
 
 .pro-nav .dropdown-item:hover{

@@ -17,21 +17,28 @@ return (
    <section className="py-5 py-md-5 securit blue-bg ">
    <Navigation/>
    <div className="container">
-      <div className="row p-y-100 align-items-center">
-         <div className="col-lg-8 mb-5 text-white">
-            <h1 className="mb-4">Security Layers</h1>
+      <div className="row p-y-100">
+         <div className="col-lg-6 text-white">
+            <h3 className="color-light-blue">SECURELY BUY, SELL, EARN, SEND & TRACK</h3>
+            <h1>Security First. Always.</h1>
+            <p>Our commitment to our customers is built on trust. We believe that security and data privacy are the foundations of achieving mainstream cryptocurrency adoption.</p>
             <p>Security is all important for crypto exchanges and should never be compromised. We have developed an advanced security system to help prevent losses as a result of fraudulent activities and attacks.</p>
             <p>Security is the most important concept in crypto trading and our exchange was designed with sophisticated safety measures as almost all tokens and coins are held in cold storage. Cold wallets are highly secure hardware wallets that are not connected to the internet. Programmed algorithms regularly transfer client funds into cold storages thus providing the necessary level of safety.</p>
-            <p>See security issues in your pull requests as part of your code review process. Prevent new vulnerabilities from making it onto main. </p>
          </div>
-         <div className="col-lg-4 text-center">
-            <img width="85%"src={Security} alt=""/>
+         <div className="col-lg-6">
+            
          </div>
       </div>
    </div>
    </section>
 <section className="p-y-100 securt-blocks-4">
    <div className="container ">
+      <div className="row mb-5 justify-content-center align-items-center">
+         <div className="col-lg-12 text-center">
+            <h1>Our Philosophy</h1>
+            <h2>from blueprint to execution</h2>
+         </div>
+      </div>
       <div className="row">
          <div className="col-lg-3 mb-4">
             <div className="box-shadow-card p-3">
