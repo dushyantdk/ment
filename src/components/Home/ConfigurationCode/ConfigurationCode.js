@@ -8,11 +8,11 @@ const ConfigurationCode = () => {
             <div className="row justify-content-between align-items-center">
                 <div class="col-lg-5">
                     <div class="title-block">
-                        <p className="mb-4">CONTINUOUS BUILD AND CONFIGURATION</p>
-                        <h1 className="mb-4"><span class="gradient-text-red">Configuration </span> as Code.</h1>
-                        <p>Plan, Build and manage configuration As a code.</p>
-                        <p>Configure Pipelines with an easy, smooth study of the file which you decide to your Git treasury in Drone.</p>
-                        <p>Perform every step of Pipeline internally a separate Docker container to downloaded at runtime automatically.</p>
+                        <p className="mb-4">ENHANCED CONFIGURATION AND CONTINUOUS BUILD</p>
+                        <h1 className="mb-4"><span class="gradient-text-red">Code as </span>configuration.</h1>
+                        <p>Configuration as code requires planning, creation, and maintenance.</p>
+                        <p>A simple, easy-to-read, easy-to-configure file is all you need to install Drone Pipelines.</p>
+                        <p>Whenever you start a pipeline step, you will be able to execute it inside a Docker container that is automatically downloaded. </p>
                     </div>
                 </div>
                 <div class="col-lg-6 mt-5">

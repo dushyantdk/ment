@@ -13,6 +13,7 @@ export const Wrapper = styled.div`
   & > h1 {
     color: #383838;
     text-align: left;
+    font-size: 32px;
   
     & > span {
       font-weight: bold;

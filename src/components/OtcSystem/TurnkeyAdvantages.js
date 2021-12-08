@@ -6,14 +6,11 @@ const Products = () => {
     <Container id="liquidity-advantages" className="p-y-100 blue-bg">
       <Wrapper className="container">
         <h1 className="text-center text-white">
-          Cryptocurrency OTC Trading Desk Package <span className="">Advantages</span>
+        Benefits of OTC Trading Desk <span className="gradient-text-red ">Packages for Cryptocurrency</span>
         </h1>
         <p>
-          Our standard Cryptocurrency OTC Trading Desk Package is a great
-          choice for getting started.
-          <br /> Simplicity of maintenance and assistance along with
-          cost-effectiveness
-          <br /> are just a few of the many benefits available.
+        A great place to begin is with our OTC Trading Desk Package for Cryptocurrency.
+          <br /> There are a number of benefits, including ease of maintenance and assistance, as well as cost-effectiveness.
         </p>
       </Wrapper>
     </Container>

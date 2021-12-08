@@ -15,17 +15,50 @@ const Description = () => {
       <div className="container">
       <Wrapper>
         <h1 className="">
-          Why Choose Ment's <span className="gradient-text-pink">Crypto Staking & Defi Lending Turnkey?</span>
+        What Makes Ment's  <span className="gradient-text-pink">Crypto Staking & Defi Lending Turnkey Different?</span>
         </h1>
-        <p>Leading exchanges, custodians and apps rely on Ment’s secure, reliable and non-custodial infrastructure to earn rewards for their customers. MentFintech supports the broadest range of crypto assets with a single integration
+        <p>
+        Ment's secure, reliable and non-custodial infrastructure is used by leading exchanges, custodians and apps to earn rewards for their customers. Ment Fintech provides an easy-to-use solution for integrating crypto assets of all types.
         </p>
         <p>
-        Leverage Crypto Staking &Defi Lending Turnkey high availability infrastructure, 24/7/365 devops support, comprehensive APIs, audited smart contracts and block-level reporting to offer fixed income services for 30+ PoS and defi assets.
+        Furthermore, the firm provides 24/7/365 support, comprehensive APIs, and audited smart contracts in addition to crypto staking and defi lending solutions. The company currently offers fixed income services for over 30 PoS assets and defi assets.
         </p>
-        <p>We never experienced slashing, hacking or unrealistically extended downtime for our Our Crypto Staking & Defi Lending Turnkey for 3 years on diversified networks. 
+        <p>
+        We have never had a slash, hack or extended downtime on our Crypto Staking & Defi Lending Turnkey in the last 3 years on dozens of different networks.
         </p>
-        <p>We ensure programmed access to defi lending, all staking and reporting functionality. Consequently, integrations are made hassle-free and easy. We support a wide variety of node types, custody setups and even custom versions of MentFintech defi lending service.
+        <p>
+        Integrations are easy and seamless since all functions for staking, Defi lending, and reporting are available through the interface. Ment Fintech offers custom versions of its defi lending service as well as support for a wide variety of node types and custody schemes.
         </p>
+    {/*    <StatsContainer>
+          <StatsWrapper>
+            <Stats>
+              <TopText>Market Pair</TopText>
+              <BottomText>100+</BottomText>
+            </Stats>
+             <Stats>
+              <TopText>Margin Requirements</TopText>
+              <BottomText>20%</BottomText>
+            </Stats> 
+            <Stats>
+              <TopText>Liquidity Venues</TopText>
+              <BottomText>5</BottomText>
+            </Stats>
+            <Stats>
+              <TopText>Execution From</TopText>
+              <BottomText>
+                5 <span>ms</span>
+              </BottomText>
+            </Stats>
+            <Stats>
+              <TopText>Exchanges Connected</TopText>
+              <BottomText>50+</BottomText>
+            </Stats>
+            <Stats>
+              <TopText>Technical Support</TopText>
+              <BottomText>24/7</BottomText>
+            </Stats>
+          </StatsWrapper>
+        </StatsContainer>*/}
       </Wrapper>
       </div>
     </Container>

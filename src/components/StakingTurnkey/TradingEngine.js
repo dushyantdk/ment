@@ -13,7 +13,12 @@ const TradingEngine = () => {
     <Container id="WhiteLabel-Trading-Engine" className="p-y-100">
       <div className="conainer">
       <Wrapper>
-        <h1 className="text-center">Fastest, Most Secure and Successful</h1>
+        <h1><span class="gradient-text-darkblue">SOLUTION</span></h1>
+        <h1 className="text-center">
+        Most successful, safest and fastest <br />
+          <b> <span class="gradient-text-darkblue">Turnkey cryptocurrency staking & defi lending solution</span>
+          </b>
+        </h1>
         <SliderContainer>
           <div>
             <Slider

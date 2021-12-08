@@ -18,7 +18,7 @@ const MentData = () => {
             <div className="row">
                 <div className="col-lg-12 text-center">
                     <div className="title-block text-white">
-                        <h1>Robust Technologies & <span className="">Best in Industry</span></h1>
+                        <h1>Technologies that are <span className="gradient-text-yellow">robust and best in class</span></h1>
                     </div>
                 </div>
             </div>
@@ -26,9 +26,9 @@ const MentData = () => {
             <div className="row tech-cloud-block">
                 <div className="col-lg-6">
                     <div className="title-block text-white">
-                        <h2 className="tect-ment"><span className="">Cutting-edge</span> technology. </h2>
-                        <p>You may have used many applications developed by our application framework and stack like SoundCloud, AirBNB, Github, shopify, zendesk, twitch, and many others.</p>
-                        <p>We develop cloud-based cryptocurrency exchange solutions on the same principles that enable Microsoft, Google, and Amazon to safely run billions of containers in the cloud every day.</p>
+                        <h2 className="tect-ment"><span className="gradient-text-green">Leading-edge </span> technology. </h2>
+                        <p>Hundreds of thousands of apps have already been built with our stack and framework, including AirBNB, Shopify, SoundCloud, Twitch, GitHub, and Zendesk.</p>
+                      
                         <p className="d-flex">
                             <a className="info_logo" href="#"><img className="go" src={GOIcon} alt="" /></a>
                             <a className="info_logo" href="#"><img src={ReactIcon} alt="" /></a>
@@ -40,8 +40,8 @@ const MentData = () => {
                 </div>
                 <div className="col-lg-6">
                     <div className="title-block text-white">
-                        <h2 className="tect-ment"><span className="">Self-healing</span><br/> planet-scale cloud.</h2>
-                        <p>We design crypto exchange cloud solutions on the same principles that allow Google, Amazon, and Microsoft to run billions of cloud containers every day safely.</p>
+                        <h2 className="tect-ment"><span className="gradient-text-blue">Self-healing </span><br/>planet-scale cloud.</h2>
+                        <p>Based on the same principles that Google, Amazon, and Microsoft rely on every day when running billions of cloud containers, we design crypto exchange cloud solutions.</p>
                         <p className="d-flex">
                             <a className="info_logo" href="#"><img src={GoogleWhite} alt="" /></a>
                             <a className="info_logo" href="#"><img src={AwsWhite} alt="" /></a>

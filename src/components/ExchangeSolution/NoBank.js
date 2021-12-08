@@ -20,18 +20,12 @@ const NoBank = () => {
             <CardIcon>
               <img src={FirstImg} alt="..." />
             </CardIcon>
-            <CardHeading>No Banks and No Chargeback Fraud</CardHeading>
+            <CardHeading>Neither a bank nor a chargeback fraud are involved</CardHeading>
             <CardDescription>
-              Simplicity of acceptance and ease of international transfers are
-              two good reasons to integrate cryptocurrency payments. There’s no
-              need to open a bank account which can be a lengthy process without
-              having a respected licence.
+            Integration of cryptocurrency payments is a good idea for two good reasons: simplicity of acceptance and ease of international transfers. A bank account does not need to be opened, which can be a lengthy process without a respectable license.
               <br />
               <br />
-              Accepting deposits and making withdrawals via cryptocurrencies is
-              many times cheaper than any other fiat payment systems, giving you
-              the opportunity to offer additional bonuses or benefits to your
-              clients.
+              With cryptocurrencies, you can accept deposits and make withdrawals much cheaper than other payment methods, giving you a chance to offer your clients additional bonuses or benefits.
             </CardDescription>
           </Card>
 
@@ -40,19 +34,13 @@ const NoBank = () => {
               <img src={SecondImg} alt="..." />
             </CardIcon>
             <CardHeading>
-              Get a higher ROI with faster and cheaper money transfers
+            Money transfers are cheaper and faster with a higher ROI
             </CardHeading>
             <CardDescription>
-              Cryptocurrency transfers are not just cheaper than bank or card
-              transfers, but much faster. Your clients’ money is not held up in
-              a bank payment system or similar for days or weeks, but is
-              available for them on their trading accounts in as little as a few
-              minutes.
+            Transferring cryptocurrency is cheaper than transferring money by bank or credit card, and it is faster. In less than five minutes, your clients' money is available on their trading accounts as opposed to being held in a bank payment system or similar.
               <br />
               <br />
-              This has the added benefit of greatly decreasing the time period
-              from when your client first saw your advert and the time that he
-              starts trading.
+              By reducing the time between when your client first sees your advert and when he starts trading, you also greatly increase the likelihood that your client will trade with you.
             </CardDescription>
           </Card>
         </Grid>

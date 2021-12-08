@@ -18,12 +18,9 @@ const Coins = ({ selectedAsset, handleAssets }) => {
   const data = [
     <>
       <LeftDiv>
-        <h2>Clear Business Model</h2>
+        <h2>A clearly defined business model</h2>
         <p>
-          Ment Tech adheres to serving B-end customers as its core and
-          focuses on providing blockchain technology services to global
-          customers. It does not open itself and will not open exchanges in the
-          future.
+        Our focus is on providing blockchain technology services to global customers, with B-end customers at the core of what we do. There is no exchange open by us at the moment, and none will be opened.
         </p>
       </LeftDiv>
       <RightDiv width="90%">
@@ -33,7 +30,7 @@ const Coins = ({ selectedAsset, handleAssets }) => {
 
     <>
       <LeftDiv>
-        <h2>Flexible Deployment</h2>
+        <h2>Deployment options that are flexible</h2>
         <p>
           We support privatization and SaaS deployment. You can simply and
           quickly deploy the entire exchange system. In addition, you can
@@ -49,7 +46,7 @@ const Coins = ({ selectedAsset, handleAssets }) => {
 
     <>
       <LeftDiv>
-        <h2>Shared Transaction Liquidity</h2>
+        <h2>Liquidity shared between transactions</h2>
         <p>
           We incorporate the liquidity of more than 300 eco exchanges served by
           Ment Tech, provides shared OTC liquidity, and owns smart
@@ -64,7 +61,7 @@ const Coins = ({ selectedAsset, handleAssets }) => {
 
     <>
       <LeftDiv>
-        <h2>Risk Control & High Safety</h2>
+        <h2>High level of safety and risk control</h2>
         <p>
           It provides over 30 defense mechanisms such as independent risk
           control system, behavior monitoring, cash withdrawal audit, fund
@@ -80,7 +77,7 @@ const Coins = ({ selectedAsset, handleAssets }) => {
 
     <>
       <LeftDiv>
-        <h2>Multi-Dimensional Customer Service</h2>
+        <h2>Service in multiple dimensions</h2>
         <p>
           We provide one-to-one training before sales, special guidance by
           special personnel during sales, round-the-clock manual online support
@@ -110,25 +107,25 @@ const Coins = ({ selectedAsset, handleAssets }) => {
               selected={selectedAsset === 1}
               onClick={() => handleAssets(1)}
             >
-              Flexible Deployment
+            Deployment options that are flexible
             </ListItem>
             <ListItem
               selected={selectedAsset === 2}
               onClick={() => handleAssets(2)}
             >
-              Shared Transaction Liquidity
+              Liquidity shared between transactions
             </ListItem>
             <ListItem
               selected={selectedAsset === 3}
               onClick={() => handleAssets(3)}
             >
-              Risk Control High Safety
+              High level of safety and risk control
             </ListItem>
             <ListItem
               selected={selectedAsset === 4}
               onClick={() => handleAssets(4)}
             >
-              Multi-Dimensional Service
+              Service in multiple dimensions
             </ListItem>
           </ul>
         </TopContainer>

@@ -21,30 +21,67 @@ const TheProblem = () => {
     <Container className="blue-bg">
       <Wrapper className="container">
         <h1 className="text-center text-white">
-          <span className="">Industry</span> Leading Features
+          <span className="gradient-text-darkblue">Features that set </span> the industry standard
         </h1>
         <CardContainer>
           <Card>
             <CardIcon src={ImgOne} alt="..." />
-            <CardHeading>Safe & Stable</CardHeading>
-            <CardDescription>Our mining pool applies the leading technology, effectively preventing various attacks and maintaining stable operation of the mining service with unique mining pool architecture.
+            <CardHeading>A safe and stable environment</CardHeading>
+            <CardDescription>
+            Using state-of-the-art technology, we ensure that we prevent various attacks and provide stable mining operations through a mining pool architecture that is uniquely ours.
             </CardDescription>
           </Card>
           <DividerDiv />
           <Card>
             <CardIcon src={ImgTwo} alt="..." />
-            <CardHeading>Open & Transparent</CardHeading>
-            <CardDescription>PPS +, FPPS and other revenue settlement methods are used to automatically settle and pay revenue daily, and the revenue data is open and transparent in real time.
+            <CardHeading>Transparent & Open</CardHeading>
+            <CardDescription>
+            In addition, revenue data is open and transparent in real time using PPS +, FPPS, and other revenue settlement methods.
             </CardDescription>
           </Card>
           <DividerDiv />
           <Card>
             <CardIcon src={ImgThree} alt="..." />
-            <CardHeading>Multi-Node Deployment</CardHeading>
-            <CardDescription>Top technical team, multi-node deployment around the world, 24 * 7 stable global mining service.
+            <CardHeading>Deploying multiple nodes</CardHeading>
+            <CardDescription>
+            Expert technical team, global deployment across multiple nodes, and stable mining service 24 hours a day, 7 days a week.
             </CardDescription>
           </Card>
-        </CardContainer>xs
+        </CardContainer>
+
+        {/* <CardContainer>
+          <Card>
+            <CardIcon src={ImgFour} alt="..." />
+            <CardHeading>
+              Auditable Transactions, Secure Trading
+            </CardHeading>
+            <CardDescription>
+              Perform background checks and verify each trade and user. Every
+              transaction is audited.
+            </CardDescription>
+          </Card>
+          <DividerDiv />
+          <Card>
+            <CardIcon src={ImgFive} alt="..." />
+            <CardHeading>Strict Deal Confidentiality</CardHeading>
+            <CardDescription>
+              Implement strict confidentiality for every offer, deal, and
+              counter-offer within the platform. All transactions handled with a
+              high degree of privacy.
+            </CardDescription>
+          </Card>
+          <DividerDiv />
+          <Card>
+            <CardIcon src={ImgSix} alt="..." />
+            <CardHeading>
+              Greater Liquidity with Institutional Grade Compliance
+            </CardHeading>
+            <CardDescription>
+              We partnered with PrimeTrust for compliance to ensure greater
+              liquidity for our clients.
+            </CardDescription>
+          </Card>
+        </CardContainer> */}
       </Wrapper>
     </Container>
   );

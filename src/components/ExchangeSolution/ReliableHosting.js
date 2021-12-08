@@ -17,18 +17,13 @@ const NoBank = () => {
           <img src={MapImage} alt="..." />
           <CardDescription>
             <CardHeading>
-            Reliable and Scalable Hosting for Exchange in AWS
+            AWS Exchange Hosting is Scalable and Reliable
             </CardHeading>
             <CardSubText>
-              Ment Tech uses hosting solutions that dynamically scale resources
-              as the client base grows and supports the most demanding and
-              highly loaded projects.
+            Hosting solutions that support Ment Fintech's most demanding and highly loaded projects are dynamically scalable in response to client growth.
               <br />
               <br />
-              We prefer Amazon Web Services (AWS) hosting because it offers high
-              levels of availability, scalability and performance, requiring
-              higher amounts of management and administration that we organize
-              entirely on our side.
+              Our company prefers Amazon Web Services (AWS) hosting because of its high levels of availability, scalability, and performance. However, AWS is more complex to manage and administer, so we handle it ourselves.
             </CardSubText>
           </CardDescription>
         </Card>

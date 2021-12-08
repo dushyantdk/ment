@@ -22,7 +22,7 @@ export const TopContainer = styled.div`
   /* margin-right: 120px; */
   position: relative;
   & > h2 {
-    color: #161d28;
+    color: #2c89ca;
     margin: 0;
     text-align: center;
   }
@@ -30,7 +30,7 @@ export const TopContainer = styled.div`
     margin: 0;
     padding: 0;
     font-weight: bold;
-    color: #161d28;
+    color: #293c57;
    /* line-height: 45px;*/
     text-align: center;
   }
@@ -67,7 +67,7 @@ export const ListItem = styled.li`
   transition: color 0.2s;
   list-style: none;
   color: ${(props) => (props.selected ? '#fff' : '#040d21')};
-  background: ${(props) => (props.selected ? 'linear-gradient(0deg, rgb(78, 98, 237) 0%, rgb(75, 175, 253) 100%)' : '#fff')};
+  background: ${(props) => (props.selected ? '#040d21' : '#fff')};
   padding: 15px 30px;
   @media (max-width: 768px) {
     padding: 15px 20px;
@@ -97,7 +97,7 @@ export const LeftDiv = styled.div`
   flex-direction: column;
   & > h2 {
     margin: 0;
-    color: #161d28;
+    color: #293c57;
   }
   @media (max-width: 768px) {
     width: 95%;

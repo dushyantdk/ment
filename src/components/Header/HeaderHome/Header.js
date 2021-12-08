@@ -30,8 +30,8 @@ const Header = () => {
                         }}
                         />
                     </h1>
-                    <h2 className="fur">For Crypto Businesses Made Easy</h2>
-                    <span>We provided innovative solutions to clientele across the furthest ends of business and scale spectrum.</span>
+                    <h2 className="fur">Simple solutions for crypto businesses</h2>
+                    <span>Across the business spectrum and the spectrum of scale, we provided clients with innovative solutions.</span>
                 </div>
                 <div className="col-lg-4">
                   <img src={GlobeVideo} alt="HeaderGlobe" />

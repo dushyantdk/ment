@@ -14,20 +14,16 @@ const NoBank = () => {
     <Wrapper className="container">
       <Grid>
         <Card>
-          <h2 className="text-white">Tutorials and Materials</h2>
+          <h2 className="text-white">Resources and Tutorials</h2>
           <CardDescription  className="text-white">
-            Ment Tech Labs is committed to working alongside its clients to
-            ensure ultimate user satisfaction. An extensive range of tutorials
-            and materials is available to assist with all technical aspects.
+          To ensure the ultimate user experience, Ment Fintech works closely with their clients. To assist with all technical aspects, there are a wide range of tutorials and materials available.
           </CardDescription>
         </Card>
 
         <Card>
-          <h2 className="text-white">Education</h2>
+          <h2 className="text-white">Instruction</h2>
           <CardDescription className="text-white">
-            Education is an all-important part of our service. We offer a
-            variety of training materials including videos and demos to help
-            our clients understand the business.
+          Our service includes education. To help our clients better understand the business, we offer video training and demos.
           </CardDescription>
         </Card>
       </Grid>

@@ -18,8 +18,10 @@ const Coins = ({ selectedAsset, handleAssets }) => {
   const data = [
     <>
       <LeftDiv>
-        <h2>Simple & Efficient Dashboard</h2>
-        <p>Simple dashboard gives you a quick overview of the most important information. You start mining with only one click!</p>
+        <h2>Dashboard that is easy to use and efficient</h2>
+        <p>
+        Easily access key information with a simple dashboard. Mine in just a few clicks!
+        </p>
       </LeftDiv>
       <RightDiv width="80%">
         <img src={FifthTabImg} alt="..." />
@@ -86,14 +88,14 @@ const Coins = ({ selectedAsset, handleAssets }) => {
     <Container id="liquidity-features">
       <Wrapper>
         <TopContainer>
-          <h1 ><span className="gradient-text-darkblue"> Solution </span>
-         Features</h1>
+          <h1 ><span className="gradient-text-darkblue">Solution</span>
+          Features</h1>
           <ul>
             <ListItem
               selected={selectedAsset === 0}
               onClick={() => handleAssets(0)}
             >
-              DASHBOARD
+             Dashboard that is easy to use and efficient
             </ListItem>
             <ListItem
               selected={selectedAsset === 1}

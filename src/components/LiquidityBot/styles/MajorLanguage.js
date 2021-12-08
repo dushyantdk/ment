@@ -19,7 +19,7 @@ export const Card = styled.div`
   align-items: center;
   padding: 55px 40px;
   position: relative;
-  background: #212e3e;
+  background: #07132d;
   border-radius: 5px;
   box-sizing: border-box;
   & > img {

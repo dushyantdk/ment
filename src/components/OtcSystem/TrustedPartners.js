@@ -14,15 +14,13 @@ import ImgFive from '../../assests/img/tradecoinx.png';
 
 const TrustedPartners = () => {
   return (
-    <Container className="blue-bg p-b-50">
+    <Container className="blue-bg pb-4">
       <Wrapper className="container">
       <h1 className="text-center text-white">
-          Our <span className="">Trusted Partners</span>
+        Partners <span className="gradient-text-darkblue">we trust</span>
         </h1>
-        
         <h5>
-          Companies that are helping us build the greatest fintech products and
-          solutions of all time.
+        Developing fintech products and solutions that are the best in the world.
         </h5>
         <Card>
           <ImgContainer>

@@ -320,7 +320,7 @@ return (
          <div className="row">
             <div className="col-lg-12 text-white text-center">
                <div className="title-block">
-                  <h1 className="mb-4">We are <span className="">a company that:</span></h1>
+                  <h1 className="mb-4">We are <span className="gradient-text-blue">a company that:</span></h1>
                </div>
             </div>
          </div>
@@ -400,8 +400,8 @@ return (
    <section className="ceo securty-block-9">
       <div className="container">
          <div className="row">
-            <div className="col-lg-6 mb-4">
-               <div className="box-shadow-card p-3">
+            <div className="col-lg-4 mb-4 text-center">
+            {/*   <div className="box-shadow-card p-3">
                   <a
                      href="https://www.linkedin.com/company/ment-ie/"
                      target="_blank"
@@ -415,11 +415,9 @@ return (
                   <p className="">
                      At Ment Fintech, we understand that great work can only truly be accomplished if you're surrounded by people who inspire and motivate you! That's why we have a team of diverse individuals all coming from different cultural backgrounds, but somehow manage to feel like one big family working towards the same goal - to always deliver for our clients.
                   </p>
-               </div>
-            </div>
-            <div className="col-lg-6">
-               <div className="box-shadow-card p-3">
-                  <a
+               </div> */} 
+
+               <a
                      href="https://www.linkedin.com/in/ujjwalsahay/"
                      target="_blank"
                      rel="noopener noreferrer"
@@ -428,13 +426,16 @@ return (
                   </a>
                   <h3 className="mt-4">Ujjwal Sahay</h3>
                   <h4>Founder & MD</h4>
-                  <p className="">
+            </div>
+            <div className="col-lg-7">
+               
+                  <p className="para-title mt-4">
                      New technologies have penetrated all areas of our life. The FINTECH
                      industry is highly sensitive to every change in virtually all areas
                      of business.We work around the clock to improve all our products, constantly investing in people, technology, customer support and
                      infrastructure.
                   </p>
-               </div>
+              
             </div>
          </div>
       </div>
@@ -776,7 +777,7 @@ return (
       </div>
    </section>
    <div className="">
-      <div className="team-join">
+      <div className="team-join mb-4">
          <div className="team-sol hover-grow">
             <div className="team-titles">
                Our

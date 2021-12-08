@@ -21,7 +21,7 @@ const TheSolution = () => {
     <Container id="otc-solution" className="blue-bg">
       <Wrapper>
         <h1 className="text-center text-white">
-          The <span className="">Solution</span>
+        How to  <span className="gradient-text-darkblue">Fix It</span>
         </h1>
         <CardContainer>
           <Card>
@@ -30,8 +30,7 @@ const TheSolution = () => {
             </CardIcon>
             <CardText>
               <h4>
-                High transaction volume platform featuring a pool of available
-                deals enabling direct trading
+              With a high transaction volume platform, traders can participate in direct transactions with available deals
               </h4>
             </CardText>
           </Card>
@@ -40,7 +39,7 @@ const TheSolution = () => {
           <Card>
             <CardText right={true}>
               <h4>
-              Customized Search for Audience and Advance Analytics Tools 
+              Advanced analytics & audience search customized for your business
               </h4>
             </CardText>
             <CardIcon right={true}>
@@ -55,7 +54,7 @@ const TheSolution = () => {
             </CardIcon>
             <CardText>
               <h4>
-              A vast and verified network of OTC brokers and trading platforms across the globe. 
+              Verified traders and trading desks all over the world
               </h4>
             </CardText>
           </Card>

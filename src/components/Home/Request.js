@@ -12,28 +12,28 @@ return (
    <div class="container wide-block">
        <div className="row">
         <div class="col-lg-6">
-            <h1 className="text-white">Request Demo Session</h1>
+            <h1 className="gradient-text-blue">Schedule a demo session</h1>
             <ul class="css-e">
-                <li>Wondering how the system works?</li>
-                <li>Looking to understand the workflow?</li>
-                <li>Thinking of how admin panel looks like?</li>
-                <li>Want some more customization?</li>
+                <li>Do you want to know how the system works?</li>
+                <li>Are you interested in learning more about the workflow?</li>
+                <li>How does the admin panel look like?</li>
+                <li>Would you like to customize your account further?</li>
             </ul>
             <a href="#" className="btn btn-primary">Better Call Saul</a>
             <ul class="css-f">
                 <li>
-                <img width="20"src={next} alt="..."/> Professional Support Team
+                <img width="20"src={next} alt="..."/> Team of Professional Supporters
                 </li>
                 <li>
-                <img width="20" src={next} alt="..."/> Special Attention to Start-up Teams
+                <img width="20" src={next} alt="..."/> Start-up teams are given special attention
                 </li>
                 <li>
-                <img width="20" src={next} alt="..."/> Dedicated Project Managers &amp; QA Engineers
+                <img width="20" src={next} alt="..."/> Engineers & Project Managers Dedicated to Quality Assurance
                 </li>
             </ul>
         </div>
         <div class="col-lg-6">
-            <h1 className="text-white">What some awesome people say</h1>
+            <h1 className="gradient-text-pink">What some awesome people say</h1>
             <Carousel className="text-white">
                 <Carousel.Item>
                     <div className="carousel-block">

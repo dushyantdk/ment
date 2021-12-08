@@ -27,36 +27,30 @@ import ThirdImg from '../../assests/img/exchange-25x.svg';
 
 const Products = () => {
   return (
-    <Container id="liquidity-advantages" className="pt-5 blue-bg">
+    <Container id="liquidity-advantages" className="pt-4 blue-bg">
       <div className="container">
       <Wrapper>
         <div className="row justify-content-center">
           <div className="col-lg-10 text-center">
-            <h1 className="text-white">
-              Turnkey Package <span className="gradient-text-red ">Advantages</span>
+            <h1 className="text-white mt-4">
+            Advantages of  <span className="gradient-text-red ">Turnkey Packages</span>
             </h1>
             <p className="text-white">
-              A Turnkey cryptocurrency exchange is a great choice for getting
-              started. Simplicity of maintenance and assistance along with
-              cost-effectiveness are just a few of the many benefits available.
+            You can get started with a Turnkey cryptocurrency exchange.There are numerous benefits to this system, including ease of maintenance and ease of assistance.
             </p>
           </div>
         </div>
         <Card>
           <CardWrapper>
-            <CardHeading>A super cost-effective solution</CardHeading>
+            <CardHeading>Effortlessly low-cost</CardHeading>
             <CardDescription>
-              A cryptocurrency exchange turnkey solution is a super
-              cost-effective and time-saving solution. You can save more than{' '}
-              <span>$900,000</span> on setup costs and around{' '}
-              <span>$25,000</span> on ongoing monthly costs for development,
-              extra office space and a technical support team. As well as huge
-              cost-savings, you can launch more than one year faster which is
-              crucial in today’s fast changing environment.
+            In addition to being highly cost-effective and time-saving, cryptocurrency exchange turnkey solutions are also highly efficient. The setup cost could be reduced by more than {' '}
+              <span>$900,000,</span> and ongoing monthly costs like office space, technical support and development could be reduced by around{' '}
+              <span>$25,000</span> per month. Furthermore, you can launch a year faster and save a lot of money, both of which are important in today's environment.
             </CardDescription>
             <ProgressContainer>
               <LeftContainer>
-                <LeftHeading>Initial investments</LeftHeading>
+                <LeftHeading>Investing initially</LeftHeading>
                 <FullProgressContainer>
                   <FullProgress></FullProgress>
                   <FullProgressText>{'>$1 000 000'}</FullProgressText>
@@ -138,13 +132,8 @@ const Products = () => {
                 ></rect>
               </svg>
               <p>
-                <span>Don’t waste your time and huge budgets</span> on the
-                development of your own cryptocurrency exchange. Boost your
-                chances of success by launching your business{' '}
-                <span>more than 1 year faster</span> and spend the money you
-                save on marketing and legal services. Remember, it’s never too
-                late to start your own development once you have confirmed
-                demand from real customers.
+                <span>The development of your own cryptocurrency exchange will waste your time and money.</span> By launching your business {' '}
+                <span>more than a year earlier</span> , you can spend the savings on marketing and legal services and increase your chances of success. Once you have confirmed demand from real customers, you can always start your own development.
               </p>
             </BottomContainer>
           </CardWrapper>

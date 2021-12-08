@@ -10,9 +10,9 @@ const CloudApp = () => {
                         <div class="row py-5">
                             <div class="col-lg-6 ">
                                 <div class="title-block text-white">
-                                    <h1 className="mb-4">NFT Marketplace<span class=""> Software Platform</span></h1>
-                                    <p className="mb-4">Planning an NFT startup? Have your NFT Crypto Marketplace designed, built, and deployed by the experts Ment Fintech will help you build an NFT (Non-Fungible Token) Crypto Marketplace SaaS platform to provision trading of collectibles, art, valuables, assets, and securities, backed by NFT tokens.</p>
-                                     <p class="text-white">Ment Fintech crypto exchange software platform allows you to operate the next-generation online marketplace to facilitate the trading of any digital assets represented by NFT tokens.</p>
+                                    <h1 className="mb-4">Platform for the <span class="gradient-text-blue">NFT Marketplace</span></h1>
+                                    <p className="mb-4">Are you starting an NFT company? You can create your NFT (Non-Fungible Token) Crypto Marketplace SaaS platform with Ment Fintech, which provides trading and marketing of collectibles, art, valuables and securities using NFT tokens.</p>
+                                     <p class="text-white">Fintech crypto exchange platforms such as Ment Fintech enable users to trade digital assets represented by NFT tokens through next-generation online exchanges.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6 text-center cloudapp">
@@ -22,14 +22,14 @@ const CloudApp = () => {
                         <div class="row justify-content-center py-5 align-items-center my-4 nft-ul-home">
                             <div class="col-lg-12">
                                 <div class="primary-m-content text-white w-100">
-                                    <h2 class="mb-4">What Can You Do with an NFT Software Platform?</h2>
+                                    <h2 class="mb-4 gradient-text-blue">Is there anything you can do with NFT's software platform?</h2>
                                     <ul>
-                                        <li>Plug-in external payment systems as well as options for deposits and withdrawals of NFTs with real money.</li>
-                                        <li>Perform customer verification (KYC) if you want to run more centralized crypto business.</li>
+                                        <li>Optional integration of external payment systems as well as options to deposit and withdraw real money from NFTs.</li>
+                                        <li>For a more centralized crypto business, you should perform customer verification (KYC).</li>
                                     </ul>
                                     <ul>
-                                        <li>Design and develop more tools and libraries to improve and enhance your Ment Fintech- powered NFT crypto marketplace.</li>
-                                        <li>o	Customize User Interfaces (UI) with React libraries to take any form and shape.</li>
+                                        <li>To enhance the Ment Fintech -powered NFT marketplace, design and develop new tools and libraries. </li>
+                                        <li>You can create any kind of User Interface (UI) using React libraries.</li>
                                     </ul>
                                 </div>
                             </div>

@@ -16,7 +16,7 @@ const NoBank = () => {
   return (
     <Container id="liquidity-operations" className="blue-bg pb-5">
       <Wrapper className="container">
-        <h1 className="text-white mt-5 mb-4 text-center">We assign dedicated experts for each project</h1>
+        <h1 className="text-white mt-5 mb-4 text-center">Each project is assigned a dedicated expert</h1>
         <Grid>
           <Card>
             <CardIcon>
@@ -24,9 +24,7 @@ const NoBank = () => {
             </CardIcon>
             <CardHeading>Product/Project Manager</CardHeading>
             <CardDescription>
-              All our clients are assigned a personal project manager who is
-              always on hand to answer questions and deal with all their
-              requirements.
+            Whenever our clients have questions or concerns, their personal project manager is always available to assist them.
             </CardDescription>
           </Card>
 
@@ -36,9 +34,7 @@ const NoBank = () => {
             </CardIcon>
             <CardHeading>DevOps & QA Engineer</CardHeading>
             <CardDescription>
-              Our DevOps & QA Engineer are deeply knowledgeable about our
-              technical solutions and are there to assist our clients with any
-              specifics needed.
+            In addition to having deep knowledge of our technical solutions, our DevOps and Quality Assurance Engineers are ready to assist our clients with any questions they may have.
             </CardDescription>
           </Card>
 
@@ -48,9 +44,7 @@ const NoBank = () => {
             </CardIcon>
             <CardHeading>UI & Graphics Engineer</CardHeading>
             <CardDescription>
-              Our UI & Graphics Engineer will make sure to match the product
-              UI/UX according to your company theme & UI kit and will help you
-              with your business website landing page.
+            As part of our UI/UX & Graphic design service, we will create a website landing page that matches your companies theme & UI kit.
             </CardDescription>
           </Card>
         </Grid>

@@ -6,14 +6,11 @@ const Products = () => {
     <Container id="liquidity-advantages" className="blue-bg p-y-100">
     <Wrapper className="container">
     <h1 className="text-center text-white">
-          Referral & Affiliate System  <span className="">Advantages</span>
+    Advantages of <span className="gradient-text-red ">Referral & Affiliate Systems</span>
         </h1>
         <p>
-          Our standard Referral & Affiliate System is a great choice for getting
-          started.
-          <br /> Simplicity of maintenance and assistance along with
-          cost-effectiveness
-          <br /> are just a few of the many benefits available.
+        To get started, we have a great Referral & Affiliate System.
+          <br /> Maintaining and assisting the system is simple with cost-effectiveness
         </p>
       </Wrapper>
     </Container>

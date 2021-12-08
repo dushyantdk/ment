@@ -20,21 +20,21 @@ const TheProblem = () => {
     <Container id="otc-problem" className="p-y-100">
       <Wrapper className="container">
         <h1 className="text-center">
-        <span className="gradient-text-darkblue">The Issues </span> – An Obsolete Process 
+        <span className="gradient-text-darkblue">A dated process </span> is at fault
         </h1>
         <CardContainer>
           <Card>
             <CardIcon src={ImgOne} alt="..." />
-            <CardHeading>Susceptibility </CardHeading>
+            <CardHeading>Vulnerability</CardHeading>
             <CardDescription>
-            No one can deny the fact that currently available exchanging platform like Whatsapp, Skype, Telegram etc are highly susceptible. So, cyber criminals can infiltrate and may bring loss of millions of dollars to you. 
+            There is a considerable risk of vulnerability in the current exchange platforms (WhatsApp, Telegram, Skype, etc.). A hacker could breach the platform and steal millions.
             </CardDescription>
           </Card>
           <Card>
             <CardIcon src={ImgTwo} alt="..." />
-            <CardHeading>Traceability</CardHeading>
+            <CardHeading>Absence of discovery</CardHeading>
             <CardDescription>
-            There are no as such efficient and reliable traceability or discovery tools to find verified and legitimate sources. Consequently, small and medium sized are unable to be found and their growth hindered remarkably. So, only giant players receive the maximum traffic from the otc market and industry remains stagnant and restricted for small and medium sized players. 
+            Small and medium sized funds cannot be found due to an absence of discovery tools, which prevents growth and causes the industry to stagnate as more significant players get all the traffic.
             </CardDescription>
           </Card>
         </CardContainer>
@@ -42,16 +42,16 @@ const TheProblem = () => {
         <CardContainer>
           <Card>
             <CardIcon src={ImgThree} alt="..." />
-            <CardHeading>Transparency </CardHeading>
+            <CardHeading>Openness</CardHeading>
             <CardDescription>
-            OTC-trading platform allows you to enjoy the advanced anonymity layer that wards off the scrapping of OTC brokers and traders. 
+            Since OTC traders are anonymous, it makes it impossible to collect valuable data about them.
             </CardDescription>
           </Card>
           <Card>
             <CardIcon src={ImgFour} alt="..." />
-            <CardHeading>Diversity </CardHeading>
+            <CardHeading>Listed</CardHeading>
             <CardDescription>
-            For anyone it becomes a headache to keep track of all of OTC Trading Platforms because there are many out there. 
+            Keeping track of all the platforms is difficult, given that there are so many.
             </CardDescription>
           </Card>
         </CardContainer>
@@ -59,32 +59,16 @@ const TheProblem = () => {
         <CardContainer>
           <Card>
             <CardIcon src={ImgFive} alt="..." />
-            <CardHeading>No end-to-end solution</CardHeading>
+            <CardHeading>There is no all-inclusive solution</CardHeading>
             <CardDescription>
-              No platform currently offers a complete solution.
+            A complete solution is not currently available on any platform.
             </CardDescription>
           </Card>
           <Card>
             <CardIcon src={ImgSix} alt="..." />
-            <CardHeading>360 Degrees Solution </CardHeading>
+            <CardHeading>Efficiency is low</CardHeading>
             <CardDescription>
-            Not even a single trading platform offers the 360 degrees solution. 
-            </CardDescription>
-          </Card>
-        </CardContainer>
-        <CardContainer>
-          <Card>
-            <CardIcon src={ImgFive} alt="..." />
-            <CardHeading>Deficiency </CardHeading>
-            <CardDescription>
-            Currently platforms are efficient enough to ensure speedy trading. Consequently, you face slow, longer and inefficient trading activities. Available platforms may take from hours to days for trading completion. 
-            </CardDescription>
-          </Card>
-          <Card>
-            <CardIcon src={ImgSix} alt="..." />
-            <CardHeading>The Solution </CardHeading>
-            <CardDescription>
-            Our platform is an optimum solution of executing high transaction volume. Our platform enables direct dealing owing to large pool of readily available deals. n. 
+            Inefficient, long, and slow trading process. Today's platforms take hours, if not days, to process trades.
             </CardDescription>
           </Card>
         </CardContainer>

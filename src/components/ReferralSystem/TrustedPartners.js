@@ -17,11 +17,10 @@ const TrustedPartners = () => {
     <Container className="blue-bg">
       <Wrapper className="container">
         <h1 className="text-center text-white">
-          Our <span className="">Trusted Partners</span>
+        Those  <span className="gradient-text-darkblue">we trust</span>
         </h1>
         <h5>
-          Companies that are helping us build the greatest fintech products and
-          solutions of all time.
+        We're working with companies to build the greatest fintech products and solutions ever.
         </h5>
         <Card>
           <ImgContainer>

@@ -18,6 +18,10 @@ const Phone = (props) => {
     },[])
     return(
         <PhoneInput
+            inputProps={{
+    name: props.name,
+    type: props.type
+  }}
             placeholder="Enter phone number"
             country={country.toLowerCase()}
             value={props.phone}

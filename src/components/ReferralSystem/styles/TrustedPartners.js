@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
   padding: 50px 8vw;
   max-width: 1200px;
   margin: 0 auto;
-  background: #212e3e;
+  background: #07132d;
   box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.15);
   border-radius: 20px;
   & > h1 {

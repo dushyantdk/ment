@@ -22,9 +22,12 @@ const TheSolution = () => {
       <div className="container ">
       <Wrapper>
         <h1 className="text-center text-white">
-          <span className="">Crypto Staking & Defi Lending</span> Made Easy
+          <span className="gradient-text-blue">Simple Crypto Staking & Defi </span>Lending
         </h1>
-        <p>Crypto Staking & Defi Lending technical infrastructure was designed from the ground up for the unique requirements of crypto networks. We deliver rewards reliably while minimizing slashing risks.
+        <p>
+        Crypto Staking & Defi Lending's technical infrastructure was built with the requirements of crypto networks in mind.
+        <br /> Rewards are reliably distributed while risks are minimized.
+        
         </p>
         <CardContainer>
           <Card>
@@ -33,7 +36,7 @@ const TheSolution = () => {
             </CardIcon>
             <CardText>
               <h4>
-              In order to distribute across 5 clouds, we use Kubernetes encapsulated with automatic failover. This is the reason, we never observed extended downtime or slashing for last 3 years. 
+              We have never suffered a slash or an extended downtime despite distributing across five clouds with Kubernetes.
               </h4>
             </CardText>
           </Card>
@@ -42,7 +45,7 @@ const TheSolution = () => {
           <Card>
             <CardText right={true}>
               <h4>
-              We have spent considerable resources implementing and testing proprietary software that prevents double signing in a highly fault tolerant setting.
+              In a highly fault-tolerant setting, we have invested considerable resources in developing proprietary software that prevents double-signed transactions.
               </h4>
             </CardText>
             <CardIcon right={true}>
@@ -57,7 +60,7 @@ const TheSolution = () => {
             </CardIcon>
             <CardText>
               <h4>
-              On continual basis, security and developer teams audit our technical infrastructure and ensure compliance with world-class protocols. 
+              Our technical infrastructure was reviewed by a team of security professionals and devops professionals from leading protocol, exchange, and custodian companies.
               </h4>
             </CardText>
           </Card>

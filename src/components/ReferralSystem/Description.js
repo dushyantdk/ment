@@ -7,27 +7,16 @@ const Description = () => {
       <div className="container">
       <Wrapper>
         <h1>
-          Why Choose <span className="gradient-text-darkblue">Referral & Affiliate System?</span>
+        Referral & Affiliate System  <span className="gradient-text-darkblue">- Why Choose It?</span>
         </h1>
         <p>
-          If you’re looking for a 100% affiliate / referral plugin for your
-          Cryptocurrency Exchange, you should know that our Affiliate & Referral
-          system is the best and the most cost-effective in the market. There’s
-          no need to buy expensive affiliate plugins just to have a simple
-          referral system onto your Cryptocurrency Exchange.
+        It's our Affiliate & Referral system that is the most effective and cost-effective on the market for any Cryptocurrency Exchange looking for a 100% affiliate / referral plugin. For a simple referral system on your Cryptocurrency Exchange, you don't need to buy expensive affiliate plugins.
         </p>
         <p>
-          With this plugin/module you can easily extend your cryptocurrecy
-          exchange platform with a referral system. Immediately after the plugin
-          activation you’ll be able to give your users the ability to refer your
-          exchange platform and also to check how many and who really did
-          registered by their referral. This plugin tracks registrations as well
-          as rewards.
+        A referral system can easily be integrated into your cryptocurrency exchange platform with this plugin. Within minutes after the plugin has been activated, your users will be able to refer your exchange platform, and you will also be able to check how many people are actually registered through their referral. Registrations and rewards are tracked by this plugin.
         </p>
         <p>
-          The administrators will see in Users list two new columns: User ID and
-          Referral ID along with Rewards. This way administrators have full
-          control and a clear picture of their referrals activity.
+        Two new columns will appear in the Users list: User ID and Referral ID along with Rewards. Admins have full control over their referrals, and they can see the progress of their referrals at a glance.
         </p>
       </Wrapper>
       </div>

@@ -22,10 +22,10 @@ const BankingSolution = () => {
                 <div className="row home-header-content align-items-center">
                         <div className="col-lg-8 text-white">
                             <h1 className="mb-4">Digital and Crypto Banking</h1>
-                            <p>Digital banking as a service has been adopted dozens of years ago and brought considerable convenience for both financial institutions and their customers.</p>
-                            <p>While bank customers save their precious time with banking on-the-go, financial institutions can save on physical infrastructure and hiring costs by digitizing significant parts of their customer service operations. The recently emerged social distancing requirements have saturated the necessity of providing qualified banking services to customers entirely remotely.</p>
-                            <p>Digital banking has opened up new marketing opportunities, revenue sources, and service channels for financial institutions.</p>
-                            <p>As the first defense line, we ensure strong customer authentication combined with robust risk management in an ideal balance between a user-friendly and secure online experience.</p>
+                            <p>Several decades ago, banks began to offer digital banking services to their customers, which brought them considerable convenience.</p>
+                            <p>By digitizing significant parts of their customer service operations, financial institutions could save significant amounts of money on their physical infrastructure and hiring costs. Due to new social distancing expectations, it is imperative that qualified banking services be provided to customers completely remotely.</p>
+                            <p>Financial institutions are experiencing new revenue sources, marketing opportunities, and service channels as a result of digital banking.</p>
+                            <p>By ensuring strong customer authentication and robust risk management, we ensure an ideal balance of using an online experience that is both intuitive and secure.</p>
                         </div>
                         <div className="col-lg-4">
                             <img src={Bankingheader} alt="" />
@@ -38,17 +38,17 @@ const BankingSolution = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div>
-                            <h1 className="mb-4">What is Digital <span class="gradient-text-blue">Banking?</span></h1>
-                            <p>Digital banking (also known as "online banking" or "web banking") is an electronic payment system that enables customers of a bank or other financial institution to conduct financial transactions, obtain bank statements, and perform other related operations.</p>
-                            <p>The online banking system will connect the customer to the central banking system operated by a bank. For the past decades, most financial institutions have been transforming banking products and services to fit within the new digital age, making them more accessible, easier to understand, and quicker to manage.</p>
+                            <h1 className="mb-4">How Does Digital <span class="gradient-text-blue">Banking Work?</span></h1>
+                            <p>In simple terms, digital banking is also referred to as "online banking" or "web banking," which is nothing but a system of  electronic payment system helping banks’ customers to facilitate financial transactions, retrieve bank statements, and engage in other operations.</p>
+                            <p>With the online banking system, a customer is linked to the central banking system that a bank operates. In the last few decades, the majority of financial institutions have worked to transform banking products and services so they can adapt to the digital age, increasing their accessibility, comprehension and manageability. </p>
                         </div>
                     </div>
                     <div className="col-lg-6">
                         <div>
                             <h1 className="mb-4">What is Crypto <span class="gradient-text-blue">Banking?</span></h1>
-                            <p>The term "crypto-friendly bank" is relatively new in the finance world and has been adopted by businesses and individuals who handle payments originating from cryptocurrencies for value storage and ease of cross-border settlements.</p>
-                            <p>With paypal's adoption of coinbase transactionsmoving finances related to bitcoin, ethereum, and other cryptocurrencies to the bank accounts can already be considered an established financial product.</p>
-                            <p>The term also relates to the new breed of regulated cryptocurrency banks, offering interests on savings accounts and other financial products and services for holders of cryptocurrencies.</p>
+                            <p>In the world of finances, "crypto-friendly bank" is quite new, which businesses and individuals have adopted to deal with payments associated with cryptocurrencies to enhance storage and cross-border settlements.</p>
+                            <p>As paypal had adopted coinbase transactions, it is now possible to offer a financial product that helps move funds associated with bitcoin, ethereum, and other cryptocurrencies to the bank accounts.</p>
+                            <p>This is a term that is associated with a novek breed of cryptocurrency banks that are regulated, that presents interests on savings accounts as well as other financial products and services to ensure cryptocurrency holders enjoy convenience.</p>
                         </div>
                     </div>
                 </div>
@@ -61,46 +61,46 @@ const BankingSolution = () => {
                                     
                                     <div className="row">
                                         <div className="col-lg-12">
-                                            <div class="circle"></div>
+                                            {/*  <div class="circle"></div> */} 
                                             <div class="text-white">
-                                                <h1 className="mb-4">What can you do with <span className="">Digital and Crypto Banking Software?</span></h1>
-                                                <p>You can operate a next-generation online crypto banking platform with easy access to both government-issued currency assets and a new breed of digital cryptocurrency assets.</p>
-                                                <p>The applications of distributed ledger technology in the banking sphere are numerous -</p>
+                                                <h1 className="mb-4">What is the advantage of  <span className="gradient-text-blue">Digital and Crypto Banking Software?</span></h1>
+                                                <p>It is possible to make use of a next-generation online crypto banking platform that offers easy access to currency assets issued by the government and a brand new line of digital cryptocurrency assets.</p>
+                                                <p>There are several applications of distributed ledger technology within the sphere of banking -</p>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="row text-white">
                                         <div className="col-lg-12 mb-2">
-                                            <h3 className="">Inherit classic financial products:</h3>
-                                            <p>Support for all classic banking products such as deposits, withdrawals, transfers, checking/savings accounts, insurance products, loan management, bills payment and accounting services.</p>
+                                            <h3 className="gradient-text-blue">Financial products inheritance:</h3>
+                                            <p>Assistance with classic banking products, which includes deposits, withdrawals, transfers, checking/savings accounts, insurance-based products, loan management, payment of bills. and accounting services.</p>
                                         </div>
                                         <div className="col-lg-12 mb-2">
-                                            <h3 className="">Instant cross-border transfers:</h3>
-                                            <p>With both common and crypto currencies under your fingertips, transferring and converting funds between countries has never been easier.</p>
+                                            <h3 className="gradient-text-blue">Transfers across borders: </h3>
+                                            <p>Since you would have access to common and crypto currencies, it is now easier than ever to transfer as well as convert funds.</p>
                                         </div>
                                         <div className="col-lg-12 mb-2">
-                                            <h3 className="">Access to continually growing crypto market:</h3>
-                                            <p>Direct access to the blockchain ecosphere opens a whole new market to offer new and existing banking products to the cryptocurrency holders.</p>
+                                            <h3 className="gradient-text-blue">Accessing rising crypto market:</h3>
+                                            <p>When you have access to the blockchain ecosphere, a brand new market opens up that presents novel as well as old banking products to the holders of cryptocurrency.</p>
                                         </div>
                                         <div className="col-lg-12 mb-2">
-                                            <h3 className="">Business and personal accounts in multiple currencies:</h3>
-                                            <p>Currency exchange and circulation is the lifeblood of banking systems. The introduction of additional cryptocurrencies brings the demand for money exchanging operations by crypto banking customers to a whole new level.</p>
+                                            <h3 className="gradient-text-blue">Multiple currencies for business and personal accounts:</h3>
+                                            <p>Banking systems run on currency exchange and circulation. When new cryptocurrencies are added, the demand comes in for operations of exchanging money by crypto banking customers.</p>
                                         </div>
                                         <div className="col-lg-12 mb-2">
-                                            <h3 className="">Identity and compliance verification: </h3>
-                                            <p>S as a regulated financial service, manage in-house client verification, or use convenient api endpoints to enable any outsourced third-party verification service, like identance for kyc and bitfury crystal for the source of crypto funds monitoring.</p>
+                                            <h3 className="gradient-text-blue">Verification of Identity and compliance: </h3>
+                                            <p>Client verification can now be managed in-house, while S functions as a regulated financial service. Moreover, api endpoints can be used for verification service by outsourced third-party entities, such as kyc and bitfury crystal to monitor crypto funds.</p>
                                         </div>
                                         <div className="col-lg-12 mb-2">
-                                            <h3 className="">Debit and credit card management:</h3>
-                                            <p>Issuing and managing virtual and plastic debit and credit cards for your customers are as comfortable as plugging an additional application on the server to access a third party debit card provider or enable an in-house solution.</p>
+                                            <h3 className="gradient-text-blue">Management of debit and credit card:</h3>
+                                            <p>It is very comfortable to both issue and manage virtual and plastic debit and credit cards. All that needs to be done is plug in an application on the server for a third party debit card provider or integrate a solution in-house.</p>
                                         </div>
                                         <div className="col-lg-12 mb-2">
-                                            <h3 className="">Large-scale investing:</h3>
-                                            <p>Access to blockchain smart contracts technology combined with routine financial flows opens many opportunities for small and large-scale investments for digital bank account holders, managed by the digital banking system.</p>
+                                            <h3 className="gradient-text-blue">Investing on a large-scale:</h3>
+                                            <p>Several opportunities come up with access to blockchain smart contracts technology as well as regular financial flows to facilitate investments on both small and large-scale for account holders of digital banks, handled by the digital banking system.</p>
                                         </div>
                                         <div className="col-lg-12 mb-2">
-                                            <h3 className="">Financial analytics, planning and advice:</h3>
-                                            <p>Provide your business and personal customers pinpoint analytics and advisory service for banking management, investment opportunities, retirement planning, insurance products, credit programs, debt repayment, tax planning, and other financial products.</p>
+                                            <h3 className="gradient-text-blue">Analytics and planning:</h3>
+                                            <p>Offer services such as analytics and advisory to both business and personal customers to facilitate  management of banking, investment opportunities, planning of retirement, insurance products, credit programs, repayment of debt, planning of tax, and other financial products.</p>
                                         </div>
                                     </div>
                                 </div>

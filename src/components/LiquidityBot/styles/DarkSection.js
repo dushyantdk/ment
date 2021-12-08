@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
   & > h1 {
     color: #fff;
     text-align: left;
-    padding-top:25px;
+    font-size: 32px;
   }
   & > p {
     display: block;

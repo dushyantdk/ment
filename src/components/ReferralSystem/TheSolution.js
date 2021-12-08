@@ -21,7 +21,7 @@ const TheSolution = () => {
     <Container id="otc-solution" className="blue-bg">
       <Wrapper className="container">
         <h1 className="text-center text-white">
-        <span className="">Referral & Affiliate Program</span> Made Easy
+        <span className="gradient-text-darkblue">Make Referrals & Affiliates </span>Easy
         </h1>
         <CardContainer>
           <Card>
@@ -29,7 +29,7 @@ const TheSolution = () => {
               <img src={ImgOne} alt="..." />
             </CardIcon>
             <CardText>
-              <h4>Real-time reporting & email notifications for affiliates</h4>
+              <h4>Affiliates receive email notifications and real-time reporting</h4>
             </CardText>
           </Card>
           <RightArrow src={RightArrowImg} alt="..." />
@@ -37,8 +37,7 @@ const TheSolution = () => {
           <Card>
             <CardText right={true}>
               <h4>
-                Option to pay your affiliates with Crypto or Fiat (mass
-                payments)
+              Payments can be made via Crypto or Fiat (mass payments)
               </h4>
             </CardText>
             <CardIcon right={true}>
@@ -53,8 +52,9 @@ const TheSolution = () => {
             </CardIcon>
             <CardText>
               <h4>
-                Unlimited referrals, unlimited affiliates with statistics (per
-                month, per user)
+              Statistics (by month, per user) for unlimited referrals and affiliates.
+ 
+
               </h4>
             </CardText>
           </Card>

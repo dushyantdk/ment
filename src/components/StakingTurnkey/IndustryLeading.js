@@ -22,30 +22,30 @@ const TheProblem = () => {
       <div className="container">
       <Wrapper>
         <h1 className="text-center text-white">
-          <span className="">Industry</span> Leading Features
+          <span className="gradient-text-red ">Features that set </span>the industry standard
         </h1>
         <CardContainer>
           <Card>
             <CardIcon src={ImgOne} alt="..." />
-            <CardHeading>Readily Available Infrastructure</CardHeading>
+            <CardHeading>Infrastructure with high availability</CardHeading>
             <CardDescription>
-              In order to distribute across 5 clouds, we use Kubernetes encapsulated with automatic failover. This is the reason; we never observed extended downtime or slashing for last 3 years. 
+            Kubernetes allows us to distribute across 5 clouds with automatic failover, so we have never experienced any downtime or service disruption in three years.
             </CardDescription>
           </Card>
           <DividerDiv />
           <Card>
             <CardIcon src={ImgTwo} alt="..." />
-            <CardHeading>Diligence by the Best</CardHeading>
+            <CardHeading>Best-in-class diligence</CardHeading>
             <CardDescription>
-            On continual basis, security and developer teams audit our technical infrastructure and ensure compliance with world-class protocols. 
+            A team of security and devops professionals from leading protocols, exchanges, and custodians reviewed our technical infrastructure.
             </CardDescription>
           </Card>
           <DividerDiv />
           <Card>
             <CardIcon src={ImgThree} alt="..." />
-            <CardHeading>Broadest Coverage for Assets </CardHeading>
+            <CardHeading>Coverage of broadest spectrum of assets</CardHeading>
             <CardDescription>
-              MentFintech ensures reward over the broadest assets coverage ranging 100+ available assets. In addition to these 100+ assets, 50+ are in pipeline. 
+            Ment Fintech offers rewards across an array of more than 100 crypto assets, and 50 more are coming soon.
             </CardDescription>
           </Card>
         </CardContainer>
@@ -53,25 +53,25 @@ const TheProblem = () => {
         <CardContainer>
           <Card>
             <CardIcon src={ImgFour} alt="..." />
-            <CardHeading>Excellent Rewards</CardHeading>
+            <CardHeading>Optimizing rewards</CardHeading>
             <CardDescription>
-            We use a custom set of rules to optimize the reward which is totally based on the specific dynamics of every protocol or chain we support.
+            Using a custom algorithm, we optimize rewards based on each chain and protocol we support.
             </CardDescription>
           </Card>
           <DividerDiv />
           <Card>
             <CardIcon src={ImgFive} alt="..." />
-            <CardHeading>API for Everything</CardHeading>
+            <CardHeading>A universal API</CardHeading>
             <CardDescription>
-            To all staking, reporting, and defi lending functions makes integrations seamless and smooth.
+            A seamless integration of staking, Defi lending, and reporting capabilities is made possible through programmatic access.
             </CardDescription>
           </Card>
           <DividerDiv />
           <Card>
             <CardIcon src={ImgSix} alt="..." />
-            <CardHeading>Reporting of Multiple-Asset</CardHeading>
+            <CardHeading>Reporting Multi-Assets</CardHeading>
             <CardDescription>
-            Funds designed for accountants and Admins, block-level reports can be exportable.
+            The block-level reporting is exportable and intended for fund administrators and accountants.
             </CardDescription>
           </Card>
         </CardContainer>

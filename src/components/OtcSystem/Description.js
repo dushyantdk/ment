@@ -15,14 +15,47 @@ const Description = () => {
       <div className="container">
       <Wrapper>
         <h1>
-          How <span className="gradient-text-darkblue">OTC Trading is defined?</span>
+        How does <span className="gradient-text-darkblue">OTC trading work?</span>
         </h1>
-        <p>Usually, a deal that occurs directly between two stake-holders without monitoring exchanges is termed as Over-The-Counter abbreviated as OTC trading. 
+        <p>
+        By definition, over-the-counter (OTC) trading is a transaction between two parties that does not require the oversight of an exchange.
         </p>
-        <p>OTC trades include a wide range of holdings. These assets are ranging from financial instruments to commodities i-e derivatives and crypto currencies. Contrarily to the conventional exchanges, the Over-the-Counter market has no physical location and is purely decentralized. Hundred percent trading happens by the network of dealers. SO, trades do not involve direct processes. Usually, they acquire the help of brokers who called middlemen. 
+        <p>
+        The assets that are traded over the counter include commodities to financial instruments such as cryptocurrencies and derivatives. Trading on OTC markets is done through dealer networks rather than traditional exchanges because OTC markets are decentralized and have no physical location. Middlemen, such as brokers, can provide assistance to traders, who may not be involved directly in the process.
         </p>
-        <p>As per some authentic resources, crypto OTC exchanges own the larger volume than any other prominent exchanges out there. For example, TABB Group and Digital Assets Research performed a research study and found that during the April, 2018, crypto exchanges facilitated the $250 million to $30 billion trade volume per day. On the other hand, major exchanges handled around $15 billion during that period of time. 
+        <p>
+        Currently, the daily volume of crypto OTC trading is larger than the majority of the major exchanges, according to some estimates. By comparison, TABB Group and Digital Assets Research found that every day in April 2018, about $250 million to $30 billion in trades occurred on the OTC market, while around $15 billion were traded on the exchanges.
         </p>
+      {/*   <StatsContainer>
+          <StatsWrapper>
+            <Stats>
+              <TopText>Market Pair</TopText>
+              <BottomText>100+</BottomText>
+            </Stats>
+            <Stats>
+              <TopText>Margin Requirements</TopText>
+              <BottomText>20%</BottomText>
+            </Stats> 
+            <Stats>
+              <TopText>Liquidity Venues</TopText>
+              <BottomText>5</BottomText>
+            </Stats>
+            <Stats>
+              <TopText>Execution From</TopText>
+              <BottomText>
+                5 <span>ms</span>
+              </BottomText>
+            </Stats>
+            <Stats>
+              <TopText>Exchanges Connected</TopText>
+              <BottomText>50+</BottomText>
+            </Stats>
+            <Stats>
+              <TopText>Technical Support</TopText>
+              <BottomText>24/7</BottomText>
+            </Stats>
+          </StatsWrapper>
+        </StatsContainer>*/}
       </Wrapper>
       </div>
     </Container>

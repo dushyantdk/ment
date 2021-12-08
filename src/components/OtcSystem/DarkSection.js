@@ -6,13 +6,16 @@ const Description = () => {
     <Container className="blue-bg p-y-100">
       <Wrapper className="container">
         <h1 className="text-white text-center">
-        Expand Ecosystem with  <span className="">OTC Trades </span> & System 
+        Expand Your  <span className="gradient-text-darkblue">Ecosystem with OTC Trading </span> System
         </h1>
         <p>
-        You can save years of development work by simply installing you own premium class trading desk that you can customize and get that in line with your brand. Consequently, you would be able to save hell of development money as well. Even if you have some existing exchanges, this P2P system is perfectly compatible. This is because MentFintech discards any actual or perceived conflict of interests resulting from any possible non-transparencies and counterparties. You can directly deal with buyers or sellers. 
+        Reduce development costs and time by months and years. You can set up a top-of-the-line trading desk instantly, customized to reflect your own branding. Due to the fact that Ment Fintech eliminates non-transparent, unauthorized intermediaries with the P2P solutions, this solution is also well suited for existing exchanges. Buyers and sellers interact directly.
           <br />
           <br />
-          Our OTC desk will allow you enjoy secure, discreet and competitive settlement services and executions. We support all fiat digital assets and fiat currencies in order to cover the global market. OTC trading allows you to enjoy ultra-customized, deeper liquidity and priority customer services if you are an organization or high profile individual looking for to fill larger orders. The risk factor is calculated in real-time and every transaction is system audited. 
+          In addition to our execution and settlement services, we will be happy to meet your trading needs in a discreet, secure and ultra-competitive manner, regardless of the value of your blocks - whether they are worth $100,000,000, €10,000,000, or 2,000 Bitcoins. Our OTC desk provides coverage of global markets for both fiat and digital assets.
+          <br />
+          <br />
+          Institutions and high-net-worth individuals seeking large orders can fill large orders over-the-counter (OTC) by taking advantage of our deeper liquidity. System-audited transactions will be calculated in real-time, and risk rates will be calculated.
         </p>
       </Wrapper>
     </Container>

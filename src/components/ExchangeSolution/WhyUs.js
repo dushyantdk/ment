@@ -40,8 +40,8 @@ const WhyUs = () => {
         <BottomContainer>
           <Card>
             <CardHeading>
-              <h1 className="text-center">For New Traders</h1>
-              <h3>Build Your Crypto Portfolio With Ease</h3>
+              <h1 className="text-center">A Guide for New Traders</h1>
+              <h3>Easier than ever to build your cryptocurrency portfolio</h3>
             </CardHeading>
             <CardBody>
               <BigPhoneImage src={PhoneImg} alt="..." />
@@ -49,9 +49,9 @@ const WhyUs = () => {
             <CardBottom>
               <h2>WHY US?</h2>
               <ul>
-                <li>Instant Buy and Sell</li>
-                <li>User-friendly Experience</li>
-                <li>Dedicated Customer Support</li>
+                <li>We offer instant buy and sell services</li>
+                <li>An easy-to-use interface</li>
+                <li>Support from a dedicated team</li>
               </ul>
               <Link to="/quotation">
                 <Button color="#c26a57" fontColor="#fff" marginTop={10}>
@@ -64,7 +64,7 @@ const WhyUs = () => {
           <Card bg="#0E1B2E">
             <CardHeading color="#fff">
               <h1 className="text-center">For Advanced Traders</h1>
-              <h3>Trade With Inexhaustible Liquidity</h3>
+              <h3>Engage in trading devoid of Inexhaustible Liquidity</h3>
             </CardHeading>
             <CardBody>
               <BigLaptopImage src={LaptopImg} alt="..." />
@@ -72,9 +72,9 @@ const WhyUs = () => {
             <CardBottom color="#fff">
               <h2>WHY US?</h2>
               <ul>
-                <li>Limitless Trading</li>
-                <li>Ultra-low Spreads</li>
-                <li>Single Point Access</li>
+                <li>Trading without restrictions</li>
+                <li>Spreads that are very low </li>
+                <li>Access through single point</li>
               </ul>
               <Link to="/quotation">
                 <Button color="#1199fa" fontColor="#fff" marginTop={20}>

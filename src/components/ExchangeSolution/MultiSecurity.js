@@ -25,80 +25,61 @@ const MultiSecurity = () => {
       <Wrapper className="container">
         <Card>
           <CardWrapper>
-            <h2 className="text-white text-center">Multiple Security Layers</h2>
+            <h2 className="text-white text-center">Several layers of security</h2>
             <CardDescription>
-              Security is all important for Cryptocurrency Liquidity Solution
-              and should never be compromised. We have developed an advanced
-              security system to help prevent losses as a result of fraudulent
-              activities and attacks.
+            For crypto exchanges, security is of the utmost importance. To prevent losses due to fraudulent activities and attacks, we have developed an advanced security system.
             </CardDescription>
           </CardWrapper>
           <BorderedDiv>
-            <h3 className="text-white">Security of funds</h3>
+            <h3 className="text-white">The safety of funds</h3>
             <BorderedDescription>
-              Security is the most important concept in crypto trading and our
-              Cryptocurrency Liquidity Solution is designed with sophisticated
-              safety measures as almost all tokens and coins are held in cold
-              storage. Cold wallets are highly secure hardware wallets that are
-              not connected to the internet. Programmed algorithms regularly
-              transfer client funds into cold storages thus providing the
-              necessary level of safety.
+            Almost all of our tokens and coins are stored in cold storage, which is the most important aspect of cryptocurrency trading. Our exchange was designed with sophisticated safety measures to ensure your funds are safe. It is a highly secure hardware wallet which is disconnected from the internet. By using algorithms, funds are regularly transferred into cold storage, which provides the necessary level of security.
             </BorderedDescription>
           </BorderedDiv>
           <SecurityContainer>
             <SecurityWrapper>
               <FirstSecurityDiv>
                 <img src={FirstImg} alt="..." />
-                Data Security
+                Security of data
               </FirstSecurityDiv>
               <RemainingSecurity>
                 <RemainingSecurityHeading>
-                  2 modes of data backup
+                Backup of data in two modes
                 </RemainingSecurityHeading>
                 <RemainingSecurityDescription>
-                  Data backup takes place in two modes: Real-time replication
-                  and scheduled once a day with a snapshot of the current state.
+                Two types of data backups are available: Real-time replication and a scheduled backup that occurs once a day.
                 </RemainingSecurityDescription>
               </RemainingSecurity>
               <RemainingSecurity>
                 <RemainingSecurityHeading>
-                  2FA Authorization
+                Authorization through two-factor authentication
                 </RemainingSecurityHeading>
                 <RemainingSecurityDescription>
-                  To access the multiple admin panels of Exchange, 2FA is used
-                  which is implemented as a confirmation link and sent
-                  immediately to the user’s e-mail with a token so as not allow
-                  entry to the back-end of the system by unauthorized persons.
+                Exchange utilizes two-factor authentication when accessing multiple admin panels, which is implemented as a link sent in an e-mail message and accompanied by a token to block unauthorized access to the system.
                 </RemainingSecurityDescription>
               </RemainingSecurity>
               <RemainingSecurity>
                 <RemainingSecurityHeading>
-                  Limited Access by IP
+                IP-based access restrictions
                 </RemainingSecurityHeading>
                 <RemainingSecurityDescription>
-                  Wherever it is technically possible, a login-password (or key)
-                  to a specific IP-address can be incorporated. In this way, for
-                  example, Our Exchange can get access to the payment system
-                  only from a pre-specified IP-address.
+                In cases where it is technically possible, an IP-address can be associated with a login password (or key). Our Exchange, for instance, would only be able to access the payments system from an IP address that is predefined.
                 </RemainingSecurityDescription>
               </RemainingSecurity>
               <RemainingSecurity>
                 <RemainingSecurityHeading>
-                  Encrypted Database
+                Database with encryption
                 </RemainingSecurityHeading>
                 <RemainingSecurityDescription>
-                  Client personal data is stored in a database located on an
-                  encrypted partition. Even direct access to the server does not
-                  give any access to client data.
+                A database containing client personal information is stored on an encrypted partition. Client data cannot even be accessed directly from the server.
                 </RemainingSecurityDescription>
               </RemainingSecurity>
               <RemainingSecurity>
                 <RemainingSecurityHeading>
-                  Secure replication of database
+                Replication of databases securely
                 </RemainingSecurityHeading>
                 <RemainingSecurityDescription>
-                  Database replication proceeds over SSL to exclude MITM (man in
-                  the middle).
+                MITM (man in the middle) is avoided with SSL-enabled database replication
                 </RemainingSecurityDescription>
               </RemainingSecurity>
             </SecurityWrapper>
@@ -106,66 +87,52 @@ const MultiSecurity = () => {
             <SecurityWrapper>
               <FirstSecurityDiv>
                 <img src={FirstImg} alt="..." />
-                DSecure access
+                Security of access
               </FirstSecurityDiv>
               <RemainingSecurity>
                 <RemainingSecurityHeading>
-                  Secure data exchange with external systems
+                External data exchange that is secure
                 </RemainingSecurityHeading>
                 <RemainingSecurityDescription>
-                  Data exchange with all external systems (payment systems,etc.)
-                  proceeds over HTTPS using authentication key and verification
-                  of signature on each operation.
+                A unique authentication key is used for the exchange of data with all external systems (payment systems, etc.). The signature is verified after each exchange of data.
                 </RemainingSecurityDescription>
               </RemainingSecurity>
               <RemainingSecurity>
                 <RemainingSecurityHeading>SSH Keys</RemainingSecurityHeading>
                 <RemainingSecurityDescription>
-                  To get access to the server Ment Tech personnel use the SSH
-                  key. Access is limited to a number of persons, each of them
-                  having a computer with an encrypted disk. For example, laptop
-                  theft as one of the threats of a data breach causes no data
-                  leakage.
+                SSH keys are used by Ment Fintech personnel to gain access to the server. There are only a few people who have access, each of whom has an encrypted disk on their computer. Laptop theft, which is one of the threats of data breaches, does not cause data leakage.
                 </RemainingSecurityDescription>
               </RemainingSecurity>
               <RemainingSecurity>
                 <RemainingSecurityHeading>
-                  Safety of documents
+                Document security
                 </RemainingSecurityHeading>
                 <RemainingSecurityDescription>
-                  No client documents are stored in our database. Our Exchange
-                  uses a third-party solution to handle data in a cloud.
-                  Third-party KYC providers store all client documents on a
-                  contract basis.
+                Our database does not contain any client documents. We handle data in a cloud through a third-party solution. All client documents are stored by third-party KYC providers according to a contract.
                 </RemainingSecurityDescription>
               </RemainingSecurity>
               <RemainingSecurity>
                 <RemainingSecurityHeading>
-                  Monitoring of changes
+                Change monitoring
                 </RemainingSecurityHeading>
                 <RemainingSecurityDescription>
-                  Monitoring of any changes in crucial data (i.e. a file with a
-                  password hash) takes place in real time with notifications
-                  over two different communications channels.
+                In real time, we monitor any change to vital data (such as a password hash) and send notifications across two different channels in case of a change.
                 </RemainingSecurityDescription>
               </RemainingSecurity>
               <RemainingSecurity>
                 <RemainingSecurityHeading>
-                  Logging of access
+                Access logs
                 </RemainingSecurityHeading>
                 <RemainingSecurityDescription>
-                  Each access to the database server is restricted and logged.
+                Whenever someone accesses the database server, they are logged.
                 </RemainingSecurityDescription>
               </RemainingSecurity>
             </SecurityWrapper>
           </SecurityContainer>
           <LastDiv>
-            <h2 className="text-white">DDoS Attack protection</h2>
+            <h2 className="text-white">Protection from DDoS attacks</h2>
             <BorderedDescription>
-              Our servers are protected by a high-grade cloud-based DDoS
-              mitigation solution. This prevents disruptions caused by bad
-              traffic, while allowing good traffic through, keeping websites,
-              applications and APIs highly available and performant.
+            High-grade DDoS mitigation is used to protect our servers. In doing so, bad traffic is prevented from disrupting websites, applications, and APIs while good traffic is allowed to pass freely, keeping them highly available and performant.
             </BorderedDescription>
           </LastDiv>
         </Card>

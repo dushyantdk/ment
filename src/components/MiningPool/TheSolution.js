@@ -21,7 +21,7 @@ const TheSolution = () => {
     <Container className="blue-bg">
       <Wrapper className="container">
         <h1 className="text-center text-white">
-          The <span className="">Solution</span>
+          The <span className="gradient-text-darkblue">Solution</span>
         </h1>
         <CardContainer>
           <Card>
@@ -29,7 +29,8 @@ const TheSolution = () => {
               <img src={ImgOne} alt="..." />
             </CardIcon>
             <CardText>
-              <h4>Users rent or combine hashing power to earn block rewards for a range of blockchains.
+              <h4>
+              With a range of blockchains, users earn block rewards by renting or combining hashing power.
               </h4>
             </CardText>
           </Card>
@@ -37,7 +38,8 @@ const TheSolution = () => {
           <BottomRightArrow src={BottomArrowImg} alt="..." />
           <Card>
             <CardText right={true}>
-              <h4>It supports multi-cryptocurrency mining and its hashrate ranks among the top rankings in the world. Our Mining Pool is safe, stable, profitable and has good services.
+              <h4>
+              It has a high hashrate and supports mining of multiple cryptocurrencies. We offer a reliable, safe, profitable and secure mining pool.
               </h4>
             </CardText>
             <CardIcon right={true}>
@@ -48,7 +50,9 @@ const TheSolution = () => {
           <BottomLeftArrow src={BottomArrowImg} alt="..." />
           <Card>
             <CardText right={true}>
-              <h4>Our Mining Pool offers the first in the industry to develop and take advantage of “the Hashrate Firewall</h4>
+              <h4>
+              The Hashrate Firewall is a feature our Mining Pool is the first in the industry to develop and implement
+              </h4>
             </CardText>
             <CardIcon right={true}>
               <img src={ImgOne} alt="..." />

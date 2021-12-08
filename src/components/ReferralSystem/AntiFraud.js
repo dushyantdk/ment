@@ -16,7 +16,7 @@ import LockSvg from './LockSvg';
 const MultiSecurity = ({ lockActive, handleLockState }) => {
   const data = [
     <SliderDescription>
-      If according to the KYC procedures on the Exchange, users have to mention the sum of their deposits per some period of time and afterwards they exceed this sum by a certain predefined amount, then the alert will trigger for the compliance officer to check the particular case
+     A KYC procedure on the Exchange requires users to specify the total amount of deposits they have made over a specified period of time. If the sum of these deposits is exceeded by a certain amount, an alert is fired to the compliance officer to investigate this.
     </SliderDescription>,
 
     <SliderDescription>
@@ -75,7 +75,7 @@ const MultiSecurity = ({ lockActive, handleLockState }) => {
     <Wrapper className="container">
       <Card>
         <CardWrapper>
-          <h2 className="text-white">Anti-Fraud System</h2>
+          <h2 className="text-white">Fraud-Prevention System</h2>
         </CardWrapper>
         <SecurityContainer>
           <SecurityWrapperLeft>
@@ -83,55 +83,55 @@ const MultiSecurity = ({ lockActive, handleLockState }) => {
               active={lockActive === 0}
               onClick={() => handleLockState(0)}
             >
-              Excessive Deposits Sum
+              EXCESSIVE DEPOSIT AMOUNT
             </ListItem>
             <ListItem
               active={lockActive === 1}
               onClick={() => handleLockState(1)}
             >
-              Multiple withdrawals with No Trading Activity
+             LACK OF TRADING ACTIVITY WITH DIFFERENT WITHDRAWALS
             </ListItem>
             <ListItem
               active={lockActive === 2}
               onClick={() => handleLockState(2)}
             >
-              Identical Withdrawal Wallet Address used by Multiple Accounts
+              MULTIPLE ACCOUNTS USE THE SAME WITHDRAWAL WALLET ADDRESS
             </ListItem>
             <ListItem
               active={lockActive === 3}
               onClick={() => handleLockState(3)}
             >
-              Identical Phone number Used by Multiple Accounts
+             MULTIPLE ACCOUNTS USING IDENTICAL PHONE NUMBERS
             </ListItem>
             <ListItem
               active={lockActive === 4}
               onClick={() => handleLockState(4)}
             >
-              Identical IP Used By Multiple Accounts
+              MULTIPLE ACCOUNTS USING THE SAME IP
             </ListItem>
             <ListItem
               active={lockActive === 5}
               onClick={() => handleLockState(5)}
             >
-              Excessive Trades Amount
+              TRADES AMOUNTS ARE EXCESSIVE
             </ListItem>
             <ListItem
               active={lockActive === 6}
               onClick={() => handleLockState(6)}
             >
-              Arbitrage Triangle
+             ARBITRAGE TRIANGLE
             </ListItem>
             <ListItem
               active={lockActive === 7}
               onClick={() => handleLockState(7)}
             >
-              Identical Email Used by Multiple Accounts
+            A SINGLE EMAIL IS REUSED BY MULTIPLE ACCOUNTS
             </ListItem>
             <ListItem
               active={lockActive === 8}
               onClick={() => handleLockState(8)}
             >
-              Frequent Deposits
+              DEPOSITS MADE REGULARLY
             </ListItem>
           </SecurityWrapperLeft>
 

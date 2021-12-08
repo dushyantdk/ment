@@ -39,10 +39,10 @@ const Hero = ({
       <Wrapper className="">
         <LeftContainer>
           <h1>
-            <span>Crypto Staking & Defi Lending</span>
-            <br /> Turnkey Solution
+            <span>Defi Lending & Crypto Staking</span>
+            <br /> One-stop-shop
           </h1>
-          <p>Infrastructure to Power Staking and Defi Lending</p>
+          <p>Power Staking and Defi Lending Infrastructure</p>
           <StatsContainer>
             <StatsWrapper>
               <Stats>
@@ -134,9 +134,8 @@ const Hero = ({
             </BottomContainer>
             <BottomContainer>
               <span>
-                Ment Tech uses the information you provide to us to contact you
-                about our relevant content, products and services. For more
-                information, check out our <a href="/">Privacy Policy</a>.
+              Your information is collected so that you can hear from us about products and services that may be of interest to you. 
+              Please see our <a href="/">Privacy Policy</a> for more information..
               </span>
             </BottomContainer>
           </form>

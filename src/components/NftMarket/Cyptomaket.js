@@ -62,7 +62,7 @@ return (
                      <div className="offset-md-1 col-lg-10 mb-5">
                         <div className="row text-white">
                            <div className="col-lg-12 mb-2">
-                              <h1 className="mb-4">The Rise of <span className=""> NFT Crypto Marketplaces</span></h1>
+                              <h1 className="mb-4">The Rise of <span className="gradient-text-blue"> NFT Crypto Marketplaces</span></h1>
                               <p>There is no doubt the NFTs (Non-Fungible Tokens) are the future of digital collectibles and ownership rights proof.
                               </p>
                               <p>They can represent anything, and one of the primary reasons so many people in the world are paying millions for them is because they have scarcity. No two of these tokens are ever the same, or in other words, each one of them has features that distinguish it, some of which make it more desirable than others.f
@@ -78,7 +78,7 @@ return (
                         </div>
                         <div className="row mt-5 text-white">
                            <div className="col-lg-12 mb-3">
-                              <h1 className="mb-4">What Are NFTs <span className="">(Non-Fungible Tokens)?</span></h1>
+                              <h1 className="mb-4">What Are NFTs <span className="gradient-text-blue">(Non-Fungible Tokens)?</span></h1>
                            </div>
                            <div className="col-lg-12">
                               <p>Non-Fungible Tokens (NFT) are crypto assets that are indivisible as well as entirely unique. NFT tokens can be used to represent both tangible and intangible items. They initially launched through the Ethereum blockchain as an ERC-721 token standard, and throughout time, they became available on other blockchains. With their rapid growth in popularity, NFT tokens suddenly had access to a lot more use-cases, the most common ones being collectibles, artworks, and in-game assets.</p>
@@ -99,7 +99,7 @@ return (
 
                               <div className="row">
                                  <div className="col-lg-12">
-                                    <h1 className="mb-4">What Can You Do<span  className=""> with An NFT Software Platform?</span></h1>
+                                    <h1 className="mb-4">What Can You Do<span  className="gradient-text-blue"> with An NFT Software Platform?</span></h1>
                                     <p>Openware's OpenNFT crypto exchange software platform allows you to operate the next-generation online marketplace to facilitate the trading of any digital assets represented by NFT tokens.</p>
                                     <p>Perform customer verification (KYC) if you want to run more centralized crypto business.</p>
                                     <p>Execute orders to buy and sell NFTs through created trading pairs.</p>
@@ -143,8 +143,8 @@ return (
                                 <div className="row">
                                     <div className="col-lg-12">
                                         <div class="title-block mb-4 text-white">
-                                            <div className="p-b-t-img"><img src={Security} alt="" /></div>
-                                            <h1><span class="">Security Layers</span></h1>
+                                           {/* <div className="p-b-t-img"><img src={Security} alt="" /></div> */}
+                                            <h1><span class="gradient-text-lightgreen">Security Layers</span></h1>
                                         </div>
                                     </div>
                                     <div className="col-lg-12 text-white">

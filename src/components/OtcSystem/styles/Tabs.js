@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 export const TabsContainer = styled.div`
   height: 65px;
   width: 100%;
-  background: #212e3e;
+  background: #040d21;
   display: flex;
   justify-content: center;
   z-index: 99;

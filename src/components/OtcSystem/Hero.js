@@ -39,10 +39,12 @@ const Hero = ({
       <Wrapper>
         <LeftContainer>
           <h1>
-          <span>OTC Platform</span>
-            <br /> Turnkey Solution
+          <span>Platform for OTC transactions</span>
+            <br /> Integrated Solution
           </h1>
-          <p>Infrastructure to power your ecosystem with high volume.</p>
+          <p>
+          Your ecosystem will be powered by high-volume infrastructure.
+          </p>
           <StatsContainer>
             <StatsWrapper>
               <Stats>
@@ -134,9 +136,8 @@ const Hero = ({
             </BottomContainer>
             <BottomContainer>
               <span>
-                Ment Tech uses the information you provide to us to contact you
-                about our relevant content, products and services. For more
-                information, check out our <a href="/">Privacy Policy</a>.
+              Your information is collected so that you can hear from us about products and services that may be of interest to you. 
+              Please see our <a href="/">Privacy Policy</a> for more information..
               </span>
             </BottomContainer>
           </form>

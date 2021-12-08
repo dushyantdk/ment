@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const Container = styled.div`
- 
+  width: 100vw;
 `;
 
 export const Wrapper = styled.div`
@@ -84,7 +84,7 @@ export const IconContainer = styled.div`
   border-bottom: 1px solid #eee;
   max-width: 217px;
   min-width: 217px;
-  background: ${(props) => (props.open ? 'linear-gradient(0deg, rgb(78, 98, 237) 0%, rgb(75, 175, 253) 100%) !important' : '#fff')};
+  background: ${(props) => (props.open ? '#1da1f2' : '#fff')};
   & > div {
     display: flex;
     flex-direction: column;
@@ -93,9 +93,6 @@ export const IconContainer = styled.div`
     justify-content: center;
     & > img {
       width: 60px;
-    }
-    & > h4 {
-      color: ${(props) => (props.open ? '#fff' : '#293c57')};
     }
     & > h3 {
       color: ${(props) => (props.open ? '#fff' : '#293c57')};
@@ -141,6 +138,15 @@ export const SmallCenterDiv = styled.div`
 `;
 
 export const ArrowDiv = styled.div`
+  display: ${(props) => (props.open ? 'initial' : 'none')};
+  position: relative;
+  top: 44px;
+  left: ${(props) => (props.right ? '-101px' : '101px')};
+  border: 16px solid #f4f6fa;
+  border-left: 20px solid #1da1f2;
+  border-right: 20px solid #1da1f2;
+  border-top: #1da1f2;
+  transform: ${(props) => (props.right ? 'rotate(90deg)' : 'rotate(-90deg)')};
   @media (max-width: 1200px) {
     display: none;
   }

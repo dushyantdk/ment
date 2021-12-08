@@ -46,8 +46,8 @@ const CryptoExchangeview = () => {
                         <div className="row justify-content-center py-5">
                             <div className="col-lg-8 text-center">
                                 <div className="title-block text-white">
-                                    <h1 className="mb-4">Cryptocurrency Exchange  <span className="">Turnkey Solution</span></h1>
-                                    <p>Ment Fintech is a leading global provider of white label exchange solutions. This page provides the comprehensive introduction about portfolios of product, procedures of deployment, applicable teams, and risk control system.</p>
+                                    <h1 className="mb-4">Turnkey solution for<span className="gradient-text-blue">cryptocurrency exchange.</span></h1>
+                                    <p>We are the world's leading provider of white-label exchange solutions. Product portfolios, risk management systems, relevant teams, and deployment processes are described on this page.</p>
                                 </div>
                             </div>
                         </div>  
@@ -55,8 +55,20 @@ const CryptoExchangeview = () => {
                             <div className="col-lg-6 exchange text-wdurh-custom">
                                 <div className="c-e-c-block">
                                   {/*  <span className="circle"></span> */}  
-                                    <h3 class="">The future of code not in your local copy,  
-                                    <span class="text-white">while it lies in the cloud. Specs of code provide you a comprehensive, custom development environment on a very strong virtual machine in minutes.</span></h3>
+                                    <h3 class="">Not your local copy, but the cloud is where code will live in the future. 
+                                    <span class="text-white">Using Codespaces, you can build a virtual development environment in minutes that is fully configured.</span></h3>
+                                </div>
+
+                                <div className="c-e-c-block">
+                                   {/*  <span className="circle"></span> */}   
+                                    <h3 class="">Not your local copy, but the cloud is where code will live in the future. 
+                                    <span class="text-white">Using Codespaces, you can build a virtual development environment in minutes that is fully configured.</span></h3>
+                                </div>
+
+                                <div className="c-e-c-block mb-0 last-text-block-exchange">
+                                 {/*    <span className="circle"></span> */}   
+                                    <h3 class="">Not your local copy, but the cloud is where code will live in the future. 
+                                    <span class="text-white">Using Codespaces, you can build a virtual development environment in minutes that is fully configured.</span></h3>
                                 </div>
                             </div>
                             <div className="col-lg-6 exchange-images">

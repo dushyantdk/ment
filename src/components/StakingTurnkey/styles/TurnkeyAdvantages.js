@@ -11,7 +11,7 @@ const grove = keyframes`
 `;
 
 export const Container = styled.div`
- 
+  width: 100vw;
   border-top: 1px solid rgba(174, 185, 216, 0.15);
 `;
 

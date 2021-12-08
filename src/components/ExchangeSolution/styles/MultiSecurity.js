@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const Container = styled.div`
-  
+  width: 100vw;
 `;
 
 export const Wrapper = styled.div`
@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
 
 export const Card = styled.div`
   position: relative;
-  background: #212e3e;
+  background: #07132d;
   border-radius: 5px;
   padding: 55px 40px;
   box-sizing: border-box;
@@ -91,7 +91,7 @@ export const SecurityWrapper = styled.div`
 `;
 
 export const FirstSecurityDiv = styled.div`
-  background: #171e29;
+  background: #040d21;
   border-radius: 5px;
   line-height: 44px;
   color: #fff;
@@ -137,7 +137,7 @@ export const LastDiv = styled.div`
   overflow: hidden;
   padding-right: 113px;
   padding: 47px 53px;
-  background: #171e29;
+  background: #040d21;
   @media (max-width: 768px) {
     padding: 47px 20px;
   }

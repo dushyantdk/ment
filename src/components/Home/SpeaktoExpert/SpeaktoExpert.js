@@ -73,7 +73,7 @@ const SpeaktoExpert = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="title-block">
-                                    <h1 className="">Speak to our expert</h1>
+                                    <h1 className="gradient-text-green">Speak to our expert</h1>
                                 </div>
                             </div>
                         </div>

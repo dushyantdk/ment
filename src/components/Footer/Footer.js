@@ -112,14 +112,14 @@ const Footer = () => {
             <div className="container wide-block">
                 <div className="row">
                     <div className="col-lg-12">
-                        <p>Ment Fintech is a software technology provider, and do not own, hold, transact any crypto related businesses and funds. This site works as a simple showcase for services, solutions, products, & marketing services of multiple software technology, which operate under local laws and are properly licensed and authorized to provide services. If you want to get our specific services, solution, and products, for more info about the service company please contact with our sales team.</p>
-                        <p>MentFintech" registered as a trademark in various countries of Asia under the registration protocols of the company.</p>
-                        <p>The ownership for logo trademark and the word “MentFintech" (Reg. no. are xxx-xxx &xxx-xxx) is a property of Ment Fintech and it is registered in India with this organization number xxx-xxx. On this site, Ment Tech Pvt. Ltd does not offer any kind of advertisement about financial or other services.</p>
-                        <p>Please read the documents carefully which are posted on this site: disclaimer & legal info, cookie & privacy policies. All these in formations are only available in English Language. You certify that you have a sufficient level of English to understand the textual content and legal implications of these documents. If your answer is "No", you confirm that you have use an expert interpreter to use the services. If you do not agree with the textual content of these documents, please immediately exit from the site.</p>
+                        <p>Ment Fintech is a software technology provider, and do not own, hold, transact any crypto related businesses and funds. This website serves as a common showcase for products, solutions, 
+                        services & marketing services of different software technology that work in the frames of their local legislations and have respective licenses and permissions for provided services. If you are interested in particular product, solution or services please contact sales team for more information about servicing company.</p>
+                        <p>“Ment Fintech" is a trademark, that is registered in different Asian countries according to company registration protocol.</p>
+                        <p>The ownership for word and logo trademarks “Ment Fintech" (international registration numbers are xxxxxxx and xxxxxxx) belongs to Ment Fintech, a company registered in the India with company number xxxxxxx. Ment Tech Pvt. Ltd. does not provide any financial or other services advertised on this website.</p>
+                        <p>Please carefully study documents posted at this website: Legal information and Disclaimers, Privacy Policy and Cookie Policy. These documents are available only in English. You acknowledge that you know the English language at a sufficient level to understand the text of these documents, and you fully understand the legal consequences of these documents. In case you do not understand or understand the English language poorly, you acknowledge that you have used the services of a professional interpreter. If you don’t agree with this statement or information provided within documents, please leave this website immediately.</p>
                     <ul className="d-flex">
                         <li><a href="/privacy-policy">Privacy Policy</a></li>
                         <li><a href="/terms-of-use">Terms Of Use</a></li>
-                        
                         <li><a href="/cookie-policy">Cookie Policy</a></li>
                     </ul>
                     </div>
@@ -129,9 +129,9 @@ const Footer = () => {
         {/*<a href="#" className="chatlio">*/}
         {/*    <p>Contact Us</p>*/}
         {/*</a>*/}
-        {/* <div className="footer-chat">
+        <div className="footer-chat">
             <ChatBox open={(handleToggle) => (<button className="chatlio" onClick={handleToggle}>Contact Us</button>)} />
-        </div> */}
+        </div>
     </section>
    <Button onClick={scrollToTop}  type="submit" className="css-mbv478">
     <i class="fas fa-chevron-up"></i>

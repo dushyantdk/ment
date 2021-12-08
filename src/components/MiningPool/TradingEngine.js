@@ -12,8 +12,10 @@ const TradingEngine = () => {
   return (
     <Container id="WhiteLabel-Trading-Engine">
       <Wrapper className="container">
+        <h1><span class="gradient-text-darkblue">SOLUTION</span></h1>
         <h1 className="text-center">
-          Fastest, Most Secure <span class="gradient-text-darkblue"> and Successful
+          Fastest, Most Secure and Successful
+          <span class="gradient-text-darkblue">Mining Pool
           </span>
         </h1>
         <SliderContainer>

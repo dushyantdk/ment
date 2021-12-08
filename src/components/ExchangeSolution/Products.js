@@ -24,33 +24,27 @@ const Products = ({ productDropdownOpen, handleProductDropdown }) => {
   const data = [
     <Card>
       <CenterDescription>
-        <h4>High-Performance Matching Engine</h4>
+        <h4>Optimized matchmaking engine</h4>
         <p>
-          Powerful memory matching, with over 50,000 tps for each trading pair.
+        Matching memory is extremely powerful, with over 50,000 TPs per trading pair.
         </p>
       </CenterDescription>
       <CenterDescription>
-        <h4>Professional Transaction</h4>
+        <h4>Transaction in the professional sphere</h4>
         <p>
-          It supports customized and third-party K-lines, technical analysis and
-          drawing tools, and supports strategy orders and API orders.
+        In addition to API orders and strategy orders, the platform supports K-lines and technical analysis tools created by third parties that are customized.
         </p>
       </CenterDescription>
       <CenterDescription>
-        <h4>Supporting Functions</h4>
+        <h4>Functions supporting the mission</h4>
         <p>
-          It supports financial system, risk control system and centralized
-          wallets. It supports all mainstream coins and their tokens, provides
-          supporting background audit and operation CMS system, as well as rapid
-          and stable system deployment and delivery.
+        A financial system, centralized wallets, and risk control systems are supported by it. As well as supporting all mainstream coins and their tokens, this module provides an auditing system to ensure the smooth running of the system, as well as a fast and stable deployment and delivery process.
         </p>
       </CenterDescription>
       <CenterDescription>
-        <h4>Multiple Transaction Modes</h4>
+        <h4>Multi-mode transactions</h4>
         <p>
-          It supports Fiat-to-Crypto and Crypto-to-Crypto transactions and other
-          various forms of transactions, and direct purchase of fiat currencies
-          without minimum limit.
+        Among its features are its support for fiat-to-crypto transactions as well as crypto-to-crypto exchanges, along with the ability to purchase fiat currencies without a minimum purchase limit.
         </p>
       </CenterDescription>
     </Card>,
@@ -218,7 +212,7 @@ const Products = ({ productDropdownOpen, handleProductDropdown }) => {
   return (
     <Container id="WhiteLabel-Products" className="p-y-100">
       <Wrapper className="container">
-        <h1>Stable and Secure <br /> <span className="gradient-text-darkblue">Full-line Products</span></h1>
+        <h1>Full-line products that<br /> <span className="gradient-text-darkblue"> are stable and secure</span></h1>
         <ProductContainer>
           <LeftContainer>
             <IconContainer
@@ -228,7 +222,7 @@ const Products = ({ productDropdownOpen, handleProductDropdown }) => {
               <div>
                 <ArrowDiv open={productDropdownOpen === 1} />
                 <img src={ProductOneImg} alt="..." />
-                <h4>Spot Trading System</h4>
+                <h4>System of spot trading</h4>
               </div>
               <ExpandDiv>
                 <p>{productDropdownOpen === 1 ? '-' : '+'}</p>
@@ -245,7 +239,7 @@ const Products = ({ productDropdownOpen, handleProductDropdown }) => {
               <div>
                 <ArrowDiv open={productDropdownOpen === 2} />
                 <img src={ProductTwoImg} alt="..." />
-                <h4>OTC Trading System</h4>
+                <h4>Trading system for OTC securities</h4>
               </div>
               <ExpandDiv>
                 <p>{productDropdownOpen === 2 ? '-' : '+'}</p>
@@ -262,7 +256,7 @@ const Products = ({ productDropdownOpen, handleProductDropdown }) => {
               <div>
                 <ArrowDiv open={productDropdownOpen === 3} />
                 <img src={ProductThreeImg} alt="..." />
-                <h4>Liquidity Aggregation Bot</h4>
+                <h4>Automated Liquidity Aggregation</h4>
               </div>
               <ExpandDiv>
                 <p>{productDropdownOpen === 3 ? '-' : '+'}</p>
@@ -283,7 +277,7 @@ const Products = ({ productDropdownOpen, handleProductDropdown }) => {
               <div>
                 <ArrowDiv right={true} open={productDropdownOpen === 4} />
                 <img src={ProductFourImg} alt="..." />
-                <h4>Mining Pool System</h4>
+                <h4>Pool system for mining</h4>
               </div>
               <ExpandDiv>
                 <p>{productDropdownOpen === 4 ? '-' : '+'}</p>
@@ -300,7 +294,7 @@ const Products = ({ productDropdownOpen, handleProductDropdown }) => {
               <div>
                 <ArrowDiv right={true} open={productDropdownOpen === 5} />
                 <img src={ProductFiveImg} alt="..." />
-                <h4>All-In-One Wallet System</h4>
+                <h4>One-Stop Wallet System</h4>
               </div>
               <ExpandDiv>
                 <p>{productDropdownOpen === 5 ? '-' : '+'}</p>
@@ -317,7 +311,7 @@ const Products = ({ productDropdownOpen, handleProductDropdown }) => {
               <div>
                 <ArrowDiv right={true} open={productDropdownOpen === 6} />
                 <img src={ProductSixImg} alt="..." />
-                <h4>Cryptocurrency Staking System</h4>
+                <h4>Staking system for cryptocurrency</h4>
               </div>
               <ExpandDiv>
                 <p>{productDropdownOpen === 6 ? '-' : '+'}</p>

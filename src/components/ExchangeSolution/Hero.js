@@ -26,13 +26,11 @@ const Hero = ({
       <Wrapper className="">
         <LeftContainer>
           <h1>
-            <span>Cryptocurrency Exchange</span>
-            <br /> Turnkey Solution
+            <span>Turnkey Solution </span>
+            <br /> For Cryptocurrency Exchange
           </h1>
           <p>
-            Ment Tech is a world-leading white label exchange solution provider.
-            This page gives a detailed introduction of Product portfolios, risk
-            control system, applicable teams and deployment process.
+          White-label exchange solutions are the core business of the Ment Fintech Group. Product portfolios, risk management systems, applicable teams, and deployment processes are explained in detail on this page.
           </p>
         </LeftContainer>
         <RightContainer>
@@ -99,9 +97,8 @@ const Hero = ({
             </BottomContainer>
             <BottomContainer>
               <span>
-                Ment Tech uses the information you provide to us to contact you
-                about our relevant content, products and services. For more
-                information, check out our <a href="/">Privacy Policy</a>.
+              Your information is collected so that you can hear from us about products and services that may be of interest to you. 
+              Please see our <a href="/">Privacy Policy</a> for more information..
               </span>
             </BottomContainer>
           </form>

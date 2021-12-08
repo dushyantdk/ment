@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const Container = styled.div`
- 
+  width: 100vw;
 `;
 
 export const Wrapper = styled.div`
@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
 
 export const Card = styled.div`
   position: relative;
-  background: #212e3e;
+  background: #07132d;
   border-radius: 5px;
   padding: 55px 40px;
   box-sizing: border-box;

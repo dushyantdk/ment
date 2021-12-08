@@ -7,9 +7,12 @@ const Products = () => {
       <div className="container">
       <Wrapper>
         <h1 className="text-white text-center">
-          Crypto Staking & Defi Lending Turnkey  <span className="">Advantages</span>
+        Defi Lending & Crypto Staking: A   <span className="gradient-text-red ">Turnkey Solution</span>
         </h1>
-        <p>Our standard Crypto Staking & Defi Lending Turnkey is a great choice for getting started. Simplicity of maintenance and assistance along with cost-effectiveness are just a few of the many benefits available.</p>
+        <p>
+        For getting started, we recommend our Crypto Staking & Defi Lending Turnkey.
+          <br /> There are a number of benefits, including ease of maintenance and assistance, as well as cost-effectiveness.
+        </p>
       </Wrapper>
       </div>
     </Container>

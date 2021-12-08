@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const Container = styled.div`
-
+  width: 100vw;
 `;
 
 export const Wrapper = styled.div`
@@ -28,7 +28,7 @@ export const Grid = styled.div`
 `;
 
 export const Card = styled.div`
-  background: #212e3e;
+  background: #07132d;
   padding: 55px 40px;
 `;
 

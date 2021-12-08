@@ -45,12 +45,11 @@ export const Card = styled.div`
   justify-content: center;
   flex-direction: column;
   width: 45%;
-  background:#212e3e;
+  background: #eff4f6;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
   padding: 20px 0;
   min-height: 350px;
-  color:#fff;
   @media (max-width: 768px) {
     width: 100%;
     margin-top: 50px;
@@ -61,13 +60,13 @@ export const CardIcon = styled.img``;
 
 export const CardHeading = styled.h4`
   padding: 36px 0 16px;
-  
+  color: #040d21;
   margin: 0;
 `;
 
 export const CardDescription = styled.h5`
   padding: 0 40px;
-  
+  color: #040d21;
   font-size: 16px;
 `;
 

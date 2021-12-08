@@ -19,8 +19,9 @@ const Community = () => {
     <section class="community">
         <div class="container">
         <div class="text-center w-100">
-            <h1 className="mb-4">Applications of <span className="gradient-text-red">Community Project</span></h1>
-            <p className="mb-5">International directory of use of open-source blockchain the technology provisioning for the products of distributed ledger.</p>
+        <h1 className="mb-4">Applications for  <span className="gradient-text-red">Community Projects</span></h1>
+            
+            <p className="mb-5">Distributed ledger product directory with open-source Blockchain applications.</p>
         </div>
 
         <div class="categories category-cards mt-5">
@@ -32,7 +33,7 @@ const Community = () => {
                             <div class="d-flex h-100 flex-column">
                                 <h2>DevOps</h2>
                                 <div class="category-text">
-                                  <p>DevOps Open-Source Technologies ForFinTech To Provide Security, Maintainability, Quality, And Data Integration.</p>
+                                  <p> Security, maintainability, data integration, and security are the assets provided by DevOps open-source technology for fintech.</p>
                                 </div>
                             </div>
                         </div>
@@ -46,7 +47,7 @@ const Community = () => {
                             <div class="d-flex h-100 flex-column">
                                 <h2>Bitcoin</h2>
                                 <div class="category-text">
-                                  <p>Open-Source Peer-To-Peer (P2P) Money And The Grandfather Of All Cryptocurrencies.</p>
+                                  <p>Bitcoin is the first peer-to-peer (P2P) currency and the grandfather of all digital currencies.</p>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +61,7 @@ const Community = () => {
                             <div class="d-flex h-100 flex-column">
                                 <h2>Ethereum</h2>
                                 <div class="category-text">
-                                <p>Ethereum Is a Global, Decentralized Platform For Cryptocurrency And New Kinds Of FinTech Applications.</p>
+                                <p>The Ethereum blockchain is a global, decentralized platform for cryptocurrencies and new kinds of financial applications.</p>
                                 </div>
                             </div>
                         </div>
@@ -74,7 +75,7 @@ const Community = () => {
                             <div class="d-flex h-100 flex-column">
                                 <h2>Blockchain</h2>
                                 <div class="category-text">
-                                    <p>Blockchain Is a Secure Decentralized Digital Ledger System Used To Store Transaction Records.</p>
+                                    <p>Digital ledgers like blockchain are used to store transaction records in a secure and decentralized fashion.</p>
                                 </div>
                             </div>
                         </div>
@@ -88,7 +89,7 @@ const Community = () => {
                             <div class="d-flex h-100 flex-column">
                                 <h2>Cryptography</h2>
                                 <div class="category-text">
-                                   <p>Cryptography Converts Plain Text Data Into A Secret Code To Provide Data Protection, Secure Communication, And Authentication.</p>
+                                   <p>Data Protection, Secure Communication, And Authentication Are Ensured With Cryptography By Converting Plain Text Data Into A Secret Code.</p>
                                 </div>
                             </div>
                         </div>
@@ -102,7 +103,7 @@ const Community = () => {
                             <div class="d-flex h-100 flex-column">
                                 <h2>Cryptocurrency</h2>                                            
                                 <div class="category-text">
-                                  <p>Cryptocurrencies are a decentralized means of digital exchange regulated using cryptocurrencies.</p>
+                                  <p>Cryptography is used to regulate the decentralized exchange of value in cryptocurrencies.</p>
                                 </div>
                             </div>
                         </div>

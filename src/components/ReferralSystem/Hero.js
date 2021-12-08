@@ -39,10 +39,10 @@ const Hero = ({
       <Wrapper>
         <LeftContainer>
           <h1>
-            <span>Referral & Affiliate System</span>
-            <br /> for Crypto Exchanges
+            <span>Crypto Exchange</span>
+            <br />Referral & Affiliate System
           </h1>
-          <p>Infrastructure to Power Multilevel Referral & Affiliate Program</p>
+          <p>Multilevel Affiliate & Referral Program Infrastructure</p>
           <StatsContainer>
             <StatsWrapper>
               <Stats>
@@ -126,9 +126,8 @@ const Hero = ({
             </BottomContainer>
             <BottomContainer>
               <span>
-                Ment Tech uses the information you provide to us to contact you
-                about our relevant content, products and services. For more
-                information, check out our <a href="/">Privacy Policy</a>.
+              Your information is collected so that you can hear from us about products and services that may be of interest to you. 
+              Please see our <a href="/">Privacy Policy</a> for more information..
               </span>
             </BottomContainer>
           </form>

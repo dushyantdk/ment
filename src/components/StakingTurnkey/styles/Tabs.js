@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 export const TabsContainer = styled.div`
   height: 65px;
   width: 100%;
-  background: #212e3e;
+  background: #040d21;
   display: flex;
   justify-content: center;
   z-index: 99;
@@ -47,6 +47,10 @@ export const ListItem = styled.li`
   align-items: center;
   justify-content: center;
   color: #fff;
+  font-size: 16px;
   width: calc(100%);
   cursor: pointer;
+  /* @media (max-width: 1200px) {
+    font-size: 12px;
+  } */
 `;

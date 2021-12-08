@@ -1,11 +1,11 @@
 import styled from '@emotion/styled';
 
 export const Container = styled.div`
-
+  width: 100vw;
   min-height: 600px;
   height: 50vh;
   padding-top: 100px;
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     min-height: 830px;
     padding-top: 80px;
   }
@@ -20,10 +20,10 @@ export const Wrapper = styled.div`
   color: white;
   max-width: 1200px;
   margin: 0 auto;
-  @media (max-width: 1000px) {
+  @media (max-width: 991px) {
     padding: 0 5vw;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     flex-direction: column;
     padding: 0 5vw;
     width: 90%;
@@ -48,7 +48,7 @@ export const LeftContainer = styled.div`
   & > p {
     line-height: 141.6%;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     width: 100%;
     align-items: center;
     height: 40%;
@@ -57,24 +57,44 @@ export const LeftContainer = styled.div`
     & > h1 {
       text-align: center;
       & > span {
-        font-size: 35px;
+        font-size: 32px;
         line-height: 1.25;
       }
     }
     & > p {
       text-align: center;
       margin-top:5px;
-      margin-bottom: 25px;
+      margin-bottom: -40px;
+    }
+  }
+  @media(max-width: 349px){
+    & > p {
+      margin-bottom: 100px !important;
+      font-size: 12px !important;
+    }
+    & > h1 {
+      text-align: center;
+      & > span {
+        font-size: 28px !important;
+        line-height: 1.25;
+      }
     }
   }
   @media (max-width: 450px) {
     & > p {
       text-align: center;
       margin-top:5px;
-      margin-bottom: 50px;
+      margin-bottom: 50px !important;
     }
   }
-  @media (max-width: 1024px) {
+  @media (max-width: 768px) {
+    & > p {
+      text-align: center;
+      margin-top:5px;
+      margin-bottom: -60px;
+    }
+  }
+  @media (max-width: 1220px) {
      margin: 15px;
   }
 `;
@@ -87,11 +107,22 @@ export const RightContainer = styled.div`
   & > form {
     width: 70%;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     width: 100%;
     height: 50%;
     justify-content: center;
     align-items: center;
+    & > form {
+      width: 90%;
+    }
+  }
+  @media (max-width: 349px) {
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 75px;
     & > form {
       width: 90%;
     }
@@ -123,7 +154,7 @@ export const TopContainer = styled.div`
       color: #fff;
     }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     flex-direction: column;
     align-items: center;
     & > input {
@@ -166,7 +197,7 @@ export const BottomContainer = styled.div`
       color: #9d9d9d;
     }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     & > textarea {
       margin: 0;
     }
@@ -202,7 +233,7 @@ export const Button = styled.button`
     background: #168ed7;
     color: #fff;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     margin: 10px 0 0 0;
   }
 `;

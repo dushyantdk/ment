@@ -21,20 +21,18 @@ const NoBank = () => {
             <CardIcon>
               <img src={FirstImg} alt="..." />
             </CardIcon>
-            <CardHeading>Utility (Loyalty) Token</CardHeading>
+            <CardHeading>Tokens for Utility (Loyalty)</CardHeading>
             <CardDescription>
-              The ability to issue a utility token and give it functionality.
-              For example, a token may allow a discount on trading commission.
+            A utility token can be issued and have functionality attached to it. An example could be to discount trading commissions through the token.
             </CardDescription>
             <Lists>
               <span>
                 <span>
-                  A professional, correctly developed token increases <br /> the
-                  capitalization of your exchange.
+                Your exchange's capitalization will increase if your token is professionally designed and correctly developed. 
                 </span>
               </span>
               <span>
-                <span>Attractive to users.</span>
+                <span>Users will find it appealing.</span>
               </span>
             </Lists>
           </Card>
@@ -43,17 +41,12 @@ const NoBank = () => {
             <CardIcon>
               <img src={SecondImg} alt="..." />
             </CardIcon>
-            <CardHeading>All products are built to work together</CardHeading>
+            <CardHeading>Designed to work together, all products are interconnected</CardHeading>
             <CardDescription>
-              Our engineers work closely to deliver products that are thoroughly
-              tested and work well together. All our products are already
-              integrated with each other and are ready to go live.
+            We work closely with our engineering team to deliver fully tested, well-integrated products. We have already integrated all our products and they are all ready for implementation.
               <br />
               <br />
-              We have a proven deployment process and conduct tests, firstly
-              during the development of any software, secondly, prior to all
-              updates of the live environment and also before any updates of the
-              trading servers.
+              As part of our deployment process, we test software at every stage, including during development, pre-implementing updates in the live environment, and before deploying updates to the trading servers.
             </CardDescription>
           </Card>
         </Grid>

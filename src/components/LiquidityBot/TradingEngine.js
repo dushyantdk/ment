@@ -13,7 +13,7 @@ const TradingEngine = () => {
     <Container id="WhiteLabel-Trading-Engine" className="p-y-100">
       <Wrapper className="container">
         <h1 className="text-center">
-          Fastest and Most Secure <span className="gradient-text-darkblue">Liquidity Engine</span>
+        A Liquidity Engine that is  <span className="gradient-text-darkblue">Fast, Secure, and Successful</span>
         </h1>
         <SliderContainer>
           <div>

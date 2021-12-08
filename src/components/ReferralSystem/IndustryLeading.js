@@ -18,37 +18,33 @@ import ImgThree from '../../assests/img/otc-dollar-shield.svg';
 
 const TheProblem = () => {
   return (
-    <Container className="blue-bg p-t-50">
+    <Container className="blue-bg">
       <Wrapper className="container">
         <h1 className="text-center text-white">
-        <span className="">How does</span> it works?
+        <span className="gradient-text-darkblue">What is </span> the process?
         </h1>
         <CardContainer>
           <Card>
             <CardIcon src={ImgOne} alt="..." />
-            <CardHeading>Invite your friends</CardHeading>
+            <CardHeading>Feel free to invite your friends</CardHeading>
             <CardDescription>
-              Share your unique link or QR code with your friends and have them
-              invite their with their own affiliate links.
+            Your friends can use your QR code or unique link to invite you with their own affiliate links.
             </CardDescription>
           </Card>
           <DividerDiv />
           <Card>
             <CardIcon src={ImgTwo} alt="..." />
-            <CardHeading>Get them to trade</CardHeading>
+            <CardHeading>Trade with them</CardHeading>
             <CardDescription>
-              Every time they buy Bitcoin you get 50% of their escrow fee as
-              commission. You also make 10% of the escrow fee every time one of
-              their affiliates buys Bitcoin on Exchange.
+            You get 50% of their escrow fee if they buy Bitcoin from your referral. Additionally, you get 10% of the escrow fee every time an affiliate purchases Bitcoin on Exchange.
             </CardDescription>
           </Card>
           <DividerDiv />
           <Card>
             <CardIcon src={ImgThree} alt="..." />
-            <CardHeading>Get paid</CardHeading>
+            <CardHeading>Earn money</CardHeading>
             <CardDescription>
-              Your earning automatically build up in your affiliate wallet. You
-              can cash them out anytime by moving them to your Exchange wallet.
+            Your affiliate wallet builds up automatically as you earn. Once they are in your Exchange wallet, they can be cashed out anytime.
             </CardDescription>
           </Card>
         </CardContainer>

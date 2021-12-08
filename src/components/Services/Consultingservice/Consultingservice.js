@@ -36,10 +36,8 @@ const Consultingservice = () => {
   <div className="container">
   <div className="row align-items-center  p-y-100">
   <div className="col-lg-6  text-white">
-  <h1 className="mt-4">Consulting
-Services</h1>
-  <p className="mt-4">Eliminate the pain points in your IT operations
-by using our decade-long expertise.</p>
+  <h1 className="mt-4">Advisory Services</h1>
+  <p className="mt-4">By using our ten-year expertise, we can remove your IT operations' pain points.</p>
   <a href="/contact-us" type="submit"  className="btn btn-primary mt-4"> Lets Talk </a>
   </div>
   <div className="col-lg-6 mt-5">
@@ -70,8 +68,8 @@ by using our decade-long expertise.</p>
   <div className="container">
   <div className="row">
   <div className="col-lg-10">
-  <h1 className="mb-4">Our Expertise</h1>
-  <p className="">For over 10 years we have been developing fintech products and solutions for various businesses: from startups to financial companies. We also work in the development of blockchain solutions for the financial sector, including exchanges and trading infrastructures, multi-signature wallets. The high efficiency of our solutions is achieved through thorough market analysis.</p>
+  <h1 className="mb-4">Our Specialties</h1>
+  <p className="">Our fintech products and solutions have been developed for multiple businesses ranging from startups to financial firms for over 10 years now. Aside from blockchain solutions for the financial sector, we also develop exchanges and trading infrastructure, and multisignature wallets. Through comprehensive research, we deliver solutions that are highly efficient.</p>
 
   </div>
 
@@ -81,30 +79,30 @@ by using our decade-long expertise.</p>
          <div className="col-lg-3 mb-4">
             <div className="box-shadow-card p-3">
             <img src={y1} alt=""/>
-            <h3 className="mt-4">Tech Discovery</h3>
-            <p className="">We are ready to help with any project based on the latest technologies: from setting up or revising an existing system to creating a new one from scratch. Our team of architects and business analysts with colossal experience will help you find the right solution for your project. </p>
+            <h3 className="mt-4">Technological Discovery</h3>
+            <p className="">From the setup or revision of an existing system to the creation of a brand new one - we can help with any project using the latest technologies. Your project will be handled by a team of architects and business analysts with vast experience. </p>
             </div>
          </div>
          <div className="col-lg-3 mb-4">
             <div className="box-shadow-card p-3">
             
             <img src={y2} alt=""/>
-            <h3 className="mt-4">Business Consulting</h3>
-            <p className="">Our business consulting services will help you strategically adapt to today's marketplace. Optimization and automation of your business processes can help you minimize or prevent poor decisions in your business. We are introducing business changes based on the active use of new technologies.</p>
+            <h3 className="mt-4">Consultancy Services</h3>
+            <p className="">Adapting to today's marketplace is our business consulting service's goal. Your business can make better decisions when you optimize and automate your processes. New technologies are being actively used to introduce business changes and we can help you with that.</p>
             </div>
          </div>
          <div className="col-lg-3 mb-4">
          <div className="box-shadow-card p-3">
          <img src={y3} alt=""/>
-            <h3 className="mt-4">CTO as a Service</h3>
-            <p className="">We help Fintech companies of all sizes optimize their IT strategy and identify the issues related to business processes. We offer expert advice on selecting an optimal tech stack, detecting potential risks, and solution development.It is a way to iterate area</p>
+            <h3 className="mt-4">Provider of CTO services</h3>
+            <p className="">Business process and IT strategy optimization is one of the services we offer to Fintech companies of all sizes. Our knowledgeable advisors will help you select the ideal tech stack, detect potential risks, and develop a solution.</p>
             </div>
          </div>
          <div className="col-lg-3 mb-4">
          <div className="box-shadow-card p-3">
          <img src={y4} alt=""/>
-            <h3 className="mt-4">Design Sprint</h3>
-            <p className="">Design Sprint is an innovative way to validate ideas and find the solutions to challenges your product might face. It helps quickly enter the market creating new products or improving existing ones in a matter of days.Nowadays it is an innovative way to go faster into the market.</p>
+            <h3 className="mt-4">Using Design Sprints</h3>
+            <p className="">The Design Sprint is an innovative method of proving ideas and finding solutions to problems that might arise with your product. This rapid entry into the market allows for the creation of new or improved products in a matter of days. It is nowadays one of the most efficient ways to go to market quicker.</p>
             </div>
          </div>
       </div>
@@ -118,61 +116,56 @@ by using our decade-long expertise.</p>
   <h1>QA</h1>
   <details>
   <summary>
-  Why 4ire Labs for Fintech advisory services?
+  What are the advantages of a Fintech advisory service from Ment Fintech?
   
   </summary>
-  <p className="thes">We have extensive experience working in banking, Green Finance, Fintech, and DeFi. Our team includes experts who collaborated with Mastercard and helped launch neobanks. 4ire Labs is also an official integrator of NEAR Protocol and Chromia blockchain. Our experience, combined with years of domain knowledge, sets 4ire Labs apart from other consulting companies. First, we increase the efficiency of the company and the individual productivity of each of our employees.
-
-The services provided by our company include analysis and assessment of the business processes, consulting on a wide range of issues related to both the activities of the client company and the market as a whole, enterprise audit, and strategic planning.</p>
+  <p className="thes">Fintech, Green Finance, and DeFi are all areas in which we have vast experience. The team includes experts who have built neobanks and collaborated with Mastercard. The company is also a certified integration partner of the NEAR Protocol and Chromia blockchain. We distinguish ourselves from other consulting firms with years of experience and domain knowledge. By increasing company efficiency and employee productivity, we increase the overall performance of our company.<br/><br/>
+  As part of our services, we analyze and assess business processes, provide consulting on a host of issues associated with customer interest as well as market dynamics, conduct enterprise audits, and develop strategic plans. </p>
 </details>
  <details>
   <summary>
-  How can our IT Consulting help your organization?
+  How can we help you with your IT needs?
   </summary>
-  <p className="thes">One of the most effective tools for optimizing business processes is the use of modern information technologies. Our IT consulting is a service that will help you make an independent assessment of the effectiveness of the technologies used. Both a comprehensive analysis of IT solutions and an assessment of individual areas can be carried out. With the help of our specialists, you can: </p>
+  <p className="thes">In order to optimize business processes, modern information technology can be a useful tool. A service that we offer is IT consulting, which helps you objectively assess the effectiveness of the technologies you have selected. IT solutions can be analyzed in a comprehensive manner as well as in individual areas. Our experts can: </p>
   <ul>
-      <li>identify vulnerabilities in the created IT infrastructure; </li>
-      <li>select the optimal server hardware and software;</li>
-      <li>customize software products for solving specific business problems;</li>
-      <li>optimize document flow; provide reliable data storage;</li>
-      <li>improve information security and protect your company from unauthorized data leakage.</li>
+      <li>Assess the IT infrastructure's vulnerabilities; </li>
+      <li>Make sure that the hardware and software you select are optimal;</li>
+      <li>Solve specific business problems with software products;</li>
+      <li>Document flow optimization; data storage reliability;</li>
+      <li>Secure your company's data and prevent unauthorized access.</li>
   </ul>
 </details>
  <details>
   <summary>
-  Why do you need CTO-as-a-Service?
+  What are the benefits of CTO-as-a-Service?
   </summary>
-  <p className="thes">The Chief Technology Officer is responsible for leading the technical team, determining the technological needs, short-term and long-term goals of the firm. CTO also helps to manage an organization’s capital investment wisely to achieve business goals. We offer CaaS to help you achieve the following goals: </p>
+  <p className="thes">Besides leading the team, the CTO is responsible for determining the company's technological needs, as well as its short- and long-term goals. To achieve business goals, CTOs also assist organizations in managing their capital investment well. The following are some of the goals that CaaS can help you achieve:</p>
  <ul>
-     <li>IT strategy to assess the costs and timing of the technologies introduction and development;</li>
-     <li>Expert proposals for your business development platform;</li>
-     <li>Assistance in establishing quality standards for software architectures. This includes coding agreements, documentation requirements, and quality assurance processes early in your project;</li>
-     <li>Technical advice.</li>
+     <li>Developing and assessing the IT strategy for evaluating the costs and timing of the introduction of new technologies;</li>
+     <li>Business development platform proposals from experts;</li>
+     <li>Assisting in the establishment of software quality standards. In this regard, coding agreements, documentation requirements, and quality assurance processes are important early in the process;</li>
+     <li>Advice on technical issues.</li>
     
  </ul>
  </details>
  <details>
   <summary>
-  How does Design Spring work?
+  Design Spring: what does it do?
   </summary>
-  <p className="thes">A design sprint is a five-day work session that helps a team refine the vision of a product or feature, create a prototype, and test it with real users. Design Sprint helps to quickly launch creative processes in a team and quickly get meaningful results for a project or product. Consider why it is still needed: </p>
+  <p className="thes">In a design sprint, team members work together to create a prototype, test the concept with real users, and refine the vision of a product or feature over a five-day period. With Design Sprints, teams can quickly initiate creative processes and reach meaningful outcomes for their project or product. Here are some reasons why they are still important: </p>
   <ul>
-      <li>Unpack the problem and choose the main idea to focus on.</li>
-      <li>Create an idea. You will record all key decisions clearly.</li>
-      <li>You will make decisions and turn your ideas into a testable hypothesis.</li>
-      <li>Create a prototype. Test it. Get feedback from real live users of your prototype.</li>
+      <li>Decide what the main idea is and unravel the problem.</li>
+      <li>Invent a new idea. Make notes clearly about each key decision you make.</li>
+      <li>Using testable hypotheses, you will make decisions.</li>
+      <li>Develop a prototype. Put it to the test. See what real users have to say about it.</li>
   </ul>
   </details>
   <details>
   <summary>
-  What industries do we specialize in?
+  Our specializations include what industries?
   
   </summary>
-  <p className="thes">4ire Labs provides comprehensive IT consulting and services in the field of traditional banking, Fintech, Green Finance, and DeFi. We offer our clients support in the legal activities of a business related to making money on cryptocurrencies. We offer our support and comprehensive consulting to startups, financial service providers, banks, brokers, or exchanges.
-
- 
-
-Over the years, the company has worked with various clients helping to customize or develop FinTech solutions from scratch.</p>
+  <p className="thes">Ment Fintech provides IT services and consulting in traditional banking, Fintech, DeFi, and Green Finance. The legal activities of a crypto-related business are a service we provide to our clients. For startups, banks, brokers, and exchanges, we offer comprehensive consulting services and support. We have developed FinTech solutions from scratch for various clients over the years.</p>
 </details>
   </div>
   
@@ -187,7 +180,7 @@ Over the years, the company has worked with various clients helping to customize
   <div className="container">
   <div className="row mt-4 ">
   <div className="col-lg-12">
-  <h2>Our Consulting Process</h2>
+  <h2>Consultation Process</h2>
 
 
   </div>
@@ -201,18 +194,27 @@ Over the years, the company has worked with various clients helping to customize
                             <Nav variant="pills" className="">
                                 <Nav.Item className="d-flex w-100">
                                 <Nav.Link eventKey="first">
+                                <div className="d-flex">
                                 <img width="15%" className="riu" src={F12} alt=""/>
                                
-                                Discovery
+                               <div>Finding</div>
+                               </div>
                              </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item className="d-flex w-100">
                                 <Nav.Link eventKey="second">
-                                <img width="15%" className="riu" src={F19} alt=""/>Strategy & Concept</Nav.Link>
+                                <div className="d-flex">
+                                <img width="15%" className="riu" src={F19} alt=""/>
+                                <div>Evaluation</div>
+                                </div>
+                                </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item className="d-flex w-100">
                                 <Nav.Link eventKey="third">
-                                <img width="15%" className="riu" src={F14} alt=""/>Development</Nav.Link>
+                                <div className="d-flex">
+                                <img width="15%" className="riu" src={F14} alt=""/><div>Plan & Concept</div>
+                                </div>
+                                </Nav.Link>
                                 </Nav.Item>
                                 </Nav>
                             </div>
@@ -224,16 +226,28 @@ Over the years, the company has worked with various clients helping to customize
                             <Nav variant="pills" className="">
                                 <Nav.Item className=" d-flex w-100">
                                 <Nav.Link eventKey="forth">
-                                <img width="15%" className="riu" src={F6} alt=""/>Assessment</Nav.Link>
+                                <div className="d-flex">
+                                <img width="15%" className="riu" src={F6} alt=""/>
+                                <div>Assistance</div>
+                                </div>
+                                </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item className="d-flex w-100">
                                 <Nav.Link eventKey="fifth">
-                                <img width="15%" className="riu" src={F13} alt=""/>Support</Nav.Link>
+                                <div className="d-flex">
+                                <img width="15%" className="riu" src={F13} alt=""/>
+                                <div>Planning & Design</div>
+                                </div>
+                                </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item className="d-flex w-100">
                                
                                 <Nav.Link eventKey="six">
-                                <img width="15%" className="riu" src={F15} alt=""/>Integration</Nav.Link>
+                                <div className="d-flex">
+                                <img width="15%" className="riu" src={F15} alt=""/>
+                                <div>Integration</div>
+                                </div>
+                                </Nav.Link>
                                 </Nav.Item>
                                 
                             </Nav>
@@ -243,28 +257,28 @@ Over the years, the company has worked with various clients helping to customize
                             <div className="text-left ">
                                 <Tab.Content>
                                     <Tab.Pane eventKey="first">
-                                        <h2>Discovery</h2>
-                                        <p>This initial phase of our communication is critical and we will do our best to provide as much benefit as possible. We will analyze your business plan, identify the strengths and weaknesses of the project, assess the market and competition, map the user journey, and set the right course to achieve your goals.</p>
+                                        <h2>Finding</h2>
+                                        <p>It is crucial that we come to an understanding at this early phase of communication, and we will strive to be as helpful as possible. In addition to analyzing your business plan, we evaluate the market and competitors, map the user journey, and suggest the best course of action to get you to your target.</p>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="second">
-                                        <h2>Strategy & Concept</h2>
-                                        <p>At this stage, we need to lay the foundation and develop a strategy that our team will use to create your product. Now is the time to make a choice regarding the technological stack we will use. Choosing the right infrastructure architecture is critical, and any deviations or changes in the future can entail significant costs.</p>
+                                        <h2>Evaluation</h2>
+                                        <p>At this point in the process, we'd like to have a good look at all the work you've done. In addition  you may want to document the scope, requirements, and processes of the project. What does it mean for us? Having a clear understanding of where to begin is crucial as the future partners.</p>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="third">
-                                        <h2>Design & Development</h2>
-                                        <p>This step is primarily about creating a wireframe - a schematic representation of your future design. You will be able to see the structure of your product and understand it better. Of course, our experts will be open to suggestions to make the prototype meet your expectations.</p>
+                                        <h2>Plan & Concept</h2>
+                                        <p>Our team needs to develop a strategy and lay the groundwork before beginning to build your product. The time has come when we must decide on the technology stack we will use. Any changes or deviations in the future can have significant costs, so choosing the right infrastructure architecture is critical.</p>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="forth">
-                                        <h2>Assessment</h2>
-                                        <p>At this point, we want to take a good look at everything you've created so far. This may include documentation of the project's vision, requirements, and processes, as well as your desires. What is it for us? As future partners, we both need to understand where to start so that we can confidently move towards the goal.</p>
+                                        <h2>Assistance</h2>
+                                        <p>Any product or service needs the loyalty and feedback of its users. In order to satisfy the client's needs and meet the expectations of the user, the project must be provided with expert technical support.</p>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="fifth">
-                                        <h2>Support</h2>
-                                        <p>The user’s loyalty and feedback are vital for any product or service. The last step is to provide the project with expert technical support on all issues that have arisen to satisfy the client's needs and meet the user's expectations.</p>
+                                        <h2>Planning & Design</h2>
+                                        <p>Wireframes are schematic representations of your future design, and this step is about creating them. The structure of your product will become more clear and you will be able to comprehend it better. If you have suggestions on how to make the prototype better, our experts will be open to them.</p>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="six">
                                         <h2>Integration</h2>
-                                        <p>The goal of project integration is to make sure that all parts of the project are consistent and balanced among themselves. In case of inconsistency, we will fix it in the fastest and most efficient way. Project integration management is the main final step of the project that we do at a high level.</p>
+                                        <p>Integration of projects ensures balance and consistency among all parts of a project. Any inconsistency will be corrected as quickly and efficiently as possible. Integrating a project is the final step of the process.</p>
                                     </Tab.Pane>
                                 </Tab.Content>
                             </div>
@@ -283,7 +297,7 @@ Over the years, the company has worked with various clients helping to customize
   <div className="container">
   <div className="row align-items-center">
   <div className="col-lg-7 text-white">
-  <h2>Consulting for your project</h2>
+  <h2>Providing consulting services for your project</h2>
 
   </div>
    <div className="col-lg-5">

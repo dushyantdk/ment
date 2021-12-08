@@ -37,8 +37,8 @@ const Fintechsoftware = () => {
   <div className="container">
   <div className="row align-items-center p-y-100">
   <div className="col-lg-6 text-white ">
-  <h1 className="mt-4">FinTech Software Development Company</h1>
-  <p className="mt-4">Swedish-Ukrainian IT Consulting and Development Company</p>
+  <h1 className="mt-4">Ment FinTech is a company that develops software</h1>
+  <p className="mt-4">IT Consulting and Development Company with offices in India, the USA, and Ireland</p>
   <button type="submit"  className="btn btn-primary mt-4">Talk to our Financial Expert</button>
   </div>
   <div className="col-lg-6 mt-5">
@@ -69,8 +69,8 @@ const Fintechsoftware = () => {
   <div className="container">
   <div className="row">
   <div className="col-lg-10">
-  <h1 className="mb-4">We deliver custom financial solutions for FinTech and DeFi</h1>
-  <p className="">4ire Labs is focused on the FinTech domain. We help to launch a FinTech startup from scratch, assisting with validation from the business and tech perspective. 4ire Labs collaborates with experts leveraging a solid background in FinTech, and professional experience in Mastercard, and McKinsey&Co. In our team, you will find people who launched their own Neobank in Europe from the ground up. FinTech instruments automate complex and time-consuming business processes. After developing 200+ projects both on mobile and web platforms in the past 10 years we are sharing our experience and providing you with the best and the most innovative solutions in the Fintech industry. We know the key issues that come up while launching the Fintech startup and all the tools you may need to create your own Fintech product or service. </p>
+  <h1 className="mb-4">FinTech and DeFi companies rely on us for tailored financial solutions</h1>
+  <p className="">FinTech is the focus of Ment Fintech. We assist with the launch and validation of FinTech startups from both the business and technical perspectives. The team at Ment Fintech brings together people who have a robust background in FinTech and have launched their own Neobanks in Europe. Finance technology automates business processes that would otherwise be time-consuming and costly. As a Fintech company that has developed over 300 projects both on mobile and web platforms in the past seven years, we provide you with the best and most innovative financial tech solutions available today. Creating your own Fintech product or service can seem daunting and we are familiar with the key issues that arise.</p>
 
   </div>
 
@@ -80,30 +80,30 @@ const Fintechsoftware = () => {
          <div className="col-lg-3 mb-4">
             <div className="box-shadow-card p-3">
             <img src={v1} alt=""/>
-            <h3 className="mt-4">Full-cycle development</h3>
-            <p className="">4ire Labs will guide you through the whole software development process and our team will be responsible for every stage of development.</p>
+            <h3 className="mt-4">Integrated development</h3>
+            <p className="">As part of our software development process, Ment Fintech will assist and guide you throughout each stage.</p>
             </div>
          </div>
          <div className="col-lg-3 mb-4">
             <div className="box-shadow-card p-3">
             <img src={v2} alt=""/>
 
-            <h3 className="mt-4">Dedicated Team Allocation</h3>
-            <p className="">It's your opportunity to hire a team of 10+ years of experience FinTech developers who will be focused completely on your project.</p>
+            <h3 className="mt-4">Allocating Dedicated Teams</h3>
+            <p className="">This is your chance to work with a team of experienced FinTech developers with over seven years of expertise, who will dedicate 100% of their time to your project.</p>
             </div>
          </div>
          <div className="col-lg-3 mb-4">
          <div className="box-shadow-card p-3">
          <img src={v3} alt=""/>
             <h3 className="mt-4">DevOps</h3>
-            <p className="">offer methodology for the active integration of development and operational parts of the team.</p>
+            <p className="">We propose a robust methodology for active integration of operational and development parts of the team.</p>
             </div>
          </div>
          <div className="col-lg-3  mb-4">
          <div className="box-shadow-card p-3">
          <img src={v4} alt=""/>
-            <h3 className="mt-4">FinTech Consulting</h3>
-            <p className="">Based on the needs of your business, we will make a detailed analysis and discuss the solutions that could be implemented for your project's success.</p>
+            <h3 className="mt-4">Financial Technology Consulting</h3>
+            <p className="">We will analyze your business's needs and talk about the solutions you could use to make the project a success based on that assessment.</p>
             </div>
          </div>
       </div>
@@ -112,7 +112,7 @@ const Fintechsoftware = () => {
   <div className="container">
   <div className="row ">
   <div className="col-lg-12">
-  <h1>We know the key to successful fintech development</h1>
+  <h1>Fintech development requires the right approach and we know it best</h1>
 
 
   </div>
@@ -126,18 +126,24 @@ const Fintechsoftware = () => {
                             <Nav variant="pills" className="">
                                 <Nav.Item className="d-flex w-100">
                                 <Nav.Link eventKey="first">
+                                <div className="d-flex">
                                 <img width="15%" className="riu" src={b2} alt=""/>
                                
-                              Payments 
+                                <div> Making payments</div></div>
                              </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item className="d-flex w-100">
                                 <Nav.Link eventKey="second">
-                                <img width="15%" className="riu" src={b3} alt=""/>Saving & Investing</Nav.Link>
+                                <div className="d-flex">
+                                <img width="15%" className="riu" src={b3} alt=""/><div>Banking on the go</div></div></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item className="d-flex w-100">
                                 <Nav.Link eventKey="third">
-                                <img width="15%" className="riu" src={b4} alt=""/>Open Banking</Nav.Link>
+                                <div className="d-flex">
+                                <img width="15%" className="riu" src={b4} alt=""/>
+                                <div>Investments & Savings</div>
+                                </div>
+                                 </Nav.Link>
                                 </Nav.Item>
                                 </Nav>
                             </div>
@@ -149,16 +155,22 @@ const Fintechsoftware = () => {
                             <Nav variant="pills" className="">
                                 <Nav.Item className=" d-flex w-100">
                                 <Nav.Link eventKey="forth">
-                                <img width="15%" className="riu" src={b5} alt=""/>Mobile Banking</Nav.Link>
+                                <div className="d-flex">
+                                <img width="15%" className="riu" src={b5} alt=""/><div>RegTech, AML</div></div></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item className="d-flex w-100">
                                 <Nav.Link eventKey="fifth">
-                                <img width="15%" className="riu" src={b6} alt=""/>RegTech, AML</Nav.Link>
+                                <div className="d-flex">
+                                <img width="15%" className="riu" src={b6} alt=""/><div>Open Banking</div></div></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item className="d-flex w-100">
                                
                                 <Nav.Link eventKey="six">
-                                <img width="15%" className="riu" src={b7} alt=""/>Escrow</Nav.Link>
+                                <div className="d-flex">
+                                <img width="15%" className="riu" src={b7} alt=""/>
+                                <div>Escrow</div>
+                                </div>
+                                </Nav.Link>
                                 </Nav.Item>
                                 
                             </Nav>
@@ -168,29 +180,29 @@ const Fintechsoftware = () => {
                             <div className="text-left ">
                                 <Tab.Content>
                                     <Tab.Pane eventKey="first">
-                                        <h2>Payment gateway development & Integration</h2>
-                                        <p>Are you looking for a safe and stable payment method for your marketplace, bank, or financial institution?</p>
-                                        <p>We can do such integration. Our specialists will add all the needed modules to your website on time. You will be satisfied with its fast and stable work, even in the case of the high load.</p>
+                                        <h2>Developing and integrating payment gateways</h2>
+                                        <p>Is your marketplace, bank, or financial institution looking for a safe and stable payment method?</p>
+                                        <p>Integration of such a nature is possible with our help. Depending on your requirements, we'll add your website with all the necessary modules at the right time. In spite of a high load, its stable and fast work will satisfy you.</p>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="second">
-                                        <h2>Investment & Saving Applications</h2>
-                                        <p>Leveraging extensive fintech expertise, the 4ire Labs team can build payment management solutions from scratch. If you want to develop a saving app or green bonds platform, we will assist you on every step of the development process starting from idea validation.</p>
+                                        <h2>Apps for mobile banking</h2>
+                                        <p>We develop innovative UI-UX interfaces for mobile banking applications. Give your clients the best experience with today's technology. Create easy-to-use and easy-to-manage tools for managing their finances on their phones.</p>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="third">
-                                        <h2>Open Banking Solutions</h2>
-                                        <p>Take advantage of Open Banking API. 4ire Labs is ready to develop and provide new open systems with high-speed and secure data exchange by API for you and your partners. Get confidence with our safe and friendly solutions and increase your profit.</p>
+                                        <h2>Applications for investing and saving</h2>
+                                        <p>A comprehensive bank payment management solution can be built by the Ment Fintech team by leveraging fintech expertise. We can assist you at every stage of the development process starting with idea validation, whether you want to create a platform for saving or investing in green bonds.</p>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="forth">
-                                        <h2>Mobile Banking Applications</h2>
-                                        <p>We are developing innovative applications for mobile banking and intuitive UI-UX interfaces. Make your bank the leader with modern solutions for your clients. Transform their phones into easy and workable tools for the management of their finances.</p>
+                                        <h2>RegTech, KYC & AML Solutions</h2>
+                                        <p>RegTech solutions help you establish clear relationships with regulators. KYC & AML solutions allow you to know your customers as well as their responsibilities when it comes to protecting your business. With our solutions, we'll help you enhance your bank's infrastructure while offering safe modules. Or we can fully customize your bank's infrastructure.</p>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="fifth">
-                                        <h2>RegTech, KYC & AML Solutions</h2>
-                                        <p>Make your relationships with regulators clear with our RegTech solutions. Know your customers and their responsibility to protect your business with KYC & AML solutions. We will provide safe modules and improve your bank’s infrastructure. Or, if needed, create it from scratch.</p>
+                                        <h2>Open Banking Solutions</h2>
+                                        <p>Open Banking API can be used to your advantage. Our developer team is prepared to provide you and your partners with open systems that allow high-speed, secure, and open data exchange by API. We provide flexible, safe, and cost-effective solutions that generate results.</p>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="six">
-                                        <h2>Invoicing and escrow platforms</h2>
-                                        <p>4ire Labs is ready to develop a multi-functional platform for modern accounting with all options required by your customer. Automatize the process of generating escrows and invoices. Add new Fintech solutions to your business to make your company more financially efficient.</p>
+                                        <h2>Platforms for escrow and invoicing</h2>
+                                        <p>With Ment Fintech, you can build a multi-functional platform that meets all the requirements of a modern accounting system. Easily automate the escrow and invoice generation processes. Enhance your company's financial efficiency by adding Fintech solutions.</p>
                                     </Tab.Pane>
                                 </Tab.Content>
                             </div>
@@ -208,7 +220,7 @@ const Fintechsoftware = () => {
   <div className="container">
   <div className="row align-items-center">
   <div className="col-lg-7 text-white">
-  <h2>FREE consulting with our FinTech experts</h2>
+  <h2>We offer FREE FinTech consultations</h2>
 
   </div>
    <div className="col-lg-5">
@@ -224,31 +236,32 @@ const Fintechsoftware = () => {
   <div className="container">
   <div className="row align-items-center">
   <div className="col-lg-9 text-white text-left">
-  <h1>What we do</h1>
+  <h1>The work we do</h1>
   <details>
   <summary>
-  Architecture and environment setup 
+  Configuration of the architecture and environment 
   
   </summary>
-  <p className="thes">Our specialists are ready to configure the clear architecture and environment for your product according to the requests of your business. We offer the development of full software packages with the protected-on-blockchain database, user-friendly interface, and workable and protected components of business logic. We will guide your products through all needed iterations and will deploy them according to the tech description.</p>
+  <p className="thes">You can rely on us to create the right architecture and environment for your product based on the requirements of your business. As Ment Fintech, we specialize in developing complete software packages based on blockchain-based databases, user-friendly interfaces, and workable, secure business logic components. Your products will be guided through all necessary iterations and will be deployed appropriately based on the tech description.</p>
 </details>
  <details>
   <summary>
-  Third-party providers consulting and integration
+  Consultations and integrations with third parties
   </summary>
-  <p className="thes">Do you need to integrate a platform or application? We work with the technical properties of the product and integrate them through architecture for client-server relations between your and third-party products. Both your and third-party modules should be able to exchange requests and answers with synchronization. As well, we are able to assist you with a business description of methods and solutions for the desired outcome. Our team will find a profitable and secure system based on blockchain with a user-friendly interface.</p>
+  <p className="thes">Is there a platform or application you need to integrate? Client-server architecture between your and third-party products is used to integrate the technical properties of your product. Synchronizing requests and answers should be possible between your modules and third-party modules. <br/>
+  <br/>Additionally, we can provide you with a business description of the methods and solutions that will meet your requirements. In our team, we will use blockchain technology to develop a secure, profitable, and user-friendly system.</p>
 </details>
  <details>
   <summary>
-  Deployment and monitoring
+  Implementation and monitoring
   </summary>
-  <p className="thes">The life cycle of your product after the release is only the beginning. 4ire Labs continues to monitor and provides support for your product at 24/7/365 mode. You will use our knowledge and skills for regularly updating and constantly improving your FinTech environment. Therefore, you will always offer the most innovative and convenient service for your clients and will be one step ahead of your competitors.</p>
+  <p className="thes">After the release of your product, you are only at the beginning of its life cycle. Your product is monitored and supported 24/7/365 by Ment Fintech. We will help you regularly update and continuously improve your FinTech environment using our knowledge and skills. Because of this, you will always provide your clients with the most convenient and innovative services, and you will be one step ahead of your competitors.</p>
 </details>
  <details>
   <summary>
-  From idea to release development
+  The idea to release process
   </summary>
-  <p className="thes">We share the method “from idea validation to release” development. It means that we will lead your products through all phases. We are going to develop and prepare tech requirements with a detailed description of every step. You will be able to monitor every phase of work done, get the MVP after every iteration, and give your feedback. Our team will take all necessary tasks and work until the desired result is achieved. After that, we will release your product according to your requirements.</p>
+  <p className="thes">Our development process is based on "from idea validation to release.". We follow the entire development process from start to finish. A detailed description of each step will be included in the tech requirements. Every phase of work will be monitored by you, you will get the MVP after each iteration, and you will be able to receive your feedback. To achieve the desired result, our team will work on all the necessary tasks. Your product will then be released as per your specifications.</p>
 </details>
   </div>
   
@@ -264,7 +277,7 @@ const Fintechsoftware = () => {
   <div className="container">
   <div className="row">
   <div className="col-lg-7 text-white">
-  <h1>Get in touch with our Fintech experts</h1>
+  <h1>We have Fintech experts at your disposal</h1>
 
   </div>
    <div className="col-lg-5">

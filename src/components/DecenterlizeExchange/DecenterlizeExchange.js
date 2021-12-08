@@ -41,7 +41,7 @@ return (
                <div className="overflow-hidden">
                   <div className="row">
                      <div className="col-lg-12">
-                        <div class="circle"></div>
+                        {/*  <div class="circle"></div> */} 
                         <div class="">
                            <h1 className="mb-4">What is Decentralized Exchange <span class="gradient-text-pink">(DEX)?</span></h1>
                            <p>A decentralized exchange (DEX) is an online peer-to-peer (P2P) cryptocurrency exchange service which operates without central authority responsible for the asset storage and swapping. This service allows quick and easy cryptocurrency transactions between two interested parties without unnecessary movement of crypto funds with attached fees and complete anonymity.</p>
@@ -54,24 +54,24 @@ return (
                            <div className="col-lg-12">
                            <p className="font-weight-bold mb-0">The benefits of decentralized exchange of cryptocurrencies are numerous -</p>
                         </div>
-                        <div className="col-lg-12 mb-2 mt-4">
-                           <h3 className="">Security:</h3>
+                        <div className="col-lg-12 mb-2">
+                           <h3 className="gradient-text-pink">Security:</h3>
                            <p>Users don't have to deposit their funds to the crypto exchange wallets, removing the risks of theft, and attached network fees.</p>
                         </div>
                         <div className="col-lg-12 mb-2">
-                           <h3 className="">No price manipulation:</h3>
+                           <h3 className="gradient-text-pink">No price manipulation:</h3>
                            <p>It is impossible to manipulate crypto asset prices since supply is always tied to the demand and backed by the pair of cryptocurrencies.</p>
                         </div>
                         <div className="col-lg-12 mb-2">
-                           <h3 className="">No fake volumes:</h3>
+                           <h3 className="gradient-text-pink">No fake volumes:</h3>
                            <p>It is impossible to counterfeit trading volumes with wash trading since all transaction information is on the public ledger. Besides, there is simply no central authority that would be interested in faking the trading volumes.</p>
                         </div>
                         <div className="col-lg-12 mb-2">
-                           <h3 className="">Independence from regulations: </h3>
+                           <h3 className="gradient-text-pink">Independence from regulations: </h3>
                            <p>Since it's a peer-to-peer service, there is no need for identity checks (KYC), and any local authorities do not bound the decentralized exchange. The consent and responsibility to commence trading between two individuals are theirs alone.</p>
                         </div>
                         <div className="col-lg-12 mb-2">
-                           <h3 className="">Accessibility for new crypto assets:</h3>
+                           <h3 className="gradient-text-pink">Accessibility for new crypto assets:</h3>
                            <p>Sometimes, it takes ages and enormous fees for a typical cryptocurrency exchange to list a new crypto trading pair. The decentralized exchange is an open market, making it possible to trade existing cryptocurrencies or adding new crypto assets on the fly directly in the platform.</p>
                         </div>
                         </div>
@@ -92,9 +92,9 @@ return (
                         
                         <div className="row pb-5">
                            <div className="col-lg-12">
-                              <div class="circle"></div>
+                              {/*  <div class="circle"></div> */} 
                               <div class="text-white">
-                                 <h1 className="mb-4">What is <span class="">MDEX?</span></h1>
+                                 <h1 className="mb-4">What is <span class="gradient-text-blue">MDEX?</span></h1>
                                  <p>Ment Tech Decentralized Crypto Exchange (MDEX) is an inventive solution to deploy a cost-effective Uniswap-based cloud software-as-a-service (SaaS) in record time.</p>
                                  <p>The decentralized exchange platform developed by Openware is flexible, fast, and scales well. You can host it anywhere from your private cloud to any popular cloud service like Digital Ocean, Google Cloud Platform, Amazon AWS, and Microsoft Azure.</p>
                               </div>
@@ -102,9 +102,9 @@ return (
                         </div>
                         <div className="row text-white">
                            <div className="col-lg-12">
-                              <div class="circle"></div>
+                              {/*  <div class="circle"></div> */} 
                               <div class="text-white">
-                                 <h1 className="mb-4">What can I do with <span class=""> MDEX?</span></h1>
+                                 <h1 className="mb-4">What can I do with <span class="gradient-text-blue"> MDEX?</span></h1>
                                  <p>You can create an innovative online marketplace for exchanging and issuing any digital crypto assets in a decentralized manner without having to spend dozens of thousands on development, asset security, and staff.</p>
                               </div>
                            </div>
@@ -124,7 +124,7 @@ return (
                         <div className="row pt-5">
                            <div className="col-lg-12">
                                  <div class="title-block mb-4 text-white">
-                                    <h1><span class="">Security Layers</span></h1>
+                                    <h1><span class="gradient-text-lightgreen">Security Layers</span></h1>
                                  </div>
                            </div>
                            <div className="col-lg-12 text-white">

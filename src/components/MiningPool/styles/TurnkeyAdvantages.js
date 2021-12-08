@@ -163,7 +163,7 @@ export const BottomContainer = styled.div`
   margin-top: 80px;
   padding: 35px 28px;
   box-sizing: border-box;
-  background: #171e29;
+  background: #040d21;
   width: 100%;
   display: flex;
   justify-content: flex-start;

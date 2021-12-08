@@ -6,14 +6,16 @@ const Description = () => {
     <Container className="blue-bg">
       <Wrapper className="container">
         <h1 className="text-white">
-          Why is <span className="">Liquidity Solution</span> Important?
+        What is the  <span className="gradient-text-darkblue">importance of </span> Liquidity Solution?
         </h1>
-        <p>Doubtlessly, high liquidity factor indicates the stable and ideal market situation and ensures better prices for all stake holders due to large flow of sellers and buyers in the market. A buoyant market with high number of trading activities creates an equilibrium in market prices that is equally acceptable for all concerned. </p>
-        <p>As explained above, high liquidity conveys the stable market prices and less prone to sudden and large swings in response to large trades that could alter the crypto prices. Because of huge number of buyers and sellers, prices are stable enough to hold the larger order in the liquid market. One more important benefit that liquidity offers is that one can have very accurate and precise technical analysis because chart formation is more accurate and detailed in the liquid market. </p>
         <p>
-          High liquidity also allows for greater technical analysis accuracy
-          since price and charting formation in a liquid market is more
-          developed and precise.
+        As a result of the large number of buyers and sellers in the market, there is a high level of liquidity, which makes for better prices for all. Eventually, a high level of activity in a market will result in an equilibrium price that is acceptable for all parties.
+        </p>
+        <p>
+        Liquidity also leads to stable prices as large trades do not cause large swings in prices, which could affect cryptocurrency prices and increase risk for the market as a whole. The large number of market participants and their orders makes a liquid market stable enough to withstand large orders.
+        </p>
+        <p>
+        Due to the more developed and precise price and chart formation in a liquid market, high liquidity also allows for greater technical analysis accuracy.
         </p>
       </Wrapper>
     </Container>

@@ -170,33 +170,45 @@ return (
                      <div className="row ">
                         <div className="col-lg-8 text-white">
                            <div className="row  p-y-100">
-                              <div className="col-lg-4 text-white">
+                              <div className="col-lg-3 text-white">
                                  <div className="pie">
                                        <img className="mb-4" src={t1} alt=""/>
                                        <h3>Financial Software Development</h3>
                                  </div>
-                                    <a className="dropdown-item" href="/crypto-exchange-turnkey-solution">Cryptocurrency Exchange Turnkey</a>
-                                    <a className="dropdown-item" href="/cryptocurrency-liquidity-solution">Crypto Liquidity Solution</a>
-                                    <a className="dropdown-item" href="/mining-pool-solution-crypto-exchange">Mining Pool System</a>
-                                    <a className="dropdown-item" href="/crypto-staking-defi-lending-turnkey-solution">Staking & Defi Lending Turnkey</a>
+                                    <a className="dropdown-item underline" href="/crypto-exchange-turnkey-solution">Cryptocurrency Exchange Turnkey</a>
+                                    <a className="dropdown-item underline" href="/cryptocurrency-liquidity-solution">Crypto Liquidity Solution</a>
+                                    <a className="dropdown-item underline" href="/mining-pool-solution-crypto-exchange">Mining Pool System</a>
+                                    <a className="dropdown-item underline" href="/crypto-staking-defi-lending-turnkey-solution">Staking & Defi Lending Turnkey</a>
                               </div>
-                              <div className="col-lg-4 text-white">
+                              <div className="col-lg-3 text-white">
                                  <div className="pie">
                                        <img  className="mb-4" src={t2} alt=""/>
                                        <h3>Consulting Service</h3>
                                  </div>
-                                 <a className="dropdown-item" href="/otc-trading-system">OTC Platform Turnkey</a>
-                                 <a className="dropdown-item" href="/ico-ieo-sto-platform">ICO/IEO/STO</a>
-                                 <a className="dropdown-item" href="/referral-platform-crypto-exchange">Referral & Affiliate System</a>
-                                 <a className="dropdown-item" href="/digital-and-crypto-banking">Crypto Banking Solution</a>
+                                 <a className="dropdown-item underline" href="/otc-trading-system">OTC Platform Turnkey</a>
+                                 <a className="dropdown-item underline" href="/ico-ieo-sto-platform">ICO/IEO/STO</a>
+                                 <a className="dropdown-item underline" href="/referral-platform-crypto-exchange">Referral & Affiliate System</a>
+                                 <a className="dropdown-item underline" href="/digital-and-crypto-banking">Crypto Banking Solution</a>
                               </div>
-                              <div className="col-lg-4 text-white">
+                              <div className="col-lg-3 text-white">
                                  <div className="pie">
                                        <img className="mb-4"src={t3} alt=""/>
                                        <h3>Blockchain Development</h3>
                                  </div>
-                                 <a className="dropdown-item" href="/nft-marketplace-software-platform">NFT Marketplace</a>
-                                 <a className="dropdown-item" href="/decentralized-crypto-exchange-platform">Decenterlize Exchange</a>
+                                 <a className="dropdown-item underline" href="/nft-marketplace-software-platform">NFT Marketplace</a>
+                                 <a className="dropdown-item underline" href="/decentralized-crypto-exchange-platform">Decenterlize Exchange</a>
+                                 <a className="dropdown-item underline" href="/referral-platform-crypto-exchange">Referral & Affiliate System</a>
+                                 <a className="dropdown-item underline" href="/digital-and-crypto-banking">Crypto Banking Solution</a>
+                              </div>
+                              <div className="col-lg-3 text-white">
+                                 <div className="pie">
+                                       <img  className="mb-4" src={t4} alt=""/>
+                                       <h3>Artificial Intelligence & Machine Learning</h3>
+                                 </div>
+                                 <a className="dropdown-item underline" href="/nft-marketplace-software-platform">NFT Marketplace</a>
+                                 <a className="dropdown-item underline" href="/decentralized-crypto-exchange-platform">Decenterlize Exchange</a>
+                                 <a className="dropdown-item underline" href="/referral-platform-crypto-exchange">Referral & Affiliate System</a>
+                                 <a className="dropdown-item underline" href="/digital-and-crypto-banking">Crypto Banking Solution</a>
                               </div>
                            </div>
                         </div>
@@ -209,28 +221,33 @@ return (
                      </div>
                      <div className="finey">
                         <div className="row">
-                           <div className="col-lg-12 text-white">
+                           <div className="col-lg-8 text-white">
                               <div className="row">
-                                 <div className="col-lg-4 text-white mb-4">
-                                    <a href="" className="hold blue p-3">
-                                        <h4>NFT</h4>
-                                       <p>Marketplace Development</p>
+                                 <div className="col-lg-3 text-white mb-4">
+                                    <div className="hol p-3">
+                                       <p>Financial Applications & Bank systems</p>
                                        <i class=" righting fas fa-arrow-right fa-fw"></i>
-                                    </a>
+                                    </div>
                                  </div>
-                                 <div className="col-lg-4 text-white orange-bg mb-4">
-                                    <a href="" className="hold ornage p-3">
-                                       <h4>DEFI</h4>
-                                       <p>DEX, Swap, Farm, Stake, Bridge</p>
+                                 <div className="col-lg-3 text-white orange-bg mb-4">
+                                    <div className="hold p-3">
+                                       <h4>DeFI</h4>
+                                       <p>Decentralized financial Systems</p>
                                        <i class=" righting fas fa-arrow-right fa-fw"></i>
-                                    </a>
+                                    </div>
                                  </div>
-                                 <div className="col-lg-4  text-white mb-4">
-                                    <a href="" className="hold green p-3">
-                                       <h4>Crypto Banking</h4>
-                                       <p>Banking, Cards, PoS, ATM</p>
+                                 <div className="col-lg-3 text-white mb-4">
+                                    <div className="holds p-3">
+                                       <h4>Green Finance</h4>
+                                       <p>Eco-investing & eco finances</p>
                                        <i class=" righting fas fa-arrow-right fa-fw"></i>
-                                    </a>
+                                    </div>
+                                 </div>
+                                 <div className="col-lg-3 text-white mb-4">
+                                    <div className="holding p-3">
+                                       <p>Insurance systems development</p>
+                                       <i class=" righting fas fa-arrow-right fa-fw"></i>
+                                    </div>
                                  </div>
                               </div>
                            </div>

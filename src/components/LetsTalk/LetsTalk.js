@@ -75,8 +75,10 @@ return (
                <div className="row mb-5">
                   <div className="col-lg-12">
                      <div className="title-block">
-                        <h1 className="mb-4">Let’s Talk & <span className="">Work Together!</span></h1>
-                        <p>Fast, durable, and scalable technology, linked with appropriate risk management, is the perfect engine to improve the performance of your digital banking platform.</p>
+                        <h1 className="mb-4">Interested in working <span className="gradient-text-red">together? Let's talk!</span></h1>
+                        <p>An efficient digital banking platform makes use of fast, scalable, stable technology and proper risk management.
+ 
+ </p>
                      </div>
                   </div>
                </div>

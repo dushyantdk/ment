@@ -51,13 +51,11 @@ const NoBank = () => {
           <Card>
             <div>
               <CardHeading>
-              <h2 className="text-white text-center">Cryptocurrency Exchange Structure Diagram</h2>
+              <h2 className="text-white text-center">Diagram of a Cryptocurrency Exchange</h2>
               </CardHeading>
               <CardDescription>
-                A cryptocurrency exchange is a complex IT solution combined from
-                several components. The
-                <br /> frontend is integrated to the Exchange module which is
-                connected via Web API.
+              There are several components that make up a cryptocurrency exchange. 
+                <br /> Through its Web API, the Exchange module is connected to the frontend.
               </CardDescription>
               <CardImg>
                 <img src={FirstImg} alt="..." />
@@ -65,17 +63,14 @@ const NoBank = () => {
               <Divider />
               <BottomContainer>
                 <ListItem>
-                  Secure connection <span /> between components
+                Connecting components in  <span /> a secure manner
                 </ListItem>
                 <ListItem>
-                  Secure connection <span /> between components
+                The entire solution can  <span /> be customized
                 </ListItem>
+                
                 <ListItem>
-                  All parts of the solution <span /> are customizable
-                </ListItem>
-                <ListItem>
-                  The matching engine can work <span /> with internal and
-                  external <span /> liquidity
+                Liquidity can be provided  <span /> internally and externally via the  <span /> matching engine
                 </ListItem>
               </BottomContainer>
             </div>

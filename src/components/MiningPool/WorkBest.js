@@ -9,142 +9,131 @@ import {
   LeftCard,
   RightCard,
 } from './styles/WorkBest';
-import FirstImg from '../../assests/img/exchange-cryptocurrency_prod2.png';
-import SecondImg from '../../assests/img/liquidity-cryptocurrency_prod2.png';
+import FirstImg from '../../assests/img/exchange-cryptocurrency_prod1.png';
+import SecondImg from '../../assests/img/exchange-cryptocurrency_prod2.png';
 import ThirdImg from '../../assests/img/exchange-cryptocurrency_prod3.png';
 
 const Products = () => {
   return (
     <Container id="WhiteLabel-Products" className="p-y-100">
-      <Wrapper className="container">
-        <h1>
-          It Works <span className="gradient-text-darkblue">Best With</span>
-        </h1>
-        <p>
-          Our liquidity is best combined with the leading industry trading
-          platforms to
-          <br /> provide the ultimate in performance and user satisfaction.
-        </p>
-        <Card>
-          <CardWrapper>
-            <LeftCard>
-              <CardHeading>
-                <a className="mb-0" href="/crypto-exchange-turnkey-solution">
-                  <h2>Cryptocurrency Exchange Turnkey Solution</h2>
+    <Wrapper className="container">
+      <h1>
+        It works <span className="gradient-text-darkblue">best with</span>
+      </h1>
+      <p>
+      In order to ensure optimal performance, it is best to match our liquidity with top trading platforms.
+      </p>
+      <Card>
+        
+        <CardWrapper>
+          <LeftCard>
+            <CardHeading>
+              <a className="mb-0" href="/otc-trading-system"><h2>OTC Trading System</h2></a>
+              <p>
+              When it comes to Over-the-counter (OTC) trading, deeper liquidity is one advantage coupled with a service that is private and customized to both entities and high net-worth individuals looking to fill large orders.
+              </p>
+              <div>
+                <a href="/otc-trading-system">
+                  <img src={FirstImg} alt="..." />
                 </a>
-                <p>
-                  A Turnkey cryptocurrency exchange is a great choice for
-                  getting started. Simplicity of maintenance and assistance
-                  along with cost-effectiveness are just a few of the many
-                  benefits available.
-                </p>
-                <div>
-                  <a href="/crypto-exchange-turnkey-solution">
-                    <img src={SecondImg} alt="..." />
-                  </a>
-                </div>
-              </CardHeading>
-            </LeftCard>
-            <RightCard>
-              <CardDescription>
-                <div />
-                <span>Fulfill up to 10000 requests per second</span>
-              </CardDescription>
-              <CardDescription>
-                <div />
-                <span>Commissions ladder</span>
-              </CardDescription>
-              <CardDescription>
-                <div />
-                <span>Order execution less than 5 microseconds</span>
-              </CardDescription>
-              <CardDescription>
-                <div />
-                <span>
-                  Loyalty token with commission discount for end-users
-                </span>
-              </CardDescription>
-            </RightCard>
-          </CardWrapper>
-
-          <CardWrapper>
-            <LeftCard>
-              <CardHeading>
-                <a className="mb-0" href="/otc-trading-system"><h2>OTC Trading System</h2></a>
-                <p>
-                  In Over-the-counter (OTC) trading, we offer deeper liquidity
-                  and a private, more personalized service to institutions and
-                  high net-worth individuals needing to fill large orders.
-                </p>
-                <div>
-                  <a href="/otc-trading-system">
-                    <img src={FirstImg} alt="..." />
-                  </a>
-                </div>
-              </CardHeading>
-            </LeftCard>
-            <RightCard>
-              <CardDescription>
-                <div />
-                <span>Flagship User Interface</span>
-              </CardDescription>
-              <CardDescription>
-                <div />
-                <span>Solution for Multiple Business Types</span>
-              </CardDescription>
-              <CardDescription>
-                <div />
-                <span>Deep Customizations & Adjustments</span>
-              </CardDescription>
-              <CardDescription>
-                <div />
-                <span>Widest Range of External Integrations</span>
-              </CardDescription>
-            </RightCard>
-          </CardWrapper>
-
-          <CardWrapper>
-            <LeftCard>
-              <CardHeading>
-                <a className="mb-0" href="/crypto-staking-defi-lending-turnkey-solution">
-                 <h2>Cryptocurrency Staking System</h2>
+              </div>
+            </CardHeading>
+          </LeftCard>
+          <RightCard>
+            <CardDescription>
+              <div />
+              <span>Innovative User Interface</span>
+            </CardDescription>
+            <CardDescription>
+              <div />
+              <span>Several Types of Businesses Can Find Solutions</span>
+            </CardDescription>
+            <CardDescription>
+              <div />
+              <span>Personalization</span>
+            </CardDescription>
+            <CardDescription>
+              <div />
+              <span>Broad range of Integrations that are from third parties</span>
+            </CardDescription>
+          </RightCard>
+        </CardWrapper>
+        <CardWrapper>
+          <LeftCard>
+            <CardHeading>
+              <a className="mb-0" href="/crypto-exchange-turnkey-solution">
+                <h2>Liquidity solution for crypto exchange </h2>
+              </a>
+              <p>
+              With the liquidity solutions system we offer, the liquidity of more than 100 popular currency pairs is offered, coupled with ultimate depth in trading and constant K-line charts.
+              </p>
+              <div>
+                <a href="/crypto-exchange-turnkey-solution">
+                  <img src={SecondImg} alt="..." />
                 </a>
-                <p>
-                  Staking is a great way to maximize your holdings in staking
-                  coins and fiat that would otherwise be sitting in your
-                  exchange account. Once you have staked your assets you can
-                  earn staking rewards on top of your holdings and grow them
-                  further by compounding those future rewards.
-                </p>
-                <div>
-                  <a href="/crypto-staking-defi-lending-turnkey-solution">
-                    <img src={ThirdImg} alt="..." />
-                  </a>
-                </div>
-              </CardHeading>
-            </LeftCard>
-            <RightCard>
-              <CardDescription>
-                <div />
-                <span>200+ Coins, StableCoins & Tokens Supported </span>
-              </CardDescription>
-              <CardDescription>
-                <div />
-                <span>STEEM, HIVE, ERC20 & omni tokens Supported</span>
-              </CardDescription>
-              <CardDescription>
-                <div />
-                <span>Single Unified API for multiple blockchains</span>
-              </CardDescription>
-              <CardDescription>
-                <div />
-                <span>KYC System</span>
-              </CardDescription>
-            </RightCard>
-          </CardWrapper>
-        </Card>
-      </Wrapper>
-    </Container>
+              </div>
+            </CardHeading>
+          </LeftCard>
+          <RightCard>
+            <CardDescription>
+              <div />
+              <span>Each second, 10000 requests are fulfilled</span>
+            </CardDescription>
+            <CardDescription>
+              <div />
+              <span>Presence of a Commissions ladder</span>
+            </CardDescription>
+            <CardDescription>
+              <div />
+              <span>Takes less than 5 microseconds to complete orders </span>
+            </CardDescription>
+            <CardDescription>
+              <div />
+              <span>
+              End-users gain discount on commissions as well as loyalty tokens 
+              </span>
+            </CardDescription>
+          </RightCard>
+        </CardWrapper>
+
+        <CardWrapper>
+          <LeftCard>
+            <CardHeading>
+              <a className="mb-0" href="/crypto-staking-defi-lending-turnkey-solution">
+               <h2>Cryptocurrency Staking System</h2>
+              </a>
+              <p>
+              In order to optimize holdings in fiat and staking coins that might merely stagnate in your exchange account, staking is a great option. Upon staking assets, staking rewards can be earned over your holdings and improve them through the compounding of future rewards.
+              </p>
+              <div>
+                <a href="/crypto-staking-defi-lending-turnkey-solution">
+                  <img src={ThirdImg} alt="..." />
+                </a>
+              </div>
+            </CardHeading>
+          </LeftCard>
+          <RightCard>
+            <CardDescription>
+              <div />
+              <span>Supports over 200 Coins, StableCoins & Tokens</span>
+            </CardDescription>
+            <CardDescription>
+              <div />
+              <span>Supports STEEM, HIVE, ERC20 & omni tokens</span>
+            </CardDescription>
+            <CardDescription>
+              <div />
+              <span>Multiple blockchains underlined with Single Unified API </span>
+            </CardDescription>
+            <CardDescription>
+              <div />
+              <span>KYC System</span>
+            </CardDescription>
+          </RightCard>
+        </CardWrapper>
+      </Card>
+    </Wrapper>
+  </Container>
   );
 };
 

@@ -43,9 +43,11 @@ h2,
 h3,
 h4,
 h5 {
-	font-family: 'Poppins', sans-serif !important; 
+	 font-family: "alliance_no.1extrabold" !important; 
 	word-wrap: break-word;
+/*	font-family: acumin-pro, sans-serif; 
 	font-weight: 700;
+	/* color: #040d21; */
 }
 
 h1 {
@@ -69,7 +71,7 @@ h4 {
 }
 
 p {
-	font-size: 14px;
+	font-size: 16px;
 }
 
 
@@ -96,10 +98,6 @@ img {
 .p-y-100{
 	padding-top: 70px !important;
 	padding-bottom: 70px !important;
-}
-
-.p-t-50 {
-	padding-top: 150px;
 }
 
 .p-b-50 {
@@ -166,7 +164,6 @@ ul {
 
 .box-shadow-card {
 	box-shadow: 0 0 0 1px rgba(53, 72, 91, .1), 0 3px 2px rgba(0, 0, 0, .04), 0 7px 5px rgba(0, 0, 0, .02), 0 13px 10px rgba(0, 0, 0, .02), 0 22px 17px rgba(0, 0, 0, .02) !important;
-	border-radius: 10px;
 }
 
 .offset-lg-n1 {
@@ -276,7 +273,7 @@ ul {
 }
 
 .blue-bg {
-	background: #171e29;
+	background: #040d21;
 	position: relative;
 }
 
@@ -349,11 +346,11 @@ ul {
 	right: 29px;
 	font-size: 32px;
 	top: 36%;
-	color: #171e29;
+	color: #040d21;
 }
 
 .contact-block p {
-	color: #171e29;
+	color: #040d21;
 }
 
 .weoffer-section {
@@ -363,14 +360,14 @@ ul {
 }
 
 body {
-	font-family: 'Open Sans', sans-serif !important; 
+	 font-family: 'Poppins', sans-serif !important; 
 	/*font-family: acumin-pro, sans-serif; */
 	font-size: 16px;
 	word-wrap: break-word;
 }
 
 .headerhome {
-	background-image: url(./assests/images/home/home-header-bg.png);
+	background-image: url(./assests/images/home/home-header-bg.svg);
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -380,7 +377,7 @@ body {
 }
 
 .scroll {
-	background-color: #212e3e !important;
+	background-color: #0a0825 !important;
 	transition: opacity .4s, transform .4s;
 	transition-timing-function: cubic-bezier(.6, -.28, .515, 1.285);
 	transform: translateZ(0);
@@ -582,7 +579,7 @@ body {
 }
 
 .btn.btn-primary {
-	background: linear-gradient(0deg, rgb(78, 98, 237) 0%, rgb(75, 175, 253) 100%);
+	background-color: #17a3f2;
 	border-radius: 30px;
 	padding: .375rem 15px;
 }
@@ -624,7 +621,7 @@ body {
 }
 
 .one-block {
-	background: #fff;
+	background: rgb(4, 13, 33);
 	padding: 15px;
 	border-radius: 10px;
 	box-shadow: 0 2.74416px 2.74416px rgba(0, 0, 0, .0274351), 0 5.48831px 5.48831px rgba(0, 0, 0, .0400741), 0 13.7208px 10.9766px rgba(0, 0, 0, .0499982), 0 20.5812px 20.5812px rgba(0, 0, 0, .0596004), 0 41.1623px 41.1623px rgba(0, 0, 0, .0709366), 0 96.0454px 89.1851px rgba(0, 0, 0, .09);
@@ -632,6 +629,7 @@ body {
 
 .one-block-img {
 	background: #1da1f2;
+	;
 	width: 108px;
 	height: 108px;
 	border-radius: 50%;
@@ -639,20 +637,18 @@ body {
 	margin-bottom: 20px;
 }
 
-.one-block-img.two {
-	background: #f77423;
-}
-
 .one-block-img.three {
-	background: #4fa988;
+	background: #32b155;
 }
 
 .one-block-content p {
+	color: #fff;
 	padding: 15px 0;
 }
 
 .one-block-content a {
-	/*color: #171e29;*/
+	/*color: #040d21;*/
+	color: #fff;
 }
 
 .home .home-header-content h1 {
@@ -725,7 +721,7 @@ img.home-codespaces-view {
 }
 
 .circle {
-	background: #171e29;
+	background: #040d21;
 	margin-left: calc(-3rem - 13px);
 	float: left !important;
 	border: 2px solid #42526d;
@@ -871,7 +867,7 @@ img.home-codespaces-view {
 }
 
 .primarymodul .primary-m-content .circle {
-	background: #171e29;
+	background: #040d21;
 	border: 2px solid #42526d;
 	width: 15px;
 	height: 15px;
@@ -950,7 +946,7 @@ img.home-codespaces-view {
 	background-image: url(./assests/images/home/ment-data-bg.png);
 	background-size: cover;
 	padding: 100px 0 50px;
-	background-color: #171e29;
+	background-color: #040d21;
 	background-repeat: repeat;
 }
 
@@ -1012,12 +1008,11 @@ img.home-codespaces-view {
 }
 
 .p-s-blcok {
-	background: #212e3e;
+	background: #07132d;
 	padding: 30px;
 	color: #fff;
 	margin: 20px 0;
 	min-height: 255px;
-	border-radius: 10px;
 }
 
 .tab-section {
@@ -1034,19 +1029,14 @@ img.home-codespaces-view {
 }
 
 .tablisting .nav-pills .nav-link {
-	border-radius: 10px;
+	border-radius: .25rem;
 	color: #fff;
 	width: 100%;
 	padding: 15px 20px;
-	border: 2px solid #212e3e;
+	border: 2px solid rgb(33, 143, 206);
 	margin: 20px 0;
 	text-align: center;
 }
-.tablisting .nav-pills .nav-link.active {
-background: linear-gradient(0deg, rgb(78, 98, 237) 0%, rgb(75, 175, 253) 100%);
-}
-
-
 .talisting-content {
 	min-height: 560px;
 	position: relative;
@@ -1166,7 +1156,7 @@ background: linear-gradient(0deg, rgb(78, 98, 237) 0%, rgb(75, 175, 253) 100%);
 }
 
 .footer {
-	background-color: #171e29;
+	background-color: #0e1a2d;
 	background-image: url(./assests/images/squre-pattren.png);
 	background-repeat: repeat;
 	padding: 50px 0 20px;
@@ -1229,11 +1219,11 @@ background: linear-gradient(0deg, rgb(78, 98, 237) 0%, rgb(75, 175, 253) 100%);
 	float: left;
 	padding-right: 15px;
 	font-size: 12px;
-	color: #171e29;
+	color: #040d21;
 }
 
 .copyright ul li a {
-	color: #171e29;
+	color: #040d21;
 }
 
 .social-links-footer ul {
@@ -1399,10 +1389,6 @@ background: linear-gradient(0deg, rgb(78, 98, 237) 0%, rgb(75, 175, 253) 100%);
 	text-align: left;
 	padding: 48px 36px;
 	display: block;
-}
-
-.ceo.securty-block-9 .box-shadow-card {
-    min-height: 470px;
 }
 
 div.container {
@@ -1670,7 +1656,7 @@ letter-spacing: 0.1px;
 /********************       PRODUCT PAGE CSS START HERE       *********************/
 
 .securty-block-4 .box-shadow-card {
-    min-height: 290px;
+    min-height: 330px;
 }
 
 .headerProduct {
@@ -1704,7 +1690,6 @@ letter-spacing: 0.1px;
 .pie a {
     display: block;
     width: 100%;
-	text-decoration: underline;
 }
 
 .producttab-link li:focus img,
@@ -1868,9 +1853,7 @@ letter-spacing: 0.1px;
 	margin-bottom: 100px;
 }
 
-.securt-blocks-4 .box-shadow-card {
-    min-height: 195px;
-}
+
 
 .security-d-ul {
 	margin: 20px 0 0;
@@ -1919,7 +1902,6 @@ letter-spacing: 0.1px;
     -moz-box-align: center;
     align-items: center;
 	margin-bottom: 40px;
-	border-radius: 10px;
 }
 
 .withus-block img{
@@ -1945,7 +1927,7 @@ letter-spacing: 0.1px;
 	padding: 20px 46px 20px 40px;
 	min-height: 213px;
 	box-shadow: rgba(165, 165, 165, 0.3) 0px 2px 20px;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 
 .whatwe-block p{ margin-bottom: 0;}
@@ -1985,7 +1967,7 @@ letter-spacing: 0.1px;
     color: rgb(255, 255, 255);
     line-height: 30px;
     margin-right: 5px;
-    background: #212e3e;
+    background: rgb(14, 27, 46) none repeat scroll 0% 0%;
 }
 
 .where-about {
@@ -2073,9 +2055,8 @@ letter-spacing: 0.1px;
     list-style-type: disc;
 }	
 
-.company-that .securty-block-8 .box-shadow-card{
-	background: #212e3e;
-	min-height: 230px;
+.company-that{
+	padding-bottom: 100px;
 }
 
 
@@ -2118,12 +2099,11 @@ letter-spacing: 0.1px;
     margin-bottom: 20px;
     box-sizing: border-box;
     padding: 48px 40px;
-    background: #212e3e;
+    background: rgb(16, 39, 62) none repeat scroll 0% 0%;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px;
     color: #fff;
 	text-align: center;
 	min-height: 350px;
-	border-radius: 10px;
 }
 .value-block img {
     width: 88px;
@@ -2248,7 +2228,7 @@ width: calc(50% - 1px);
 }
 
 .our-leader {
-	background: #171e29;
+	background: #040d21;
 	color: #fff;
 }
 
@@ -2272,7 +2252,7 @@ a.team-block h3 {
 .our-management {
 	background: url(./assests/images/squre-pattren.png);
 	background-repeat: repeat;
-	background-color: #171e29;
+	background-color: #040d21;
 	color: #fff;
 }
 
@@ -2308,7 +2288,7 @@ a.team-block h3 {
 }
 
 .enginers a.many-more {
-	background-color: #171e29;
+	background-color: rgb(14, 27, 46);
 	width: 146px;
 	height: 180px;
 	color: #fff;
@@ -2361,7 +2341,7 @@ a.team-block h3 {
 }
 
 .location-offices p {
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .location-offices h3 {
@@ -2378,8 +2358,8 @@ a.team-block h3 {
 
 .schedule-call-modal {
 	color: #fff;
-	background: linear-gradient(0deg, rgb(78, 98, 237) 0%, rgb(75, 175, 253) 100%);
-	border-radius:10px;
+	background: rgb(29, 161, 242);
+	border-radius: 25px;
 	padding: 0 15px;
 	line-height: 37px;
 	display: block;
@@ -2395,7 +2375,7 @@ a.team-block h3 {
 
 .request-demo-modal {
 	color: #00051b;
-	border-radius: 10px;
+	border-radius: 25px;
 	margin: 0 15px 0 0;
 	padding: 0 15px;
 	line-height: 35px !important;
@@ -2424,7 +2404,6 @@ a.team-block h3 {
 .job-listing .btn.btn-link {
 	width: 100%;
 	text-align: left;
-	color: #171e29;
 }
 
 .job-listing .btn.btn-link span {
@@ -2543,7 +2522,7 @@ a.team-block h3 {
 }
 
 .m-icon-post {
-	background: #171e29;
+	background: #040d21;
 	border-radius: 50%;
 	overflow: hidden;
 	width: 40px;
@@ -2602,7 +2581,7 @@ a.team-block h3 {
 
 .blog-left-socail a {
 	font-size: 20px;
-	color: #171e29
+	color: #040d21
 }
 
 .topics-ul {
@@ -2657,7 +2636,7 @@ a.team-block h3 {
 line-height: 40px;
 	width: auto;
 	border-radius: 40px 40px 0 40px;
-	background: linear-gradient(0deg, rgb(78, 98, 237) 0%, rgb(75, 175, 253) 100%)!important;
+	background-color: rgb(29, 161, 242) !important;
 	position: fixed;
 	right: 5px;
 	bottom:75px;
@@ -2952,15 +2931,16 @@ line-height: 130.69%;
 	
 }
 .css-mbv478 {
-    width: 45px;
+    width: 50px;
 	border-radius: 50% !important;
 	color: rgb(255, 255, 255);
 	transition: all 1s ease 0s;
-	background-color: linear-gradient(0deg, rgb(78, 98, 237) 0%, rgb(75, 175, 253) 100%) !important;
+	background-color: rgb(29, 161, 242) !important;
 	right: 10px;
 	bottom: 10px;
-	height: 45px;
+	height: 50px;
 	position: fixed;
+	z-index: 99;
 }
 
 .rightarrow, .serve-block .leftarrow {
@@ -2973,14 +2953,14 @@ line-height: 130.69%;
 }
 
 .securty-blocks-4 .box-shadow-card {
-    min-height: 404px;
+    min-height: 430px;
 }
 
 .securty-blocks-5 .box-shadow-card {
-	min-height: 312px;
+	min-height: 340px;
 }
 .securty-blocks-6 .box-shadow-card {
-    min-height: 456px;
+    min-height: 476px;
 }
 .input-radio {
     margin-right: 0.625rem;
@@ -2996,6 +2976,12 @@ line-height: 130.69%;
 	
 	position: relative;
 
+}
+.one-block {
+    min-height: 470px;
+}
+.p-s-blcok {
+    min-height: 380px;
 }
 .qutei {
    
@@ -3068,10 +3054,10 @@ padding: 20px 20px 0px;
   }
   
   .product-new .scroll-tab-active {
-    border-top: 2px solid rgb(78, 98, 237);
-    height: 90%;
-    background: linear-gradient(0deg, rgb(78, 98, 237) 0%, rgb(75, 175, 253) 100%) !important;
-}
+	border-top: 2px solid #2c89ca;
+	height: 90%;
+	background: #1da1f2;
+  }
   
   .product-new .scroll-tab {
 	height: 97%;
@@ -3092,84 +3078,58 @@ padding: 20px 20px 0px;
 	}
   }
 
-
-  /* *******************    Comman CSS START Product pages    ********************** */
-
-  #liquidity-advantages {
-    padding: 100px 0 0 !important;
-}
-.hold.blue {
-	background-color: #1da1f2;
- }
-
-.hold.green {
-   background-color: #4fa988;
-}
-
-.product-tab-title h4{
-	font-weight: 400;
-	padding-top: 10px;
-	font-size: 14px;
-}
-
-.weight-500{
-	font-weight:500;
-	font-size: 16px;
-}
-
-#liquidity-operations {
-    padding-bottom: 100px !important;
-}
-
 /* *******************    Comman CSS START services pages    ********************** */
-
-
 .finey{
 	margin-top: -80px;
 }
 
-
-
+.holding {
+	border: 1px solid black;
+	background-color: rgb(16, 124, 123);
+	height: 80%;
+}
+.holds {
+   border: 1px solid black;
+   background-color: rgb(18, 113, 69);
+   height: 80%;
+}
 .hold {
    border: 1px solid black;
-   background-color: #f77423;
+   background-color: rgb(188, 74, 9);
    height: 80%;
-   float: left;
-	width: 100%;
 }
-
+.hol {
+   border: 1px solid black;
+   background-color: rgb(38, 38, 38);
+   height: 80%;
+}
 
  .righting {
 	 position: absolute;
 	 right: 20px;
 	 font-size: 20px;
-	 top: 19px;
+	 top: 75px;
  }
 
  .pie {
-    padding: 14px 0;
+   /* padding: 14px 0;*/
+   
+    padding: 14px 0px 14px 10px;
+}
+ .pie:hover {
+	 background-color: rgb(188, 74, 9);
+ }
+ .underline{
+	text-decoration: underline !important;
 }
 
  .pro-nav .dropdown-item {
     color: #fff;
-    padding: .25rem 0 .25rem 11px;
+    padding: .25rem 0;
     box-sizing: border-box;
     word-break: break-word;
     white-space: break-spaces;
 	line-height: 18px;
-	position: relative;
-}
-
-.pro-nav .dropdown-item::before {
-    position: absolute;
-    content: '.';
-    top: -10px;
-    left: -6px;
-    font-size: 46px;
-}
-
-.pro-nav .dropdown-item{
-	text-decoration: underline;
 }
 
 .pro-nav .dropdown-item:hover{
@@ -3177,21 +3137,21 @@ padding: 20px 20px 0px;
 }
  
  .payments .nav-pills .nav-link {
-    border-radius: 10px;
+    border-radius: .25rem;
     color: #000;
     width: 100%;
 	padding: 25px 20px;
 
 	text-align: left;
-	height:80px;
+	height: 100%;
 }
 
 .payments .nav-pills .nav-link.active{
 	color:#fff;
-	background: #212e3e;
+	background: #040d21;
 }
 .rins{
-	background: #212e3e;
+	background: #000;
 }
 details {
 	padding: 0 1rem;
@@ -3199,7 +3159,7 @@ details {
 details > summary{
   text-align: left;
 	padding: 1rem;
-	font-size: 1.25rem;
+	font-size: 1.23rem;
 	cursor: pointer;
 	list-style: none;
 	transition: transform 0.3s ease;
@@ -3213,6 +3173,7 @@ details > summary{
 	  display: inline-flex;
 	  float: right; 
 	  filter: brightness(0) invert(1);
+	  margin-top: 6px;
   } 
   details[open] > summary::after{
 	  transform: rotate(90deg);
@@ -3232,10 +3193,13 @@ details > summary{
     margin-left: 0;
 }
 .securty-block-7 .box-shadow-card {
-    min-height: 162px;
+    min-height: 192px;
 }
 .securty-block-7 .box-shadow-card h2 {
     font-size: 18px;
+}
+.securty-block-8 .box-shadow-card {
+    min-height: 280px;
 }
 .ph3 {
     display: inline-block;
@@ -3244,7 +3208,8 @@ details > summary{
     position: relative;
 }
 .ioffice{
-	height: 300px;
+	width:300px;
+	height: 380px;
 	
 }
 
@@ -3291,6 +3256,7 @@ text-align: center;
 	width: 100% !important;
 	height: 40px !important;
 /*	border: none  !important; */
+margin-bottom: 20px !important;
 }
 .res{
 	margin-top: -27px;
@@ -3301,4 +3267,27 @@ text-align: center;
 
 .contact-options a{
 	text-decoration: none;
+}
+ .para-title{
+	font-style: italic;
+	 font-weight: 400;
+	 font-size: 22px;
+ }
+
+ .form-bg .schedule-call-modal {
+    line-height: 27px;
+}
+.par-titles{
+	font-size: 18px;
+	font-weight: 500;
+}
+.mari{
+	margin-bottom: 2.5rem;
+}
+
+.securt-blocks-4 .box-shadow-card {
+    min-height: 240px;
+}
+.whatwe-block {
+    min-height: 240px;
 }

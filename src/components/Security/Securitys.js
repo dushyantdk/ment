@@ -17,51 +17,44 @@ return (
    <section className="py-5 py-md-5 securit blue-bg ">
    <Navigation/>
    <div className="container">
-      <div className="row p-y-100">
-         <div className="col-lg-6 text-white">
-            <h3 className="color-light-blue">SECURELY BUY, SELL, EARN, SEND & TRACK</h3>
-            <h1>Security First. Always.</h1>
-            <p>Our commitment to our customers is built on trust. We believe that security and data privacy are the foundations of achieving mainstream cryptocurrency adoption.</p>
-            <p>Security is all important for crypto exchanges and should never be compromised. We have developed an advanced security system to help prevent losses as a result of fraudulent activities and attacks.</p>
-            <p>Security is the most important concept in crypto trading and our exchange was designed with sophisticated safety measures as almost all tokens and coins are held in cold storage. Cold wallets are highly secure hardware wallets that are not connected to the internet. Programmed algorithms regularly transfer client funds into cold storages thus providing the necessary level of safety.</p>
+      <div className="row p-y-100 align-items-center mt-5">
+         <div className="col-lg-8 mb-5 text-white">
+            <h1 className="mb-4">Various layers of security</h1>
+            <p>Crypto exchanges must maintain a high level of security and should never compromise it. To prevent losses resulting from fraudulent activities and attacks, we have created an advanced security system.</p>
+            <p>In crypto trading, security is paramount, and our exchange is designed with advanced security features as nearly all coins and tokens are stored in cold storage. Unlike internet-connected hardware wallets, cold wallets are 100% secure. A programmatic algorithm regularly transfers client money to cold storage, ensuring sufficient security.</p>
+            <p>When reviewing your pull requests, be aware of security issues. Avoid introducing new vulnerabilities.</p>
          </div>
-         <div className="col-lg-6">
-            
+         <div className="col-lg-4 text-center">
+            <img width="85%"src={Security} alt=""/>
          </div>
       </div>
    </div>
    </section>
 <section className="p-y-100 securt-blocks-4">
    <div className="container ">
-      <div className="row mb-5 justify-content-center align-items-center">
-         <div className="col-lg-12 text-center">
-            <h1>Our Philosophy</h1>
-            <h2>from blueprint to execution</h2>
-         </div>
-      </div>
       <div className="row">
          <div className="col-lg-3 mb-4">
             <div className="box-shadow-card p-3">
-            <h3 className="mb-2">Securing software, together</h3>
-            <p>Introducing community-powered ways to discover, report, and prevent security vulnerabilities.</p>
+            <h3 className="mb-2">Together, we can secure software</h3>
+            <p>An approach to finding, reporting, and preventing security vulnerabilities based on community power.</p>
             </div>
          </div>
          <div className="col-lg-3 mb-4">
             <div className="box-shadow-card p-3">
-            <h3 className="mb-2">Security Advisory Database</h3>
-            <p>Data backup takes place in two modes: real-time replication and scheduled once a day with a snapshot of the current state.</p>
+            <h3 className="mb-2">Database of security advisories</h3>
+            <p>The backups are performed in two modes: real-time replication and one-time snapshots taken once a day.</p>
             </div>
          </div>
          <div className="col-lg-3 mb-4">
          <div className="box-shadow-card p-3">
-            <h3 className="mb-2">Security that learns</h3>
-            <p>Our threat detection program provides investigation, response, and coordination for all security incidents at secure data.</p>
+            <h3 className="mb-2">Learning-based security</h3>
+            <p>All security incidents at Secure Data are investigated, responded to, and coordinated with our threat detection program.</p>
             </div>
          </div>
          <div className="col-lg-3  mb-4">
          <div className="box-shadow-card p-3">
-            <h3 className="mb-2">Security Bug Bounty</h3>
-            <p>Our bounty program gives a tip of the hat to these researchers and provides rewards of $30,000 or more for critical vulnerabilities.</p>
+            <h3 className="mb-2">Bounty for security bugs</h3>
+            <p>In exchange for revealing critical vulnerabilities, we offer rewards of $30,000 or more under our bounty program.</p>
             </div>
          </div>
       </div>
@@ -74,53 +67,53 @@ return (
             <div className="blue-bg border-r-10 overflow-hidden p-50">
             <div className="row">
                <div className="col-lg-8 text-white">
-                  <h1>Secure code</h1>
-                  <h2>from blueprint to execution</h2>
+                  <h1>Codes for security</h1>
+                  <h2>From blueprint to implementation</h2>
                </div>
             </div>
             <div className="row">
                <div className="col-lg-4 text-white mt-5 mt-md-5">
-                  <h3>Anti-Fraud System</h3>
-                  <p>Our commitment to our customers is built on trust. We believe that 
-                     security and data privacy.
+                  <h3>Fraud-Prevention System</h3>
+                  <p>Trust is the cornerstone of our relationship with our customers. Data privacy and security are of utmost importance to us.
                   </p>
                   <ul className="text-white security-d">
-                     <li>Excessive deposits sum</li>
-                     <li>Multiple withdrawals with no trading activity</li>
-                     <li>Identical withdrawal wallet address used by multiple accounts</li>
-                     <li>Identical phone number used by multiple accounts</li>
-                     <li>Identical ip used by multiple accounts</li>
-                     <li>Excessive trades amount</li>
-                     <li>Arbitrage triangle</li>
-                     <li>Identical email used by multiple accounts</li>
-                     <li>Frequent deposits</li>
+                  <li>	An excessive deposit amount </li>
+                  <li>  No trading activity after multiple withdrawals</li>
+                  <li>  Multiple accounts using the same withdrawal wallet address</li>
+                  <li> Multiple accounts using the same phone number</li>
+                  <li> Use of the same IP address by multiple accounts</li>
+                  <li>  Excessive trading volume</li>
+                  <li>  Triangle of arbitrage</li>
+                  <li>  Multiple accounts sharing the same email address</li>
+                  <li>  Frequently deposited funds</li>
+
                   </ul>
                </div>
                <div className="col-lg-4 text-white mt-5  mt-md-5">
-                  <h3>Teams and integrations</h3>
-                  <p>Manage teams, projects, and integrations to do your best work securely.</p>
+                  <h3>Integrations and teams</h3>
+                  <p>Make sure your work is secure by managing teams, projects, and integrations.</p>
                   <ul className="text-white security-d">
-                     <li>Fine-grained access controls </li>
-                     <li>SAML</li>
+                     <li>Control of access in a fine-grained manner </li>
                      <li>LDAP</li>
-                     <li>Repository access levels (Read, write, and admin)</li>
+                     <li>SAML</li>
                      <li>Base repository permissions</li>
-                     <li>OAuth Application Whitelists</li>
-                     <li>Security monitoring through organization-wide webhooks </li>
-                     <li>Access controls for third-party integrations </li>
+                     <li>Levels of access to the repository (Read, Write, and Administrator)</li>
+                     <li>Using webhooks for organization-wide security monitoring</li>
+                     <li>OAuth Application Whitelists </li>
+                     <li>Third-party integration access controls </li>
                   </ul>
                </div>
                <div className="col-lg-4 text-white mt-5  mt-md-5">
-                  <h3>Projects and monitoring</h3>
-                  <p>Build confidently with exactly the right teams—and monitor security as you go.</p>
+                  <h3>Monitoring and evaluation of projects</h3>
+                  <p>As you build, monitor security to ensure you're working with the right people.</p>
                   <ul className="text-white security-d">
-                     <li>Required reviews </li>
-                     <li>Required status checks </li>
-                     <li>Built-in continuous integration (CI) and testing </li>
-                     <li>Read only deploy keys </li>
+                     <li>Requirements for reviews </li>
+                     <li>Checks on the current status </li>
+                     <li>Testing and continuous integration (CI) built-in </li>
+                     <li>Keys with read-only access </li>
                      <li>Deployments API </li>
-                     <li>Monitoring and logging </li>
-                     <li>Evidence key controls </li>
+                     <li>Keeping track and logging </li>
+                     <li>Controls for evidence </li>
                   </ul>
                </div>
             </div>
@@ -134,8 +127,8 @@ return (
    <div className="container">
       <div className="row align-items-center">
          <div className="col-lg-7 mb-2">
-            <h2 className="gradient-text-red">We follow a Secure Software Development Lifecycle.</h2>
-            <p className="mt-5">Security is baked into our coding lifecycle. Our software is peer-reviewed and uses a combination of static and dynamic source code analysis tools.</p>
+            <h2 className="gradient-text-red">Security is a key component of our Software Development Lifecycle.</h2>
+            <p className="mt-5">Our coding lifecycle incorporates security. We analyze dynamic and site source code using both site and peer-review tools.</p>
          </div>
          <div className="col-lg-5">
             <img width="85%"src={PanelSecurty} alt=""/>
@@ -146,8 +139,8 @@ return (
             <img width="85%"src={securityimg} alt=""/>
          </div>
          <div className="col-lg-7 mb-2">
-            <h2 className=" mt-5 gradient-text-red">We use Multi-Factor Authentication (MFA).</h2>
-            <p className="mt-5">Transactions are protected by MFA, which includes password, biometric, email, phone, and authenticator verification.</p>
+            <h2 className=" mt-5 gradient-text-red">Our company uses Multi-Factor Authentication (MFA).</h2>
+            <p className="mt-5">A multifactor authentication system encrypts transactions, including passwords, biometrics, email, phone, and authenticator verification.</p>
          </div>
       </div>
    </div>
@@ -157,7 +150,8 @@ return (
       <div className="row p-y-100 align-items-center">
          <div className="col-lg-6 mb-5 text-white">
             <h1 className="mb-4">Quantum Cryptography</h1>
-            <p>Quantum Key Distribution (QKD) is a means to secure data communication by encoding a cryptographic key in the intrinsic properties of photons - subatomic particles of light. This approach uses quantum-mechanical properties to guarantee absolute security. The ability for one to intercept, record, clone, and physically manipulate transmitted photons without detection makes Quantum Key Technology an essential element in communications networks worldwide.</p>
+            <p>We provide long-term data protection with QKD (Quantum Key Distribution). See our full range of security solutions. Quantum Safe Security. Asset protection with cyber security. Quantum Security Solution. Quantum Cybersecurity.</p>
+            <p>In quantum cryptography, subatomic particles (photons) are used with their intrinsic quantum properties (polarization of photons) to create an unbreakable security system. No system’s quantum can be measured without affecting its quantum state. Using this property, sender-receiver keys are secure. In quantum cryptography, public key cryptography is combined with the ultimate security of one-time pad cryptography, with the relative ease and convenience of transferring keys.</p>
          </div>
          <div className="col-lg-6 text-center">
             <img src={quant} alt=""/>

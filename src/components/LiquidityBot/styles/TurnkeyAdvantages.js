@@ -35,7 +35,7 @@ export const Wrapper = styled.div`
 
 export const Card = styled.div`
   position: relative;
-  background: #212e3e;
+  background: #07132d;
   border-radius: 5px;
   padding: 55px 40px;
   box-sizing: border-box;
@@ -166,7 +166,7 @@ export const BottomContainer = styled.div`
   margin-top: 80px;
   padding: 35px 28px;
   box-sizing: border-box;
-  background: #171e29;
+  background: #040d21;
   width: 100%;
   display: flex;
   justify-content: flex-start;

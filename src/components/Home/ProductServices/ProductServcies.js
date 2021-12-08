@@ -9,7 +9,7 @@ const ProductServices = () => {
             <div className="row">
                 <div className="col-lg-12 text-center">          
                     <div className="title-block">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
-                        <h1 className="text-white"><span>Product & Services</span></h1>
+                        <h1><span className="gradient-text-red">Product & Services</span></h1>
                     </div>
                 </div>
             </div>
@@ -34,16 +34,17 @@ const ProductServices = () => {
                             <div className=" talisting-content-left text-white text-left ">
                                 <Tab.Content>
                                     <Tab.Pane eventKey="first">
-                                        <h2 className="manys">Cryptocurrency Exchange Modules</h2>
-                                        <p className="spents">We have spent many years building our product ecosystem to deliver modules ready to deploy. This means we are able to provide you very competitive prices and excellent performance for a extensive range of modules. Our products & solutions are incomparable in the industry.</p>
+                                        <h2 className="manys">Modules for cryptocurrency exchange</h2>
+                                        <p className="spents">Our product ecosystem has been built over many years to provide ready-to-deploy modules. Consequently, we are able to provide you with a wide range of modules at extremely competitive pricing. Compared to others, our products & solutions are unique.</p>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="second">
                                         <h2 className="manys">Turnkey & Liquidity Solutions</h2>
-                                        <p className="spents">Select from our broad variety of tailored solutions develop for every type of financial activity including exchange, brokerage, and wallets. Our comprehensive solution comprising services and technologies that enables businesses to start a new Cryptocurrency exchange with minimal outlay in under 1 month.</p>
+                                        <p className="spents">Whether you are looking for brokerage, exchange or wallet solutions, you can choose from our comprehensive range of bespoke solutions.</p>
+                                        <p className="spents">A complete solution encompassing services and technologies that allows businesses to launch new Cryptocurrency exchanges in under one month, with minimal outlay.</p>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="third">
-                                        <h2 className="manys">Cryptocurrency Liquidity</h2>
-                                        <p className="spents">We've spent a numbers of years to developing the network of deep liquidity and investing in the technology of pricing. This means we are able to provide you very competitive prices and excellent performance for an extensive range of markets. Our FOREX liquidity is incomparable in the industry.</p>
+                                        <h2 className="manys">Liquidity Management Solutions for Enterprises</h2>
+                                        <p className="spents">Traders need to have their transactions completed as quickly and efficiently as possible. Liquidity is a critical element for tradable assets, including cryptocurrencies. REDUCED VOLUME? Not a problem! We offer Enterprise Liquidity Solutions for trading on other exchanges with large volumes, such as Binance, Huobi, etc.</p>
                                     </Tab.Pane>
                                 </Tab.Content>
                             </div>
@@ -55,25 +56,25 @@ const ProductServices = () => {
                                         <div className="col-lg-6">
                                             <div className="p-s-blcok">
                                                 <h3 className="many">Spot Trading System</h3>
-                                                <p className="spents">Launch an exchange business with a spot matching engine for trading on popular different cryptocurrency.  An ideal way to capitalise on today’s trends by offering your clients trading on crypto-crypto and crypto-fiat pairs.</p>
+                                                <p className="spents">Invest in the development of a cryptocurrency exchange business with a spot-matching engine. A great way for your company to capitalize on today's trends is to offer your clients the opportunity to trade crypto-to-crypto and crypto-to-fiat pairs.</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                         <div className="p-s-blcok">
                                             <h3 className="many">OTC Trading System</h3>
-                                            <p className="spents">In Over-the-counter (OTC) trading, we provide a private and higher Liquidity, more customized services for high income organizations and people who need to fulfill their large orders.</p>
+                                            <p className="spents">Over-the-counter (OTC) trading provides institutional clients and wealthy individuals with more liquidity and a more private, individualized experience.</p>
                                         </div>
                                         </div>
                                         <div className="col-lg-6">
                                         <div className="p-s-blcok">
                                             <h3 className="many">NFT Marketplace Turnkey</h3>
-                                            <p className="spents">Ment Fintech will help you build an NFT (Non-Fungible Token) Crypto Marketplace SaaS platform to provision trading of collectibles, art, valuables, assets, and securities, backed by NFT tokens.</p>
+                                            <p className="spents">By providing a SaaS platform for trading collectibles, art, valuables, assets, and securities backed by NFT tokens, Ment Fintech can help you implement an NFT (Non-Fungible Token) Crypto Marketplace.</p>
                                         </div>
                                         </div>
                                         <div className="col-lg-6">
                                         <div className="p-s-blcok">
                                         <h3 className="many">Decentralized Crypto Exchange Solution</h3>
-                                        <p className="spents">A decentralized exchange (DEX) is an online peer-to-peer (P2P) cryptocurrency exchange service which operates without central authority responsible for the asset storage and swapping.</p>
+                                        <p className="spents">In contrast to a centralized exchange, decentralized exchanges are peer-to-peer cryptocurrency exchange services in which the assets are stored and exchanged without a central authority.</p>
                                         </div>
                                         </div>
                                         </div>
@@ -83,25 +84,25 @@ const ProductServices = () => {
                                         <div className="col-lg-6">
                                             <div className="p-s-blcok">
                                                 <h3 className="many">White-Label Exchange Solution</h3>
-                                                <p className="spents">Ment Fintech is a leading global provider of white label exchange solutions. This page provides the comprehensive introduction about portfolios of product, procedures of deployment, applicable teams, and risk control system.</p>
+                                                <p className="spents">The company provides white label exchange solutions around the world. Product portfolios, risk control systems, applicable teams, and deployment processes are explained in detail on this page.</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="p-s-blcok">
-                                                <h3 className="many">Swapping & Staking Solution</h3>
-                                                <p className="spents">Our non-custodial staking and De-Fi lending infrastructure enables investors to earn a yield on the widest variety of crypto assets. With support for 100+ assets and deliver rewards across the broadest range of crypto assets.</p>
+                                                <h3 className="many">Solution for swapping and staking</h3>
+                                                <p className="spents">Investors can earn a yield from the largest variety of crypto assets with our non-custodial staking and de-fi lending infrastructure. We support more than 100 cryptocurrencies and deliver rewards on a broad range of cryptocurrencies. </p>
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="p-s-blcok">  
                                                 <h3 className="many">Wallet Solutions</h3>
-                                                <p className="spents">As a wallet brand of MentFintechspecializes in wallet underlying technology development, helping PMs, exchanges, online merchants, small and medium blockchain enterprises, etc. To quickly build a wallet system and a sound blockchain ecosystem.</p>
+                                                <p className="spents">As a wallet brand, Ment Fintech develops technology for wallets, supporting PMs, exchanges, online merchants, and small and medium-sized businesses. It aims to provide quick access to wallets and a sound ecosystem for the blockchain.</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="p-s-blcok">  
                                                 <h3 className="many">KYC & AML Solution</h3>
-                                                <p className="spents">All in one platform for connecting and verifying clients. We’re equipped with safe and trustworthy Anti-Money Laundering (AML) and Know Your Customer protocols, correct private information handling, a friendly User experience design, and excellent scalability; you never have to worry about identity verification again.</p>
+                                                <p className="spents">Onboarding and customer verification platform all in one. You'll no longer have to worry about ID verification thanks to dependable KYC and AML procedures, an intuitive UX design, and excellent scalability.</p>
                                             </div>
                                         </div>  
                                     </div>
@@ -110,26 +111,26 @@ const ProductServices = () => {
                                     <div className="row">
                                         <div className="col-lg-6">
                                             <div className="p-s-blcok">
-                                                <h3 className="many">Liquidity Aggregation Bot</h3>
-                                                <p className="spents">Our Liquidity Aggregation bot brings orderbook and trade history data to your exchange from other exchanges with huge volume like Binance, Huobi etc. It is the best solution to make your exchange look alive even being new to the market.</p>
+                                                <h3 className="many">Cryptocurrency Liquidity</h3>
+                                                <p className="spents">Investing in our pricing technology and building an extensive liquidity network has taken many years. Because we can offer you the lowest prices and best execution in a variety of markets, we are able to give you the best deal possible. We have unparalleled FOREX liquidity. </p>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-6">
+                                            <div className="p-s-blcok">
+                                                <h3 className="many">Bot for aggregating liquidity</h3>
+                                                <p className="spents">The Liquidity Aggregation bot provides your exchange with orderbook and trade history data from other platforms with large volumes such as Binance, Huobi, etc. Even though your exchange is new, this is the best way to make it look alive.</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="p-s-blcok">
                                                 <h3 className="many">Crypto CFD Liquidity</h3>
-                                                <p className="spents">Arguably, CFDs allow convenient and secure crypto trading. Ment Fintech provides an incomparable Crypto CFD solution. Our CFD solution is an optimum merger of crypto exchanges, brokers, hedge funds, OTC order placed by the organizational buyers and non-bank liquidity providers.</p>
+                                                <p className="spents">Trading cryptocurrencies with CFDs is convenient. Ment Fintech brings together cryptocurrency exchanges, non-bank liquidity providers, cryptocurrency brokers, OTC orders of institutional clients, and hedge funds to offer a unique Crypto CFD solution.</p>
                                             </div>
                                         </div>
                                         <div className="col-lg-6">
                                             <div className="p-s-blcok">
                                                 <h3 className="many">Market Maker Bot</h3>
-                                                <p className="spents">The system provides better liquidity and depth of transaction that helps to exchanges, organizational investors and brokers decreases costs and enhance efficiency</p>
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6">
-                                            <div className="p-s-blcok">
-                                                <h3 className="many">Enterprise Liquidity Solutions</h3>
-                                                <p className="spents">This phenomenon is most important for all traded assets, including crypto and traders need to have transactions completed as quickly and as cost effectively as possible. LESS VOLUME? No Worries! Our Enterprise Liquidity Solution will let your trades executed from other exchanges with huge volume like Binance, Huobi etc.</p>
+                                                <p className="spents">Exchanges, brokers, and institutional investors are able to reduce costs and increase efficiency thanks to the system, which provides better liquidity and depth of transaction.</p>
                                             </div>
                                         </div>
                                     </div>

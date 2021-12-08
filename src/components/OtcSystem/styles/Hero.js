@@ -1,11 +1,11 @@
 import styled from '@emotion/styled';
 
 export const Container = styled.div`
-
+  width: 100vw;
   min-height: 600px;
   height: 80vh;
   padding-top: 100px;
-  background:#171e29;
+  background: #040d21;
   & > video {
     position: absolute;
     top: 0;
@@ -15,7 +15,7 @@ export const Container = styled.div`
     object-fit: cover;
     object-position: center;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     min-height: 800px;
     padding-top: 80px;
   }
@@ -28,7 +28,7 @@ export const Overlay = styled.div`
   width: 100%;
   min-height: 600px;
   height: 95%;
-  background: rgba(23, 30, 41, 0.85);
+  background: rgba(14, 27, 46, 0.85);
   z-index: 0;
 `;
 
@@ -40,14 +40,14 @@ export const Wrapper = styled.div`
   color: white;
   max-width: 1200px;
   margin: 0 auto;
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     flex-direction: column;
     width: 90%;
   }
 `;
 
 export const LeftContainer = styled.div`
-  display: flex;
+   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 70%;
@@ -61,7 +61,7 @@ export const LeftContainer = styled.div`
       font-size: 70px;
     }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     width: 100%;
     align-items: center;
     height: 40%;
@@ -70,28 +70,34 @@ export const LeftContainer = styled.div`
     & > h1 {
       text-align: center;
       & > span {
-        font-size: 35px;
+        font-size: 32px;
         line-height: 1.25;
       }
     }
     & > p {
       text-align: center;
       margin-top:5px;
-      margin-bottom: 25px;
+      margin-bottom: -40px;
     }
   }
   @media (max-width: 450px) {
     & > p {
       text-align: center;
       margin-top:5px;
-      margin-bottom: 50px;
+      margin-bottom: -25px !important; 
     }
   }
-  @media (max-width: 1024px) {
-     margin: 15px;
+  @media (max-width: 349px) {
+    & > p {
+      text-align: center;
+      margin-top:5px;
+      margin-bottom: 50px !important; 
+    }
+  }
+  @media (max-width: 1220px) {
+    margin: 15px; 
   }
 `;
-
 
 export const RightContainer = styled.div`
   width: 30%;
@@ -102,13 +108,24 @@ export const RightContainer = styled.div`
   & > form {
     width: 100%;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     width: 100%;
     height: 50%;
     justify-content: center;
     align-items: center;
     & > form {
       width: 100%;
+    }
+  }
+  @media (max-width: 349px) {
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 82px;
+    & > form {
+      width: 90%;
     }
   }
 `;
@@ -138,7 +155,7 @@ export const TopContainer = styled.div`
       color: #fff;
     }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     flex-direction: column;
     align-items: center;
     & > input {
@@ -176,12 +193,14 @@ export const BottomContainer = styled.div`
   }
   & > span {
     color: #9d9d9d;
+  /*  font-weight: 400;
+    line-height: 15px;*/
     margin-top: 20px;
     & > a {
       color: #9d9d9d;
     }
   }
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     & > textarea {
       margin: 0;
     }
@@ -201,7 +220,7 @@ export const Button = styled.button`
   padding: 0 18px;
   text-align: center;
   position: relative;
-  background: linear-gradient(0deg, rgb(78, 98, 237) 0%, rgb(75, 175, 253) 100%);
+  background: ${(props) => props.color};
   border: none;
   color: #fff;
   letter-spacing: 1px;
@@ -213,16 +232,16 @@ export const Button = styled.button`
   user-select: none;
   white-space: nowrap;
   &:hover {
-    background: linear-gradient(0deg, rgb(78, 98, 237) 0%, rgb(75, 175, 253) 100%);
+    background: #168ed7;
     color: #fff;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     margin: 10px 0 0 0;
   }
 `;
 
 export const StatsContainer = styled.div`
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     display: none;
   }
 `;
@@ -230,7 +249,7 @@ export const StatsContainer = styled.div`
 export const StatsWrapper = styled.div`
   margin-top: 30px;
   display: flex;
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     align-items: center;
     flex-direction: column;
   }
@@ -239,10 +258,10 @@ export const StatsWrapper = styled.div`
 export const Stats = styled.div`
   text-align: center;
   margin-right: 30px;
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     margin-right: 0px;
   }
-  @media (max-width: 1024px){
+  @media (max-width: 1080px){
     margin-right: 15px;
   }
 `;
@@ -251,7 +270,7 @@ export const TopText = styled.div`
   color: #fff;
   letter-spacing: -0.318182px;
   text-align: left;
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     text-align: center;
   }
 `;
@@ -263,7 +282,7 @@ export const BottomText = styled.div`
   & > span {
     margin-bottom: 10px;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 991px) {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;

@@ -6,7 +6,7 @@ import CopyRight from "../Footer/CopyRight";
 import Footer from "../Footer/Footer";
 import Header from "../Header/HeaderHome/Header";
 import CloudApp from "./CoudHome/ClodeHome";
-// import CryptoExchangeview from "./CryptoExchangeView/CryptoExchangeview";
+import CryptoExchangeview from "./CryptoExchangeView/CryptoExchangeview";
 import DownloadApp from "./DownloadApp/DownloadApp";
 import MentData from "./MentData/MentData";
 import OneStopSolution from "./OneStopSolution/OneStopSolution";
@@ -36,7 +36,7 @@ const Home = () => {
       <ProductServices/>
       <Community/>
       <MentData/>
-      {/* <CryptoExchangeview/> */}
+      <CryptoExchangeview/>
       <ConfigurationCode/>
       <PrimaryModul/>
       <DownloadApp/>

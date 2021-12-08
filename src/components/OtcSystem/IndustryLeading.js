@@ -21,30 +21,30 @@ const TheProblem = () => {
     <Container className="blue-bg p-y-100">
       <Wrapper className="container">
       <h1 className="text-center text-white">
-          <span className="">Salient </span> Features 
+          <span className="gradient-text-darkblue">Features that Set </span> the Industry Standard
         </h1>
         <CardContainer>
           <Card>
             <CardIcon src={ImgOne} alt="..." />
-            <CardHeading>Priority Accessibility for Best Available Deals </CardHeading>
+            <CardHeading>The Best Deals Exclusively for you</CardHeading>
             <CardDescription>
-            Priority Accessibility for Best Available Deals m.
+            In our platform, you have access to exclusive, quality deals.
             </CardDescription>
           </Card>
           <DividerDiv />
           <Card>
             <CardIcon src={ImgTwo} alt="..." />
-            <CardHeading>Amazingly High Speed </CardHeading>
+            <CardHeading>Lightning-fast</CardHeading>
             <CardDescription>
-            With our desk, you will enjoy amazingly fast transactions and deals.
+            Introduce bespoke deals and instantaneous settlements on a bespoke desk.
             </CardDescription>
           </Card>
           <DividerDiv />
           <Card>
             <CardIcon src={ImgThree} alt="..." />
-            <CardHeading>Insurance of worth upto 5 million </CardHeading>
+            <CardHeading>Insurance coverage up to $5 million</CardHeading>
             <CardDescription>
-            In case of theft, loss, spiteful activity or hacking, Insurance of 5 million worth provides you peace of mind. 
+            Secure your data against theft, hacking, and malicious activity.
             </CardDescription>
           </Card>
         </CardContainer>
@@ -53,28 +53,28 @@ const TheProblem = () => {
           <Card>
             <CardIcon src={ImgFour} alt="..." />
             <CardHeading>
-            Auditable Safe Trading 
+            Transparency, security, and auditability
             </CardHeading>
             <CardDescription>
-            You will run a number of checks to verify and confirm each user and transaction. Our fool-proof system audits each transaction. 
+            Make sure that all trades and users are verified. All transactions are audited.
             </CardDescription>
           </Card>
           <DividerDiv />
           <Card>
             <CardIcon src={ImgFive} alt="..." />
-            <CardHeading>Every Deal Is Strictly Confidential </CardHeading>
+            <CardHeading>Confidentiality clauses in all deals</CardHeading>
             <CardDescription>
-            Our platform ensures strict privacy for each deal, offer, and proffer. High end privacy is in place for each transaction. 
+            All offers, deals, and counter-offers on the platform should be treated with strict confidentiality. The platform should operate with a high level of privacy.
             </CardDescription>
           </Card>
           <DividerDiv />
           <Card>
             <CardIcon src={ImgSix} alt="..." />
             <CardHeading>
-            Greater Liquidity with Institutional Grade Compliance
+            Institutional-grade compliance with greater liquidity
             </CardHeading>
             <CardDescription>
-            In order offer deeper liquidity to our clients, we collaborate with PrimeTrust. 
+            To guarantee greater liquidity for our clients, we partnered with PrimeTrust for compliance.
             </CardDescription>
           </Card>
         </CardContainer>

@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import BgImg from '../../../assests/img/macbook-png_2461633.png';
 
 export const Container = styled.div`
-
+  width: 100vw;
   background: #fff;
 `;
 

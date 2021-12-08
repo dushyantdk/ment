@@ -6,12 +6,11 @@ const Products = () => {
     <Container id="liquidity-advantages" className="blue-bg p-y-100">
       <Wrapper className="container">
         <h1 className="text-white text-center">
-          Mining Pool Solution Package  <span className="">Advantages</span>
+        The benefits of a   <span className="gradient-text-red ">mining pool solution package</span>
         </h1>
-        <p>Our standard Cryptocurrency Mining Pool Solution Package is a great choice for getting started.
-Simplicity of maintenance and assistance along with cost-effectiveness
-are just a few of the many benefits available.
-
+        <p>
+        For those who are just getting started, we recommend our standard Cryptocurrency Mining Pool Solution Package.
+          <br />There are numerous benefits to this system, including ease of maintenance and ease of assistance.
         </p>
       </Wrapper>
     </Container>

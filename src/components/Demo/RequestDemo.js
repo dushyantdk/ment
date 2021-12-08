@@ -80,7 +80,7 @@ const RequestDemo = () => {
                 <div className="col-lg-12 offset-lg-d1 position-relative top-n6 top-lg-0 actions-pricing-private">
                     <div className="">
                         <div className="row">
-                            <div className="col-lg-12">
+                            <div className="col-lg-12 mt-5">
                                 <div className="title-block">
                                     <h1 className="gradient-text-green">Request a Demo</h1>
                                 </div>

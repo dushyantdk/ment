@@ -96,7 +96,7 @@ export const ImageContainer = styled.div`
 export const RightContainer = styled.div`
   padding: 20px 46px;
   padding-right: 50px;
-  background:#212e3e;
+  background: #0a0825;
   border-radius: 20px;
   box-sizing: border-box;
 `;

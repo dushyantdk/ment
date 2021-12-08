@@ -39,11 +39,11 @@ const Hero = ({
       <Wrapper>
         <LeftContainer>
           <h1>
-            <span>Cryptocurrency Liquidity</span>
-            <br /> Solution
+            <span>Liquidity solution </span>
+            <br /> For cryptocurrency
           </h1>
           <p>
-          Infrastructure to power your exchange platform with real volume.
+          A real-time exchange platform powered by real-time infrastructure.
           </p>
           <StatsContainer>
             <StatsWrapper>
@@ -136,9 +136,8 @@ const Hero = ({
             </BottomContainer>
             <BottomContainer>
               <span>
-                Ment Tech uses the information you provide to us to contact you
-                about our relevant content, products and services. For more
-                information, check out our <a href="/">Privacy Policy</a>.
+              Your information is collected so that you can hear from us about products and services that may be of interest to you. 
+              Please see our <a href="/">Privacy Policy</a> for more information..
               </span>
             </BottomContainer>
           </form>

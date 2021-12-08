@@ -11,11 +11,11 @@ const OneStopSolution = () => {
                 <div className="col-lg-8 text-center">
                     <div className="title-block">
                         <h1 className="mb-4">One-Stop <span className="gradient-text-red">Solution</span></h1>
-                        <p>MentFintech is the market leader of software engineering of ecosystem projects of organization blockchain. Our services and products of blockchain have helped to governments, banks and financial institutions, and conglomerates easily introduce solutions based on blockchain that have a direct impact on business. Our international solutions experts provide strategic advice, training of blockchain, services implementation and development, and also provide the opportunities for co-creation and joint venture. We are right here to assist you and your business with your journey of blockchain.</p>
+                        <p><span class="par-titles">The enterprise blockchain ecosystem is led by Ment Fintech, a leader in software engineering.</span>We have developed blockchain-based solutions that have a direct impact on the businesses of leading financial institutions, governments, and corporations around the world. In addition to blockchain training, strategic advisory services, development and implementation services, and joint ventures and co-development, we also provide blockchain consulting and services on a global scale. Let us help you get started with blockchain today.</p>
                     </div>
                 </div>
             </div>
-            <div className="row mt-5">
+            <div className="row mt-5 text-white">
                 <div className="col-lg-4">
                     <div className="one-block">
                         <div className="one-block-img">
@@ -23,7 +23,7 @@ const OneStopSolution = () => {
                         </div>
                         <div className="one-block-content">
                             <h2>Crypto Exchange Turnkey</h2>
-                            <p className="">Ment FinTech is a leading global provider of white label exchange solutions. This page provides the comprehensive introduction about portfolios of product....</p>
+                            <p className="">White label exchange solution provider Ment Tech is a world leader. A detailed introduction to the Product portfolios, the risk management system, the applicable teams and the deployment process is presented here...</p>
                             <a href="/crypto-exchange-turnkey-solution">Learn More <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -34,8 +34,8 @@ const OneStopSolution = () => {
                             <img src={Onestopicon2} alt="" />
                         </div>
                         <div className="one-block-content">
-                            <h2>Liquidity Solutions of crypto</h2>
-                            <p>This term usually used in financial businesses to explain the ease with which assets can be easily transformed into cash. Liquidity is ability under the umbrella...</p>
+                            <h2>Crypto Liquidity Solution</h2>
+                            <p class="mari">It is generally understood that liquid funds can be converted without difficulty into cash on the financial markets by the term liquidity. In terms of cryptocurrencies, liquidity is the ability...</p>
                             <a href="/cryptocurrency-liquidity-solution">Learn More <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ const OneStopSolution = () => {
                         </div>
                         <div className="one-block-content">
                             <h2>OTC & P2P Trading Platform</h2>
-                            <p>OTC deals involve a wide range of assets — from commodities to financial instruments like cryptocurrencies and derivatives. Unlike traditional exchanges...</p>
+                            <p>There are a variety of assets involved in OTC deals, such as commodities as well as financial instruments like cryptocurrencies and derivatives. OTC markets are decentralized and have no central authority, unlike traditional exchanges...</p>
                             <a href="/otc-trading-system">Learn More <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>

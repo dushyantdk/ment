@@ -48,7 +48,7 @@ export const BottomContainer = styled.div`
 
 export const Card = styled.div`
   width: 50%;
-  padding:50px 30px;
+  padding: 30px;
   background: ${(props) => props.bg};
   @media (max-width: 1000px) {
     width: 100%;

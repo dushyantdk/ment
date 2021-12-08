@@ -110,7 +110,7 @@ export const CoinContainer = styled.div`
   border-radius: 4px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
-  background: #212e3e;
+  background: #07132d;
 `;
 
 export const CardIcon = styled.div`

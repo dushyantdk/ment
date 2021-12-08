@@ -12,22 +12,22 @@ const PrimaryModul = () => {
                                 <div className="row pb-5">
                                     <div className="col-lg-12">
                                         <div class="text-white">
-                                            <h1>Digital Crypto <span className="">Banking Solution</span></h1>
+                                            <h1>Blockchain-based<span className="gradient-text-red">digital banking solution</span></h1>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-lg-6">
                                         <div class="text-white mb-5">
-                                            <h2 className="mb-4">What is Digital <span class="">Banking?</span></h2>
-                                            <p>Digital banking is a system to allow their customers to make financial transactions and other related operations through electronic payment systems. It is also known as web banking and online banking.</p>
-                                            <p>It will connect their clients to the central system of the bank. To meet the demand of the new digital age, most of the banks digitized their system to change their services and products and making their products and services understandable, accessible, and manageable.</p>
+                                            <h2 className="mb-4">How does digital banking<span class="gradient-text-blue">work?</span></h2>
+                                            <p>Customers can access online banking accounts, obtain bank statements, and perform other related operations using electronic payment methods through an online payment system (also known as digital banking).</p>
+                                            <p>Customers will have access to the central banking system run by a bank through the online banking system. During the past few decades, most financial institutions have improved their product and service portfolios to accommodate the new digital world, making them simpler, more convenient, and more accessible.</p>
                                         </div>
                                         <div class="text-white">
-                                            <h2 className="mb-4">What is Crypto <span class="">Banking?</span></h2>
-                                            <p>The "crypto-friendly bank" is comparatively a new phenomenon in the world of finance which is embraced by enterprises and individuals that process cryptocurrency payments to store value and facilitate cross-border arrangements.</p>
-                                            <p>With the adoption of PayPal coin transactions, the transfer of funds related to Bitcoin, Ethereum, and different cryptocurrencies the accounts of financial institutions or banks can already be viewed as an accepted financial product.</p>
-                                            <p>This phenomenon also refers to a new generation of standardized cryptocurrency banks that offer cryptocurrency holders interest on the accounts of their savings and other services and products related to finance.</p>
+                                            <h2 className="mb-4">Crypto Banking: What does  <span class="gradient-text-blue">it entail?</span></h2>
+                                            <p>Business and individuals who handle payments sourced from cryptocurrencies are adopting the term "crypto-friendly bank" for ease of cross-border payments, value storage, and ease of value exchange.</p>
+                                            <p>By integrating Coinbase transactions into PayPal, cryptocurrencies have already gained a foothold. Finances related to Bitcoin, Ethereum, and other cryptocurrencies can now be deposited into bank accounts.</p>
+                                            <p>A cryptocurrency bank is a new breed of regulated cryptocurrency company that offers savings accounts for cryptocurrency holders and other financial products and services.</p>
                                         </div>
                                         <a href="/digital-and-crypto-banking" className="btn btn-primary">Read More</a>
                                     </div>

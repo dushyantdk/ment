@@ -16,6 +16,9 @@ export const Wrapper = styled.div`
     color: #fff;
     text-align: center;
     padding-bottom: 28px;
+    & > span {
+      font-weight: bold;
+    }
   }
   @media (max-width: 768px) {
     width: calc(100% - 40px);
@@ -49,7 +52,7 @@ export const CardIcon = styled.div`
   width: 28%;
   height: 150px;
   justify-content: center;
-  background: #fff;
+  background: linear-gradient(180deg, #203f5982 0%, #1a2f41 100%);
   border-top-right-radius: ${(props) => (props.right ? '20px' : 'none')};
   border-bottom-right-radius: ${(props) => (props.right ? '20px' : 'none')};
   border-bottom-left-radius: ${(props) => (props.right ? 'none' : '20px')};
@@ -64,7 +67,7 @@ export const CardText = styled.div`
   width: 72%;
   height: 150px;
   padding: 0 85px;
-  background: #212e3e;
+  background: linear-gradient(180deg, #203f595e 0%, #1a2f4185 127.31%);
   border-top-right-radius: ${(props) => (props.right ? 'none' : '20px')};
   border-bottom-right-radius: ${(props) => (props.right ? 'none' : '20px')};
   border-bottom-left-radius: ${(props) => (props.right ? '20px' : 'none')};
@@ -73,12 +76,10 @@ export const CardText = styled.div`
     margin-block-start: 0;
     margin-block-end: 0;
     color: #fff;
+    font-size: 16px;
   }
   @media (max-width: 768px) {
     padding: 0 30px;
-    & > h4 {
-      font-size: 16px;
-    }
   }
 `;
 

@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
 `;
 
 export const TopContainer = styled.div`
-  background: #202d3d;
+  background: #1da1f2;
   width: 100%;
   padding: 0 20px;
   @media (max-width: 1000px) {

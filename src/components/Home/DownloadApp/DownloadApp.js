@@ -12,9 +12,9 @@ const DownloadApp = () => {
                     <div className="col-lg-8">
                     <div className="download-app-content">
                         <h1 className="mb-5">
-                            Turnkeys Ready with Hybrid Mobile Apps to <span className="gradient-text-pink">Complete Your Ecosystem</span> 
+                        Complete your Ecosystem with  <span className="gradient-text-pink">Hybrid Mobile Apps.</span> 
                         </h1>
-                        <p>All our products and modules are ready and integrated with super-fast and robust cross platform hybrid mobile app which let your customers trade on their fingers tips.</p>
+                        <p>With our mobile app, your customers can trade on their fingertips with all of our products and modules on a super-fast, robust, and cross-platform hybrid mobile app.</p>
                          <p className="download-app-link">
                             <a href="#" className="app-icon-btn"><img src={GoogleApp} alt="" /></a>
                             <a href="#" className="app-icon-btn"><img src={AppStore} alt="" /></a>

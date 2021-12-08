@@ -36,8 +36,8 @@ const Blockchaindevelopment = () => {
   <div className="container">
   <div className="row align-items-center p-y-100">
   <div className="col-lg-6 text-white">
-  <h1 className="mt-4">Blockchain Development Company</h1>
-  <p className="mt-4">Blockchain Consulting and Development for Startups and Enterprises</p>
+  <h1 className="mt-4">Developers of blockchain technology</h1>
+  <p className="mt-4">Development and consulting for blockchain startups and enterprises</p>
   <a href="/contact-us" type="submit"  className="btn btn-primary mt-4"> Talk to our Blockchain Expert </a>
   </div>
   <div className="col-lg-6 mt-5">
@@ -68,8 +68,8 @@ const Blockchaindevelopment = () => {
   <div className="container">
   <div className="row">
   <div className="col-lg-10">
-  <h1 className="mb-4">We bring 10+ years of blockchain expertise to your project</h1>
-  <p className="">We’ve been helping startups, banks, and financial institutions for more than 10 years. If your organization is ready to implement innovative technologies and move towards digital transformation, our company is what you need. Our fintech and blockchain specialists developed more than 200 projects and know how to turn your project idea into reality. We are ready to build blockchain solutions according to your needs. From developing self-executing contracts and eWallets to creating exchange platforms and payment apps. Cooperating with 4ire Labs, you will get the full range of benefits of blockchain technology and its decentralized network.</p>
+  <h1 className="mb-4">Our blockchain experience spans 7+ years</h1>
+  <p className="">Over the past 10 years, we have helped startups, banks, and financial institutions. Our company is what you need if you are ready to integrate innovative technologies and transform your business. With more than 30 projects to their credit, our fintech and blockchain specialists can turn any project idea into reality. Let us help you build your own blockchain solution. We create exchange platforms, payment apps, and self-executing contracts. Through our partnership with Ment Fintech you will be able to benefit fully from the benefits of the blockchain technology and its decentralized network.</p>
 
   </div>
 
@@ -79,30 +79,30 @@ const Blockchaindevelopment = () => {
          <div className="col-lg-3 mb-4">
             <div className="box-shadow-card p-3">
             <img src={q1} alt=""/>
-            <h3 className="mt-4">Blockchain Ecosystems</h3>
-            <p className="">We create blockchain ecosystems, including apps for trading cryptocurrency that support transparent and immutable financial operations. </p>
+            <h3 className="mt-4">Ecosystems based on blockchains</h3>
+            <p className="">Cryptocurrency trading apps, which support transparent and immutable financial transactions, are part of our blockchain ecosystems. </p>
             </div>
          </div>
          <div className="col-lg-3 mb-4">
             <div className="box-shadow-card p-3">
             
             <img src={q2} alt=""/>
-            <h3 className="mt-4">Assets Tokenization</h3>
-            <p className="">With our tokenization platform, you can easily make secure and digitized tokens out of your proprietary rights or transaction elements.</p>
+            <h3 className="mt-4">Tokenization of assets</h3>
+            <p className="">Tokenize the proprietary rights or transaction elements of your enterprise and create secure, digitized tokens.</p>
             </div>
          </div>
          <div className="col-lg-3 mb-4">
          <div className="box-shadow-card p-3">
          <img src={q3} alt=""/>
-            <h3 className="mt-4">Decentralized Apps</h3>
-            <p className="">We develop Dapps for combining interdependent smart contracts linked by web design or frontend and domain logic.</p>
+            <h3 className="mt-4">Decentralized applications</h3>
+            <p className="">Using web design or a front-end and domain logic, we develop Dapps combining interdependent smart contracts.</p>
             </div>
          </div>
          <div className="col-lg-3 mb-4">
          <div className="box-shadow-card p-3">
          <img src={q4} alt=""/>
-            <h3 className="mt-4">Blockchain Consulting</h3>
-            <p className="">We offer expert blockchain consulting based on statistical data of your company’s profile while implementing innovative blockchain solutions.</p>
+            <h3 className="mt-4">Blockchain Consultancy</h3>
+            <p className="">By analyzing statistical data of your company's profile, we provide expert blockchain consulting in conjunction with innovative blockchain solutions.</p>
             </div>
          </div>
       </div>
@@ -113,7 +113,7 @@ const Blockchaindevelopment = () => {
   <div className="container set">
   <div className="row">
   <div className="col-lg-12">
-  <h1>Full-cycle blockchain development for any domain</h1>
+  <h1>Any domain can benefit from full-cycle blockchain development</h1>
 
 
   </div>
@@ -127,18 +127,28 @@ const Blockchaindevelopment = () => {
                             <Nav variant="pills" className="">
                                 <Nav.Item className="d-flex w-100">
                                 <Nav.Link eventKey="first">
+                                <div className="d-flex">
                                 <img width="15%" className="riu" src={w1} alt=""/>
                                
-                                Smart Contracts
+                               <div>Smart Contracts</div>
+                               </div>
                              </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item className="d-flex w-100">
                                 <Nav.Link eventKey="second">
-                                <img width="15%" className="riu" src={w2} alt=""/>Supply Chain</Nav.Link>
+                                <div className="d-flex">
+                                <img width="15%" className="riu" src={w2} alt=""/>
+                                <div>Supply Chain</div>
+                                </div>
+                                </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item className="d-flex w-100">
                                 <Nav.Link eventKey="third">
-                                <img width="15%" className="riu" src={w3} alt=""/>DEX</Nav.Link>
+                                <div className="d-flex">
+                                <img width="15%" className="riu" src={w3} alt=""/>
+                                <div>DEX </div>
+                                </div>
+                                </Nav.Link>
                                 </Nav.Item>
                                 </Nav>
                             </div>
@@ -150,11 +160,19 @@ const Blockchaindevelopment = () => {
                             <Nav variant="pills" className="">
                                 <Nav.Item className=" d-flex w-100">
                                 <Nav.Link eventKey="forth">
-                                <img width="15%" className="riu" src={w4} alt=""/>Custom Networks</Nav.Link>
+                                <div className="d-flex">
+                                <img width="15%" className="riu" src={w4} alt=""/>
+                                <div>Custom Networks </div>
+                                </div>
+                                </Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item className="d-flex w-100">
                                 <Nav.Link eventKey="fifth">
-                                <img width="15%" className="riu" src={w5} alt=""/>eWallets</Nav.Link>
+                                <div className="d-flex">
+                                <img width="15%" className="riu" src={w5} alt=""/>
+                                <div>eWallets </div>
+                                </div>
+                                </Nav.Link>
                                 </Nav.Item>
                                 
                                
@@ -168,23 +186,25 @@ const Blockchaindevelopment = () => {
                                 <Tab.Content>
                                     <Tab.Pane eventKey="first">
                                         <h2>Smart Contracts Development</h2>
-                                        <p>Our company will provide you with a high-level of smart contract design and development service. Cooperating with us, you will also get smart contracts implemented into the business process to ensure keeping terms of the agreements executions.</p>
+                                        <p>We will design and develop smart contracts at a high level for you. As a part of our partnership, you will also receive smart contracts integrated into the business process in order to ensure that the terms of the agreements are kept. </p>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="second">
                                         <h2>Supply Chain</h2>
-                                        <p>If you want to distribute your products with full transparency and security, you should consider blockchain supply chain development. Our team will design a clear system that will exclude numerous issues such as delayed or hidden information or records, high costs, forgery, database errors, and many others. All assets and properties will be verified and secured.</p>
+                                        <p>Developing a blockchain supply chain can provide your company with complete transparency and security during product distribution. Using our system, we'll eliminate many issues such as hidden or delayed information, high costs, forgeries, and incorrect database entries. We will verify and secure all assets.</p>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="third">
                                         <h2>High-Performance Decentralized Exchange</h2>
-                                        <p>Our development team can design a platform or application that will provide your clients with all the up-to-date information about cryptocurrency exchange. The process of decentralized exchange will be accessible in real-time. This way, your customers will be able to manage their digital currency assets more efficiently.</p>
+                                        <p>By collaborating with us, you can design and develop the most up-to-date platform or application to provide your clients with all the latest information on cryptocurrency exchanges. We will provide real-time access to the process of decentralized exchange. By doing so, your customers will have an easier time managing their digital currency assets.</p>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="forth">
                                         <h2>Custom Networks</h2>
-                                        <p>Let's make your database more productive and create the best conditions for its processing and manipulation. Custom Network can ensure that you will be well-trusted and secured. We can adapt your blockchain networks according to the necessary needs of specific infrastructure.</p>
+                                        <p>Let's improve the productivity of your database and make it as easy as possible to manipulate and process. Custom Network ensures your data is safe and secure. Custom networks can be tailored to meet the demands of specific infrastructures.
+ 
+ </p>
                                     </Tab.Pane>
                                     <Tab.Pane eventKey="fifth">
                                         <h2>eWallets</h2>
-                                        <p>Using blockchain technology, we will develop a fully-equipped and well-secured system of eWallet. 4ire Labs designs special applications that work as eWallets containing all assets. It will include information about financial activity and other data.</p>
+                                        <p>We intend to create a well-equipped and secure eWallet system utilizing blockchain technology. Our eWallet applications form the backbone of Ment Fintec Labs' special applications. eWallet data includes financial data as well as other statistical data.</p>
                                     </Tab.Pane>
                                    
                                 </Tab.Content>
@@ -217,41 +237,41 @@ const Blockchaindevelopment = () => {
   <div className="container">
   <div className="row align-items-center">
   <div className="col-lg-9 text-white text-left">
-  <h1>What we do</h1>
+  <h1> Our services</h1>
   <details>
   <summary>
-  Blockchain Consulting
+  Blockchain Consultancy
   
   </summary>
-  <p className="thes">Using blockchain technology, your organization or financial institution will be able to provide customers with the most transparent and effective products. 4ire Labs will help to implement and integrate all the necessities to achieve your goals. We can make your system secured with a server that connects remote tools and creates a single database without one managing center. Transparency appears due to information accessibility which makes hiding or changing records impossible. With a complex analysis, we are ready to answer more of your questions. It also includes our support with adapting your company’s network to the blockchain requirements.</p>
+  <p className="thes">Blockchain-based financial products will provide your organization or financial institution with transparency and efficiency. With the help of Ment Fintech, you can achieve your goals by implementing and integrating all the necessities. By connecting all the remote tools together, we can create one database without one managing center, and secure your system. Accessible information makes it impossible to hide or alter records, which contributes to transparency. Our complex analysis enables us to answer more questions for you. Our assistance will also include adapting your company's network to work with blockchain technology.</p>
 </details>
  <details>
   <summary>
-  Enterprise Blockchain Development
+  Development of enterprise blockchains
   </summary>
-  <p className="thes">Blockchain technology is valued for its multi-directional approach. It is used for companies that operate in the fields of finance, digital media, energy, informational technology, and others. Our high-skilled team is ready to provide you with the development of a wide range of blockchain solutions. We will create an effective, productive, and complex system for retail, supply chain, automotive manufacturing, logistics, etc.</p>
+  <p className="thes">The multidirectional nature of blockchain technology makes it valuable. Among the fields in which it is used are finance, digital media, energy, information technology, and many more. We are equipped to develop a wide variety of blockchain solutions with the help of our highly skilled team. Retail, supply chain, automotive manufacturing, logistics, and others will be made more productive, effective, and complex.</p>
  
 </details>
  <details>
   <summary>
-  Migration and Upgrades
+  Upgrades and migrations
   </summary>
-  <p className="thes">Cloud migration helps to move company resources including databases, assets, and applications to the cloud. This process is about the general modernization of services. It increases flexibility and agility, delivers immediate business results, and decreases the cost of services. If you want your app’s database to have the capabilities for being upgraded, we can provide you with this option. 4ire Labs will create the best conditions for making your app suit all the modern requirements.</p>
+  <p className="thes">Using cloud migration, companies can migrate their databases, assets and applications to the cloud. The goal is to modernize services in general. Flexibility and agility are improved, instant business results are delivered, and service costs are decreased.<br/><br/> We can provide the option of upgrading the database of your app if you wish. Our goal at MENT FINTECH is to make your app meet all the modern demands.</p>
  
  </details>
  <details>
   <summary>
-  User Experience and Technical Design
+  Technology and User Experience
   </summary>
-  <p className="thes">UX and Technical Design aim to provide you not only with functional features, but also a pleasant and user-friendly interface. It is what makes the startup competitive in the market. Good UX design is necessary for your business as it reduces your customers’ everyday efforts. We will develop a solid and good-looking UX design that will be simple in use and highly effective. You will be able to keep in touch with your customers via the system of feedback. Our design is always up-to-date. </p>
+  <p className="thes">Providing you with functional features and a user-friendly interface are important elements of UX and Technical Design. They help startups succeed on the market. Your business needs good UX design in order to reduce the effort your customers have to make every day. We'll create a user experience that is straightforward and highly efficient. The feedback system will keep you in touch with your customers. Your design will always be current.</p>
   
   </details>
   <details>
   <summary>
-  Custom Blockchain App Development
+  Building a custom blockchain application
   
   </summary>
-  <p className="thes">4ire Labs deploy new projects on public and private blockchain networks, reduces operational costs, and eliminates any centralized points of failure. We develop apps that use the up-to-date system of protecting users’ privacy. They feature high processing and confirmation speed and dynamic account permission. Our team goes step by step from analyzing the idea to testing the app. Due to this, you will get the product with good architecture and simple intuitive design.</p>
+  <p className="thes">By utilizing blockchain technology and reducing operational costs, MENT Fintech implements new projects on both public and private blockchain networks. As an app developer, we use the most effective system to protect our users' privacy. The system is fast and offers dynamic permissions for users. To test the app, our team analyzes the idea step by step. Therefore, you'll end up with a product with an intuitive design and a good architecture.</p>
 </details>
   </div>
   

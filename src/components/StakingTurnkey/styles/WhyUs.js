@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
 `;
 
 export const TopContainer = styled.div`
-  background: #202d3d;
+  background: #1da1f2;
   width: 100%;
   padding: 0 20px;
   @media (max-width: 1000px) {
@@ -28,10 +28,16 @@ export const TopWrapper = styled.div`
     padding: 20px 0;
     text-align: center;
     & > h1 {
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 37.5px;
       margin: 0;
       color: #fff;
     }
     & > p {
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 22.5px;
       margin: 0;
       color: #fff;
     }
@@ -63,12 +69,28 @@ export const BottomRightContainer = styled.div`
 export const CardHeading = styled.div`
   color: ${(props) => props.color};
   & > h2 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.6px;
     margin: 0;
     text-align: center;
   }
   & > h3 {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 44px;
     margin: 0;
     text-align: center;
+  }
+  @media (max-width: 1000px) {
+    & > h2 {
+      font-size: 24px;
+      line-height: 29px;
+    }
+    & > h3 {
+      font-size: 28px;
+      line-height: 1.2;
+    }
   }
 `;
 
@@ -97,11 +119,31 @@ export const BigLaptopImage = styled.img`
 export const CardBottom = styled.div`
   text-align: center;
   color: ${(props) => props.color};
+  & > h1 {
+    font-size: 25.76px;
+    font-weight: 700;
+    line-height: 30.9167px;
+  }
   & > ul {
     list-style: none;
     margin: 0;
     padding: 0;
     margin-bottom: 25px;
+    & > li {
+      line-height: 1.5;
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 1000px) {
+    & > h1 {
+      font-size: 28px;
+      line-height: 1.2;
+    }
+    & > ul {
+      & > li {
+        font-size: 17px;
+      }
+    }
   }
 `;
 
@@ -120,6 +162,8 @@ export const Button = styled.button`
   background: ${(props) => props.color};
   border: none;
   color: ${(props) => props.fontColor};
+  font-size: 14px;
+  line-height: 1;
   letter-spacing: 1px;
   text-decoration: none;
   cursor: pointer;
